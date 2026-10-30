@@ -31,7 +31,8 @@ npm ci --cache D:\CodexProjects\shubham-portfolio-runtime\npm-cache
 - Server-rendered homepage and six statically generated `/projects/[slug]` case studies.
 - Centralized project content in `src/data/projects.ts`; background, links, and credentials in `src/data/profile.ts`.
 - Small client components for navigation, architecture diagrams, the local cursor demo, and GitHub activity.
-- Name-first neo-brutalist hero with adapted React Bits CircularText and ScrollVelocity, a decorative pointer spring, a Pause motion control, and reduced-motion/static fallbacks. The cube and WebGL dependencies are removed.
+- Name-first neo-brutalist hero with intent-loaded TechText, CircularText/ScrollVelocity, focused navigation/cursor/click effects, shared Pause motion controls, and reduced-motion/static fallbacks. The old cube and Three.js dependencies remain removed.
+- Optional native-WebGL InfiniteMenu project explorer, loaded on expansion with six local SVG tiles, keyboard/drag access and ordinary-link fallbacks.
 - GitHub API access stays on the server, with Zod validation, six-second request timeouts, hourly caching, and a usable failure state. No GitHub token is required.
 - Geist body and heavy display fonts are self-hosted. Motion handles scroll/spring effects; finite progressive reveals keep SSR content visible. No remote font requests.
 - Email contact uses `mailto:`. There is no message-collection backend or implied delivery confirmation.
@@ -68,4 +69,4 @@ Custom-domain configuration, authenticated ownership of the final deployment, Se
 
 `components.json` supplies shadcn-compatible aliases, styling configuration, and the public React Bits registry. `.codex/config.toml` configures the shadcn MCP server for a future session; restart the client to connect it. The current session did not expose that MCP tool.
 
-The public CircularText and ScrollVelocity components are adapted under `src/components/react-bits/`; attribution and current license conditions are in `docs/licenses/react-bits.md`. No Pro components or GSAP are used. See `docs/content-and-decisions.md` for the reference review and design contract.
+CircularText/ScrollVelocity and the five designs in the owner’s supplied `React bits .txt` are integrated under `src/components/react-bits/`; attribution and current license conditions are in `docs/licenses/react-bits.md`. No Pro components or GSAP are used. See `docs/content-and-decisions.md` for the reference review and design contract.

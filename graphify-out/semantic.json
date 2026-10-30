@@ -36,308 +36,11 @@
       "description": "A circle at (55,43), radius 4, uses the cobalt accent #315cdb beside the initials."
     },
     {
-      "id": "doc_portfolio",
-      "label": "Shubham engineering portfolio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_editorial",
-      "label": "Historical editorial styling superseded by approved redesign",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:21",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_authenticity",
-      "label": "Source-backed claims and visible prototype limits",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:13",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
       "id": "doc_components",
       "label": "Small typed component boundaries and accessible responsive semantics",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:22",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_homepage",
-      "label": "Server-rendered portfolio homepage",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:31",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_case_template",
-      "label": "Shared statically generated case-study template",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_projects_data",
-      "label": "Central project content: src/data/projects.ts",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:32",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_profile_data",
-      "label": "Central profile content: src/data/profile.ts",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:32",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_six_cases",
-      "label": "Six case studies: commerce, ZeroPatch, cursor, CyberShield, Wellify and Haveloc",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_hero_network",
-      "label": "Historical cube sculpture removed at owner's request",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_r3f",
-      "label": "Historical Three.js/Fiber/Drei rendering path and dependencies removed",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:37",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_svg_fallback",
-      "label": "Historical SVG sculpture fallback removed",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_initial_independence",
-      "label": "Heading actions and server content usable without JavaScript or GitHub",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_github_endpoint",
-      "label": "Server-side public GitHub endpoint without required token",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_zod",
-      "label": "GitHub response validation with Zod",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:35",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_cache_timeout",
-      "label": "Hourly cache and six-second request timeout",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:35",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_github_failure",
-      "label": "Usable GitHub network-failure state",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_fork_exclusion",
-      "label": "Fork exclusion from authored GitHub highlights",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:13",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_cursor_sim",
-      "label": "Clearly labeled local cursor simulation",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_contact",
-      "label": "Email contact through mailto; no message-collection backend",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:37",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_seo",
-      "label": "Metadata sitemap robots generated social image and security headers",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:38",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_qa",
-      "label": "Historical implementation verification at 93263aa",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:77",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_lighthouse",
-      "label": "Historical 2026-10-30 local mobile Lighthouse: four scores of 100",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:42",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_qa_limits",
-      "label": "Local Chromium on Windows only; no Safari Firefox or physical-device QA",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:21",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_canonical",
-      "label": "Canonical checkout: D:/CodexProjects/shubham-portfolio",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:11",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_junction",
-      "label": "C: project path is a local directory junction",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_disk_constraint",
-      "label": "C: disk-space constraint",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:67",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_runtime_cache",
-      "label": "D: runtime build cache and temporary files",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:13",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -355,407 +58,11 @@
       "contributor": null
     },
     {
-      "id": "doc_graph_context",
-      "label": "Persistent graph context and source/config/document/asset coverage inventory",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:99",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_graph_maintenance",
-      "label": "Structural refresh and source-hash-based semantic freshness checks",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:101",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_publication_block",
-      "label": "Publication pending explicit approval and authenticated destination; fallback upload rejected",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:91",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_external_setup",
-      "label": "Final domain Sentry and analytics still unconfigured",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:94",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_reactbits_decision",
-      "label": "Historical AnimatedContent rejection: GSAP requirement and initially hidden content",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:39",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_mcp_config",
-      "label": "Shadcn MCP configured; connection verification needs client restart",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:69",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_prototype_limits",
-      "label": "Synthetic data mock portals draft-only outputs and documented cloud design limits",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:15",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
       "id": "doc_source_review",
       "label": "Source files remain authoritative over graph navigation",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:17",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_neo_brutalism",
-      "label": "Approved cream/ink/cobalt neo-brutalism with yellow/pink accents borders and hard shadows",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_name_first",
-      "label": "Shubham Putitundi is homepage h1; role is supporting text",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_owner_redesign",
-      "label": "Owner's 2026-10-31 redesign request supersedes blueprint design only",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:21",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_devfest_reference",
-      "label": "DevFest Chennai reference: https://devfest.gdgchennai.in/",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:21",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_reference_adaptations",
-      "label": "Finite entrances rolling hover/focus labels intersection reveals and geometric movement",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:25",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_reference_boundaries",
-      "label": "Ordinary scrolling immediate navigation; no copied branding imagery audio or intro gate",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:25",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_geist",
-      "label": "Locally hosted Geist body and heavy display fonts; no remote font requests",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:36",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_hero_css",
-      "label": "Hero CSS colocated in src/components/hero/hero.css and imported by globals.css",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_reactbits_adaptations",
-      "label": "Focused local adaptations of public React Bits CircularText and ScrollVelocity",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:33",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_circular_text",
-      "label": "CircularText: evenly spaced ring letters with CSS rotation",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:33",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_scroll_velocity",
-      "label": "ScrollVelocity: Motion velocity spring smoothing and wrapped repeated text",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:33",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_circular_registry",
-      "label": "Public CircularText registry: https://reactbits.dev/r/CircularText-TS-CSS.json",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:35",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_scroll_registry",
-      "label": "Public ScrollVelocity registry: https://reactbits.dev/r/ScrollVelocity-TS-CSS.json",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:35",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_motion_controls",
-      "label": "Visible Pause/Play; ring and strip stop offscreen or for reduced motion",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:33",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_pointer_limits",
-      "label": "Decorative code-sticker spring does not move for coarse/touch pointers",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:33",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_live_reduced_motion",
-      "label": "Shared live OS reduced-motion subscription with static server snapshot",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_motion_hook_issue",
-      "label": "Installed Motion reduced-motion hook snapshots only initial preference",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:27",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_scroll_reveals",
-      "label": "IntersectionObserver and finite Web Animations enhance visible SSR content",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:27",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_decorative_a11y",
-      "label": "Repeated decorative text/glyphs hidden from assistive technology; single accessible name",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:37",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_qa",
-      "label": "Current 2026-10-31 production-preview Chromium verification",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:5",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_checks",
-      "label": "Four GitHub boundary tests lint typecheck build and diff checks passed",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:7",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_responsive",
-      "label": "Seven homepage widths and six 360px case studies pass without overflow",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:8",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_keyboard",
-      "label": "Keyboard menu Escape focus accordions diagrams cursor and resume download checked",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:10",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_motion_qa",
-      "label": "Pause/Play and live reduced-motion changes pass; finite reveals cancel",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_nojs",
-      "label": "390px JavaScript-disabled content visible with named h1 links and paused ring",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:13",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_lighthouse",
-      "label": "2026-10-31 isolated local mobile Lighthouse 100/100/100/100; LCP 0.80s TBT 42ms CLS 0",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:16",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_current_evidence",
-      "label": "Ignored neo screenshots and lighthouse-neo-mobile.json provide local evidence",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:19",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_removed_warning",
-      "label": "Prior Three.js Clock warning no longer applies after rendering stack removal",
-      "file_type": "document",
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:21",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_credentials",
-      "label": "Resume-sourced credential names/dates and issuer links; not independently authenticated",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:9",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -773,33 +80,11 @@
       "contributor": null
     },
     {
-      "id": "doc_repo_sources",
-      "label": "Six public project READMEs and disease-risk source tree reviewed; artifacts not executed",
-      "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:7",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
       "id": "doc_no_remote",
       "label": "Separate checkout has no configured Git remote; no push or publication occurred",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:10",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_resume_privacy",
-      "label": "Supplied resume downloadable; do not reproduce phone/address in graph or global index",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -894,11 +179,1012 @@
       "contributor": null
     },
     {
-      "id": "doc_no_extra_engines",
-      "label": "No React Bits Pro GSAP additional animation engine or remote runtime requests added",
+      "id": "doc_portfolio",
+      "label": "Shubham engineering portfolio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_editorial",
+      "label": "Historical editorial styling superseded by approved redesign",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_authenticity",
+      "label": "Source-backed claims and visible prototype limits",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_homepage",
+      "label": "Server-rendered portfolio homepage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_case_template",
+      "label": "Shared statically generated case-study template",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_projects_data",
+      "label": "Central project content: src/data/projects.ts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_profile_data",
+      "label": "Central profile content: src/data/profile.ts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_six_cases",
+      "label": "Six case studies: commerce, ZeroPatch, cursor, CyberShield, Wellify and Haveloc",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_hero_network",
+      "label": "Historical cube sculpture removed at owner's request",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_r3f",
+      "label": "Historical Three.js/Fiber/Drei hero stack removed; later explorer uses native WebGL",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_svg_fallback",
+      "label": "Historical SVG sculpture fallback removed",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_initial_independence",
+      "label": "Static heading and project links survive reduced motion pause graphics/chunk failure and no JavaScript",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_github_endpoint",
+      "label": "Server-side public GitHub endpoint without required token",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_zod",
+      "label": "GitHub response validation with Zod",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_cache_timeout",
+      "label": "Hourly cache and six-second request timeout",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_github_failure",
+      "label": "Usable GitHub network-failure state",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_fork_exclusion",
+      "label": "Fork exclusion from authored GitHub highlights",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_cursor_sim",
+      "label": "Clearly labeled local cursor simulation",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_contact",
+      "label": "Email contact through mailto; no message-collection backend",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_seo",
+      "label": "Metadata sitemap robots generated social image and security headers",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_qa",
+      "label": "Historical implementation verification at 93263aa",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:89",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_lighthouse",
+      "label": "Historical 2026-10-30 local mobile Lighthouse: four scores of 100",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:64",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_qa_limits",
+      "label": "Chromium on Windows and emulated touch only; no Safari Firefox physical devices or field metrics",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_canonical",
+      "label": "Canonical checkout: D:/CodexProjects/shubham-portfolio",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_junction",
+      "label": "C: project path is a local directory junction",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_disk_constraint",
+      "label": "C: disk-space constraint",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:75",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_runtime_cache",
+      "label": "D: runtime build cache and temporary files",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_graph_context",
+      "label": "Persistent graph context and source/config/document/asset coverage inventory",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:111",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_graph_maintenance",
+      "label": "Structural refresh and source-hash-based semantic freshness checks",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:113",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_publication_block",
+      "label": "Publication pending explicit approval and authenticated destination; fallback upload rejected",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:103",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_external_setup",
+      "label": "Final domain Sentry and analytics still unconfigured",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:106",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reactbits_decision",
+      "label": "Historical AnimatedContent rejection: GSAP requirement and initially hidden content",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_mcp_config",
+      "label": "Shadcn MCP configured; connection verification needs client restart",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:70",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_prototype_limits",
+      "label": "Synthetic data mock portals draft-only outputs and documented cloud design limits",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_neo_brutalism",
+      "label": "Approved cream/ink/cobalt neo-brutalism with yellow/pink accents borders and hard shadows",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_name_first",
+      "label": "Shubham Putitundi is homepage h1; role is supporting text",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_owner_redesign",
+      "label": "Owner's 2026-10-31 redesign request supersedes blueprint design only",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_devfest_reference",
+      "label": "DevFest Chennai reference: https://devfest.gdgchennai.in/",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reference_adaptations",
+      "label": "Finite entrances rolling hover/focus labels intersection reveals and geometric movement",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reference_boundaries",
+      "label": "Ordinary scrolling immediate navigation; no copied branding imagery audio or intro gate",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_geist",
+      "label": "Locally hosted Geist body and heavy display fonts; no remote font requests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_hero_css",
+      "label": "Hero CSS colocated in src/components/hero/hero.css and imported by globals.css",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reactbits_adaptations",
+      "label": "Local React Bits adaptations: CircularText/ScrollVelocity plus five supplied interaction designs",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_circular_text",
+      "label": "CircularText: evenly spaced ring letters with CSS rotation",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_velocity",
+      "label": "ScrollVelocity: Motion velocity spring smoothing and wrapped repeated text",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_circular_registry",
+      "label": "Public CircularText registry: https://reactbits.dev/r/CircularText-TS-CSS.json",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
       "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_registry",
+      "label": "Public ScrollVelocity registry: https://reactbits.dev/r/ScrollVelocity-TS-CSS.json",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_controls",
+      "label": "Shared Pause/Play across hero name cursor sparks navigation reveals globe and contact",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_pointer_limits",
+      "label": "Decorative code-sticker spring does not move for coarse/touch pointers",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_live_reduced_motion",
+      "label": "Live OS-preference subscription shared with one global Pause/Play state",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_hook_issue",
+      "label": "Installed Motion reduced-motion hook snapshots only initial preference",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_reveals",
+      "label": "IntersectionObserver and finite Web Animations enhance visible SSR content",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_decorative_a11y",
+      "label": "Repeated decorative text/glyphs hidden from assistive technology; single accessible name",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_qa",
+      "label": "Current supplied-design production-preview Chromium verification on feat/react-bits-interactions",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_checks",
+      "label": "Current build lint typecheck four tests diff checks and six SVG XML validation passed",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_responsive",
+      "label": "Expanded explorer passes seven widths; all six case studies pass at 360px without overflow",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_keyboard",
+      "label": "Current globe drag arrow-key Enter navigation and touch/mobile-menu checks passed",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_motion_qa",
+      "label": "Global Pause/Play and live reduced motion disable canvases brackets and running animations",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_nojs",
+      "label": "390px no-JavaScript disclosure exposes six links with intact named heading and no overflow",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_lighthouse",
+      "label": "Current supplied-design local mobile Lighthouse 93/100/100/100; LCP 1.21s TBT 308ms CLS 0",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_evidence",
+      "label": "Ignored bits screenshots and lighthouse-bits-mobile.json record current local evidence",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_removed_warning",
+      "label": "Prior Three.js Clock warning no longer applies after rendering stack removal",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_credentials",
+      "label": "Resume-sourced credential names/dates and issuer links; not independently authenticated",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_repo_sources",
+      "label": "Six public project READMEs and disease-risk source tree reviewed; artifacts not executed",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_resume_privacy",
+      "label": "Supplied resume downloadable; do not reproduce phone/address in graph or global index",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_no_extra_engines",
+      "label": "No Pro GSAP Three.js new npm dependencies remote images or runtime API keys added",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:53",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_supplied_designs",
+      "label": "Owner supplied five React Bits designs; examples are references rather than portfolio copy",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_supplied_file_hash",
+      "label": "Recorded React bits .txt provenance: 149986 bytes; SHA-256 5b4a50a2b5e8bc696eb1a693c7aa63b5c906cb1bdb052e7565543b4843b3d0ef",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_tech_text",
+      "label": "Intent-loaded TechText draws dashed glyph outlines and selection frame on fine-pointer name hover",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_name_readiness",
+      "label": "Real h1 remains visible until font-ready canvas draw; fixed heading dimensions independent of readiness",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_name_effect_limits",
+      "label": "Name effect has no sweep drag click kick or intro",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_target_cursor",
+      "label": "Scoped cobalt TargetCursor brackets preserve native cursor and text; disabled for touch/reduced motion",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:48",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_click_spark",
+      "label": "Selected control ClickSpark uses finite Web Animations eight sparks deduplication and maximum five bursts",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:49",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_gooey_nav",
+      "label": "GooeyNav SVG/CSS yellow pill/droplets retain Next links section tracking native focus and mobile menu",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:50",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_infinite_menu",
+      "label": "Opt-in native-WebGL InfiniteMenu project explorer loaded on explicit disclosure expansion",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:51",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_globe_resource_bounds",
+      "label": "Globe has no autoplay: 36 tiles bounded DPR offscreen suspension and GPU cleanup",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:51",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_project_tiles",
+      "label": "Six original local SVG project tiles under public/projects/tiles",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:24",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_globe_navigation",
+      "label": "Globe supports drag arrow keys and Enter; normal cards/case-study links remain primary",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:53",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_globe_fallback",
+      "label": "Six ordinary project links under no JavaScript pause reduced motion WebGL failure or context loss",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:53",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_preferences",
+      "label": "MotionPreferences.tsx coordinates live reduced motion and shared Pause/Play across effects",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_optional_boundary",
+      "label": "OptionalEffectBoundary.tsx contains decorative chunk failures preserving h1 and project links",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_readable_plates",
+      "label": "Active project information uses opaque cream plates for readability over tiles",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_react_ref_fix",
+      "label": "InfiniteMenu mutable-ref updates moved from render into effect to meet React rules",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:57",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_gpu_cleanup_choice",
+      "label": "Delete GPU resources on cleanup; avoid forced WEBGL_lose_context because development remount may reuse context",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:57",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_bits_public_references",
+      "label": "Public React Bits references: tech-text target-cursor click-spark infinite-menu and gooey-nav",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:59",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_intent_loading_qa",
+      "label": "Initial desktop zero canvases; hover loads TechText and two canvases with unchanged h1 dimensions",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_chunk_failure_qa",
+      "label": "Blocked actual TechText chunk preserves h1 visible DOM name main content and cards",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_webgl_failure_qa",
+      "label": "Intercepted WebGL failure and forced context loss expose six links and zero canvases",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:14",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_spark_qa",
+      "label": "Keyboard CTA produces eight sparks removed after 550ms with bounded bursts",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_redesign_qa",
+      "label": "Historical neo-brutalist redesign checkpoint production-preview Chromium verification",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_redesign_lighthouse",
+      "label": "Historical neo-brutalist local mobile Lighthouse 100/100/100/100; LCP 0.80s TBT 42ms CLS 0",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_redesign_evidence",
+      "label": "Historical neo screenshots and lighthouse-neo-mobile.json under ignored output/playwright",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:41",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -968,6 +1254,106 @@
     },
     {
       "source": "doc_portfolio",
+      "target": "doc_components",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:22",
+      "weight": 1
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:17",
+      "weight": 1
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_context",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:18",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_next_local_docs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:42",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_app_use",
+      "relation": "permits",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_notice",
+      "relation": "requires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_components",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_tools",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:17",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_exports",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:19",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_warranty",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
       "target": "doc_blueprint",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -994,16 +1380,6 @@
       "confidence_score": 1,
       "source_file": "README.md",
       "source_location": "README.md:31",
-      "weight": 1
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_components",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:22",
       "weight": 1
     },
     {
@@ -1123,7 +1499,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
+      "source_location": "docs/HANDOFF.md:36",
       "weight": 1
     },
     {
@@ -1153,7 +1529,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
+      "source_location": "docs/HANDOFF.md:36",
       "weight": 1
     },
     {
@@ -1163,7 +1539,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
+      "source_location": "docs/HANDOFF.md:32",
       "weight": 1
     },
     {
@@ -1173,7 +1549,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
+      "source_location": "docs/HANDOFF.md:32",
       "weight": 1
     },
     {
@@ -1183,7 +1559,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
+      "source_location": "docs/HANDOFF.md:34",
       "weight": 1
     },
     {
@@ -1193,7 +1569,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:52",
+      "source_location": "README.md:53",
       "weight": 1
     },
     {
@@ -1223,7 +1599,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
+      "source_location": "docs/HANDOFF.md:32",
       "weight": 1
     },
     {
@@ -1233,7 +1609,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
+      "source_location": "docs/HANDOFF.md:32",
       "weight": 1
     },
     {
@@ -1393,7 +1769,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
+      "source_location": "docs/HANDOFF.md:36",
       "weight": 1
     },
     {
@@ -1403,7 +1779,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
+      "source_location": "docs/HANDOFF.md:36",
       "weight": 1
     },
     {
@@ -1423,7 +1799,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:35",
+      "source_location": "README.md:36",
       "weight": 1
     },
     {
@@ -1433,7 +1809,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:35",
+      "source_location": "README.md:36",
       "weight": 1
     },
     {
@@ -1443,7 +1819,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
+      "source_location": "docs/HANDOFF.md:38",
       "weight": 1
     },
     {
@@ -1453,7 +1829,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
+      "source_location": "docs/HANDOFF.md:38",
       "weight": 1
     },
     {
@@ -1463,7 +1839,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
+      "source_location": "docs/HANDOFF.md:36",
       "weight": 1
     },
     {
@@ -1473,7 +1849,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
+      "source_location": "docs/HANDOFF.md:34",
       "weight": 1
     },
     {
@@ -1483,7 +1859,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
+      "source_location": "docs/HANDOFF.md:34",
       "weight": 1
     },
     {
@@ -1523,7 +1899,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:52",
+      "source_location": "README.md:53",
       "weight": 1
     },
     {
@@ -1533,7 +1909,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:52",
+      "source_location": "README.md:53",
       "weight": 1
     },
     {
@@ -1563,7 +1939,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:38",
+      "source_location": "README.md:39",
       "weight": 1
     },
     {
@@ -1573,137 +1949,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:54",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_checks",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:7",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_responsive",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:8",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_keyboard",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:10",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_motion_qa",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_nojs",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:13",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_github_failure",
-      "relation": "verifies_locally",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:14",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_lighthouse",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:16",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_current_evidence",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:19",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_qa_limits",
-      "relation": "limited_by",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:21",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_removed_warning",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:21",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_motion_qa",
-      "target": "doc_live_reduced_motion",
-      "relation": "verifies_locally",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_nojs",
-      "target": "doc_initial_independence",
-      "relation": "verifies_locally",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:13",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_lighthouse",
-      "target": "doc_qa_limits",
-      "relation": "limited_by",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:21",
+      "source_location": "README.md:55",
       "weight": 1
     },
     {
@@ -1713,7 +1959,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:21",
+      "source_location": "docs/verification.md:43",
       "weight": 1
     },
     {
@@ -1723,7 +1969,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:79",
+      "source_location": "docs/HANDOFF.md:91",
       "weight": 1
     },
     {
@@ -1733,7 +1979,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:38",
+      "source_location": "docs/verification.md:60",
       "weight": 1
     },
     {
@@ -1743,7 +1989,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:38",
+      "source_location": "docs/verification.md:60",
       "weight": 1
     },
     {
@@ -1753,7 +1999,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:31",
+      "source_location": "docs/verification.md:53",
       "weight": 1
     },
     {
@@ -1763,7 +2009,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:79",
+      "source_location": "docs/HANDOFF.md:91",
       "weight": 1
     },
     {
@@ -1793,7 +2039,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:67",
+      "source_location": "docs/HANDOFF.md:75",
       "weight": 1
     },
     {
@@ -1823,17 +2069,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:77",
-      "weight": 1
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_current_qa",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:71",
+      "source_location": "docs/HANDOFF.md:89",
       "weight": 1
     },
     {
@@ -1843,7 +2079,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:91",
+      "source_location": "docs/HANDOFF.md:103",
       "weight": 1
     },
     {
@@ -1853,7 +2089,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:94",
+      "source_location": "docs/HANDOFF.md:106",
       "weight": 1
     },
     {
@@ -1863,7 +2099,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:99",
+      "source_location": "docs/HANDOFF.md:111",
       "weight": 1
     },
     {
@@ -1883,27 +2119,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:101",
-      "weight": 1
-    },
-    {
-      "source": "doc_source_review",
-      "target": "doc_graph_maintenance",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:17",
-      "weight": 1
-    },
-    {
-      "source": "doc_source_review",
-      "target": "doc_graph_context",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:18",
+      "source_location": "docs/HANDOFF.md:113",
       "weight": 1
     },
     {
@@ -1913,7 +2129,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:99",
+      "source_location": "docs/HANDOFF.md:111",
       "weight": 1
     },
     {
@@ -1923,17 +2139,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:69",
-      "weight": 1
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_next_local_docs",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:42",
+      "source_location": "README.md:70",
       "weight": 1
     },
     {
@@ -1943,67 +2149,717 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:93",
+      "source_location": "docs/HANDOFF.md:105",
       "weight": 1
     },
     {
-      "source": "doc_license",
-      "target": "doc_license_app_use",
-      "relation": "permits",
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_supplied_designs",
+      "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "docs/licenses/react-bits.md",
-      "source_location": "docs/licenses/react-bits.md:8",
+      "source_file": "README.md",
+      "source_location": "README.md:72",
       "weight": 1
     },
     {
-      "source": "doc_license",
-      "target": "doc_license_notice",
-      "relation": "requires",
+      "source": "doc_supplied_designs",
+      "target": "doc_supplied_file_hash",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "docs/licenses/react-bits.md",
-      "source_location": "docs/licenses/react-bits.md:10",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
       "weight": 1
     },
     {
-      "source": "doc_license",
-      "target": "doc_license_components",
-      "relation": "restricts",
+      "source": "doc_supplied_designs",
+      "target": "doc_bits_public_references",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "docs/licenses/react-bits.md",
-      "source_location": "docs/licenses/react-bits.md:15",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:59",
       "weight": 1
     },
     {
-      "source": "doc_license",
-      "target": "doc_license_tools",
-      "relation": "restricts",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/licenses/react-bits.md",
-      "source_location": "docs/licenses/react-bits.md:17",
-      "weight": 1
-    },
-    {
-      "source": "doc_license",
-      "target": "doc_license_exports",
-      "relation": "restricts",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/licenses/react-bits.md",
-      "source_location": "docs/licenses/react-bits.md:19",
-      "weight": 1
-    },
-    {
-      "source": "doc_license",
-      "target": "doc_license_warranty",
+      "source": "doc_supplied_designs",
+      "target": "doc_tech_text",
       "relation": "includes",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "docs/licenses/react-bits.md",
-      "source_location": "docs/licenses/react-bits.md:23",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_supplied_designs",
+      "target": "doc_target_cursor",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_supplied_designs",
+      "target": "doc_click_spark",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_supplied_designs",
+      "target": "doc_gooey_nav",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_supplied_designs",
+      "target": "doc_infinite_menu",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_tech_text",
+      "target": "doc_name_first",
+      "relation": "enhances",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:47",
+      "weight": 1
+    },
+    {
+      "source": "doc_tech_text",
+      "target": "doc_name_readiness",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:47",
+      "weight": 1
+    },
+    {
+      "source": "doc_tech_text",
+      "target": "doc_name_effect_limits",
+      "relation": "bounded_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:47",
+      "weight": 1
+    },
+    {
+      "source": "doc_name_readiness",
+      "target": "doc_initial_independence",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_target_cursor",
+      "target": "doc_six_cases",
+      "relation": "enhances_links_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:48",
+      "weight": 1
+    },
+    {
+      "source": "doc_click_spark",
+      "target": "doc_contact",
+      "relation": "enhances",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:49",
+      "weight": 1
+    },
+    {
+      "source": "doc_gooey_nav",
+      "target": "doc_reference_boundaries",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:50",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_infinite_menu",
+      "relation": "offers",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_globe_resource_bounds",
+      "relation": "bounded_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:51",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_project_tiles",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:51",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_globe_navigation",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:51",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_globe_fallback",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:53",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_readable_plates",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_react_ref_fix",
+      "relation": "incorporates",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:57",
+      "weight": 1
+    },
+    {
+      "source": "doc_infinite_menu",
+      "target": "doc_gpu_cleanup_choice",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:57",
+      "weight": 1
+    },
+    {
+      "source": "doc_supplied_designs",
+      "target": "doc_no_extra_engines",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:53",
+      "weight": 1
+    },
+    {
+      "source": "doc_supplied_designs",
+      "target": "doc_license",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:57",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_live_reduced_motion",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_motion_controls",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_tech_text",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_target_cursor",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_click_spark",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_gooey_nav",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_infinite_menu",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_scroll_reveals",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_contact",
+      "relation": "controls_effects_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_optional_boundary",
+      "target": "doc_initial_independence",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_optional_boundary",
+      "target": "doc_tech_text",
+      "relation": "contains_failure_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_optional_boundary",
+      "target": "doc_infinite_menu",
+      "relation": "contains_failure_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_globe_fallback",
+      "target": "doc_initial_independence",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:53",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_checks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_responsive",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_keyboard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_motion_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_nojs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_evidence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_intent_loading_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_chunk_failure_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_webgl_failure_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:14",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_spark_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_target_cursor",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:9",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_gooey_nav",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:9",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_readable_plates",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_motion_qa",
+      "target": "doc_motion_preferences",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_nojs",
+      "target": "doc_globe_fallback",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_lighthouse",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_intent_loading_qa",
+      "target": "doc_tech_text",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_intent_loading_qa",
+      "target": "doc_name_readiness",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_chunk_failure_qa",
+      "target": "doc_optional_boundary",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_webgl_failure_qa",
+      "target": "doc_globe_fallback",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:14",
+      "weight": 1
+    },
+    {
+      "source": "doc_spark_qa",
+      "target": "doc_click_spark",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_redesign_qa",
+      "target": "doc_redesign_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_redesign_qa",
+      "target": "doc_redesign_evidence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:41",
+      "weight": 1
+    },
+    {
+      "source": "doc_redesign_qa",
+      "target": "doc_github_failure",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:36",
+      "weight": 1
+    },
+    {
+      "source": "doc_redesign_qa",
+      "target": "doc_removed_warning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_redesign_qa",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_current_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:79",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_redesign_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:83",
+      "weight": 1
+    },
+    {
+      "source": "doc_optional_boundary",
+      "target": "doc_github_failure",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_gpu_cleanup_choice",
+      "target": "doc_infinite_menu",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:57",
+      "weight": 1
+    },
+    {
+      "source": "doc_initial_independence",
+      "target": "doc_optional_boundary",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:55",
       "weight": 1
     }
   ],
@@ -2024,15 +2880,31 @@
     },
     {
       "id": "doc_accessible_optional_motion",
-      "label": "Decorative motion stays optional across offscreen pause OS changes and no-JavaScript output",
+      "label": "Shared motion preference and optional failure boundaries preserve usable static content",
       "nodes": [
-        "doc_reactbits_adaptations",
+        "doc_motion_preferences",
         "doc_motion_controls",
         "doc_live_reduced_motion",
-        "doc_scroll_reveals",
+        "doc_optional_boundary",
         "doc_initial_independence"
       ],
       "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md"
+    },
+    {
+      "id": "doc_supplied_interaction_designs",
+      "label": "Five supplied designs adapt to portfolio controls while preserving ordinary navigation",
+      "nodes": [
+        "doc_supplied_designs",
+        "doc_tech_text",
+        "doc_target_cursor",
+        "doc_click_spark",
+        "doc_gooey_nav",
+        "doc_infinite_menu"
+      ],
+      "relation": "participate_in",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/content-and-decisions.md"
@@ -2055,15 +2927,15 @@
   ],
   "source_hashes": {
     "AGENTS.md": "f4049ce2f09ff4a3edabd10f9779fe99d397c6975a201369132a488de2d8ff4b",
-    "README.md": "76229ba76b72482923f3d5f007bbe228c16ca6404a8e0e2c89e0d20b552283c1",
-    "docs/HANDOFF.md": "4fed317c0f5a65caaff86a0bcc8e69a4b791cb0dc7dea4ad5857a4e7ad2aae7e",
-    "docs/content-and-decisions.md": "f5d53ddfb4168e1b6bd8e364148951c255e465c5936293255b29838a6cf2a546",
+    "README.md": "1b7c90c8d95a7cf229db4c06afe2aac2d956693fdbfcf321c9035007a262f050",
+    "docs/HANDOFF.md": "c5e50a1dcb8a2a41f4b470ea6c21f10d38a1a3353a3d5b789f854ae769015dac",
+    "docs/content-and-decisions.md": "e067fa18de78b2b3bb8a01999f9c57026607e0630c003fdf6570dba58efed276",
     "docs/implementation-blueprint.md": "3e1ee1f28ca18476f69a4ec1cb18ce2a83618160992e91b363a60b6b81375d8a",
-    "docs/verification.md": "72ba4e5e41f19815c1ffd323a4c53690fb08bc5c304a65a4d7715ee9db77a6c6",
+    "docs/verification.md": "696ac074680d61be4ba358c7b41b8183a41e026de4a7e1c93d5111e0964540da",
     "src/app/icon.svg": "463c5bf4c340c36037620f536bfe0325c39dcc8564d190e3f0f47bae56aeaffe",
     "docs/licenses/react-bits.md": "783c9ce1a4b4a37cc719a78cbcdd7a16a0372f3b819d807fbb8c14af44914cd0"
   },
   "input_tokens": null,
   "output_tokens": null,
-  "token_accounting": "Exact extraction-agent token counters unavailable; current changed-document semantics re-extracted and unchanged blueprint/icon semantics retained."
+  "token_accounting": "Exact extraction-agent counters unavailable. Four supplied-design integration documents re-extracted; unchanged AGENTS, blueprint, license and icon semantics retained."
 }

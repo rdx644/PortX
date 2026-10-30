@@ -11,13 +11,19 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 | Canonical checkout | `D:\CodexProjects\shubham-portfolio` |
 | User-facing path | `C:\Users\putit\shubham-portfolio`, a junction to the canonical checkout |
 | Runtime/cache directory | `D:\CodexProjects\shubham-portfolio-runtime` |
-| Baseline implementation | Commit `93263aa`; current redesign branch `feat/neo-brutalist-motion` |
+| Baseline implementation | Commit `93263aa`; current integration branch `feat/react-bits-interactions` |
 | Git remote | None configured at handoff creation; do not infer a repository from the owner's profile |
 | Local preview | `http://127.0.0.1:3001`, production preview for the redesign; process survival across sessions is not guaranteed |
 | Baseline source ZIP | `D:\CodexProjects\shubham-portfolio-runtime\shubham-portfolio-source.zip` (implementation checkpoint; not automatically updated) |
 | Global discovery pointer | `C:\Users\putit\.codex\projects\shubham-portfolio.md` |
 
 Older projects `C:\Users\putit\my-portfolio` and `C:\Users\putit\Portofolio_V5` were inspected only for context. This implementation is separate.
+
+## Current supplied-design integration
+
+The owner’s Downloads `React bits .txt` supplies five designs. Current integration adds intent-loaded TechText to the name; focused TargetCursor/ClickSpark/GooeyNav adaptations to appropriate controls; and an optional InfiniteMenu project globe above the unchanged case-study card flow. Six original project tile SVGs live in `public/projects/tiles/`. No dependencies were added.
+
+Start with `src/components/hero/HeroName.tsx`, `src/components/projects/ProjectExplorer.tsx`, `src/components/react-bits/`, `src/components/ui/MotionPreferences.tsx` and `src/components/ui/OptionalEffectBoundary.tsx`. The existing Pause button now shares its state across the effects; OS reduced motion remains live. Static links/heading remain available for reduced motion, graphics failure, chunk failure, and no-JavaScript use. The globe has no autoplay and is only loaded after expansion. See `docs/content-and-decisions.md` for the component-by-component decisions.
 
 ## Delivered implementation
 
@@ -27,7 +33,7 @@ The homepage has sticky responsive navigation; a name-first neo-brutalist hero; 
 
 Six statically generated case studies share `src/app/projects/[slug]/page.tsx`: `agentic-commerce`, `zeropatch`, `multiplayer-cursor`, `cybershield`, `wellify-ai`, and `haveloc-agent`. Diagrams are explanatory illustrations. The cursor demonstration is explicitly a local simulation.
 
-The cube, SVG sculpture fallback, and exclusive 3D dependencies were removed at the owner’s request. Adapted React Bits CircularText and ScrollVelocity supply the decorative ring and scroll-responsive strip, with pause and reduced-motion handling. Finite intersection reveals and rolling hover/focus labels adapt the DevFest reference. The heading/actions and server content remain usable without JavaScript or GitHub availability.
+The cube, SVG sculpture fallback, and exclusive Three.js dependencies were removed at the owner’s request. Adapted React Bits CircularText and ScrollVelocity supply the decorative ring and scroll-responsive strip, with pause and reduced-motion handling. Finite intersection reveals and rolling hover/focus labels adapt the DevFest reference. The heading/actions and server content remain usable without JavaScript or GitHub availability.
 
 `/api/github` validates and normalizes public REST responses, excludes forks from highlights, uses timeouts and hourly caching, and returns a usable failure state. No GitHub secret is required. Email uses `mailto:`; no form-delivery service exists.
 
@@ -42,7 +48,9 @@ The cube, SVG sculpture fallback, and exclusive 3D dependencies were removed at 
 | Design tokens and responsive styling | `src/app/globals.css` |
 | Navigation and mobile menu | `src/components/navigation/Navigation.tsx` |
 | Name hierarchy and motion playground | `src/components/hero/` |
-| React Bits adaptations | `src/components/react-bits/` |
+| React Bits engines and focused adaptations | `src/components/react-bits/` |
+| Optional project globe and static fallback | `src/components/projects/ProjectExplorer.tsx`, `public/projects/tiles/` |
+| Shared pause/reduced motion and optional chunk fallback | `src/components/ui/MotionPreferences.tsx`, `src/components/ui/OptionalEffectBoundary.tsx` |
 | Progressive scroll reveals and rolling labels | `src/components/ui/ScrollReveals.tsx`, `src/components/ui/RollLabel.tsx` |
 | Architecture interactions and cursor simulation | `src/components/projects/` |
 | GitHub schema, fetching, rendering | `src/lib/github-schema.ts`, `src/app/api/github/route.ts`, `src/components/sections/GitHubActivity.tsx` |
@@ -67,6 +75,10 @@ Use Node 22.13+; development used Node 26.3.0. Build output is locally linked to
 C: ran out of space during dependency installation and Chromium tracing. Keep tooling caches and temporary files on D:. Avoid launching visible background helpers unless requested.
 
 ## Verification already performed
+
+Current supplied-design integration: production build, lint, typecheck, all four tests, seven-width expanded-explorer checks, all six mobile case studies, intent loading, stable h1 dimensions, global Pause/Play, live reduced motion, keyboard/drag/Enter project navigation, touch/menu, no-JavaScript, forced WebGL/context-loss and name-chunk fallback checks pass. Fresh mobile Lighthouse is 93 performance / 100 accessibility / 100 best practices / 100 SEO (LCP ~1.21s, TBT 308ms, CLS 0). See `docs/verification.md` and `output/playwright/lighthouse-bits-mobile.json`.
+
+The following redesign verification is historical:
 
 Current redesign (2026-10-31): production build, typecheck, lint, all four tests, seven-width checks, six mobile case studies, motion pause and live reduced-motion toggles, no-JavaScript rendering, keyboard navigation/controls, résumé download, GitHub failure fallback, metadata routes, and screenshots passed. Fresh isolated production mobile Lighthouse returned 100 performance / 100 accessibility / 100 best practices / 100 SEO (LCP ~0.80s, TBT 42ms, CLS 0). See `docs/verification.md` for current evidence and historical results.
 

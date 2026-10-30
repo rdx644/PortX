@@ -42,7 +42,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "76229ba76b72482923f3d5f007bbe228c16ca6404a8e0e2c89e0d20b552283c1",
+      "sha256": "1b7c90c8d95a7cf229db4c06afe2aac2d956693fdbfcf321c9035007a262f050",
       "mode": "document/configuration"
     },
     {
@@ -52,12 +52,12 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "4fed317c0f5a65caaff86a0bcc8e69a4b791cb0dc7dea4ad5857a4e7ad2aae7e",
+      "sha256": "c5e50a1dcb8a2a41f4b470ea6c21f10d38a1a3353a3d5b789f854ae769015dac",
       "mode": "document/configuration"
     },
     {
       "path": "docs/content-and-decisions.md",
-      "sha256": "f5d53ddfb4168e1b6bd8e364148951c255e465c5936293255b29838a6cf2a546",
+      "sha256": "e067fa18de78b2b3bb8a01999f9c57026607e0630c003fdf6570dba58efed276",
       "mode": "document/configuration"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "path": "docs/verification.md",
-      "sha256": "72ba4e5e41f19815c1ffd323a4c53690fb08bc5c304a65a4d7715ee9db77a6c6",
+      "sha256": "696ac074680d61be4ba358c7b41b8183a41e026de4a7e1c93d5111e0964540da",
       "mode": "document/configuration"
     },
     {
@@ -106,6 +106,36 @@
       "mode": "structural source"
     },
     {
+      "path": "public/projects/tiles/agentic-commerce.svg",
+      "sha256": "b3781f042ba18707167ec5e360ababad5bb35ded63705c9cbf51684d2ad00cda",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "public/projects/tiles/cybershield.svg",
+      "sha256": "c00cb4ffdfb9e12d78ea25a3ea83bb6dd829c81eab28b5d32af918f0e6f45392",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "public/projects/tiles/haveloc-agent.svg",
+      "sha256": "438b89c5f8e3be8abeef60dfea5568609cc9ed9f8dd67c68a4aa7741f6b6b178",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "public/projects/tiles/multiplayer-cursor.svg",
+      "sha256": "4edcd3a36fb761683197826f3ff9eac92a3a84d1e8077474cb3b6f30665e225a",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "public/projects/tiles/wellify-ai.svg",
+      "sha256": "efa0cbcf42425e850be53d0364e263c0334872a56954bc30c73e99baf6cb7306",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "public/projects/tiles/zeropatch.svg",
+      "sha256": "6829f6c9b0668630bc038b1325fecbb2340ff158e35199637124d1ba4a32c7ce",
+      "mode": "document/configuration"
+    },
+    {
       "path": "public/resume/shubham-putitundi.pdf",
       "sha256": "6550a78368a45c88dd1a20ac79616c24243885834d7364f1d7d14e39d29c6715",
       "mode": "metadata only"
@@ -132,7 +162,7 @@
     },
     {
       "path": "src/app/globals.css",
-      "sha256": "2f40dbbacdd22c6a960c394b2f674c42d9ee4b55b626ee4ef810697116264437",
+      "sha256": "50a158abad56f4bb94d8b5c44bd89a1d5a7c7fd8c461bb0e0444390df6a18c4b",
       "mode": "document/configuration"
     },
     {
@@ -142,7 +172,7 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "sha256": "73294173c90b19b559222f7d51a0d7e5e36f20f62ab154f9dd12631548a41638",
+      "sha256": "63fefbdcae9340d22b5c531524ec24c11ba782f3ed85e7b550477b3cc6a58981",
       "mode": "structural source"
     },
     {
@@ -177,12 +207,17 @@
     },
     {
       "path": "src/components/hero/Hero.tsx",
-      "sha256": "f4d02b65407a3090a20dd38758583cf80142845b0a763c73f600cb759b3f0f34",
+      "sha256": "ee38380e1c5967c35e476a380d562194de62aaea05df5c62ec8a5bedc2da1d94",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/components/hero/HeroName.tsx",
+      "sha256": "bbfe4752d3d5b72d76b0517fa92a8738e59ad2a4b9bb0b65bee05d8bb029fec2",
       "mode": "structural source"
     },
     {
       "path": "src/components/hero/HeroVisual.tsx",
-      "sha256": "215e0aa64a321fe186d779089b37c0e2925c0e92e2ba31ef79beb3e14d52a3ca",
+      "sha256": "6c25761ed81aef22a48676a614116a3073fa2baf3bbc9ea83b413aabe0cc24e4",
       "mode": "structural source"
     },
     {
@@ -192,7 +227,7 @@
     },
     {
       "path": "src/components/navigation/Navigation.tsx",
-      "sha256": "5db619500798cf4415705a53fe36d2f1af737a61511a6c6d36e5b6366f6174d1",
+      "sha256": "54d13ead86adc5080f196e8543f85e83717b2314fce536c20d53ab6b4998ef67",
       "mode": "structural source"
     },
     {
@@ -206,13 +241,18 @@
       "mode": "structural source"
     },
     {
+      "path": "src/components/projects/ProjectExplorer.tsx",
+      "sha256": "ce5edda04f42df06f82c625cae9fcd2c29940fdd1336d108feed667da0d7e322",
+      "mode": "structural source"
+    },
+    {
       "path": "src/components/projects/ProjectVisual.tsx",
       "sha256": "1032003eb40a73e09c0c4ff92f280aa2e0d18a74370af2be4fbcaf1db58ac39f",
       "mode": "structural source"
     },
     {
       "path": "src/components/projects/Projects.tsx",
-      "sha256": "927a5699c1b22e5966122234f196c521c7ee2d03f3d8446cd52cde0cf7e17809",
+      "sha256": "221ecd773973eea10bedb4c7687882d2e8cfa91ea713745abb60764443f02915",
       "mode": "structural source"
     },
     {
@@ -221,9 +261,49 @@
       "mode": "structural source"
     },
     {
+      "path": "src/components/react-bits/ClickSpark.tsx",
+      "sha256": "078ecf9c6811ef606d174d00e02f588bf9b766b432d7252bf2474458f7900459",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/components/react-bits/GooeyNav.tsx",
+      "sha256": "fe3fcb4bfc0d3b156fb1a419b31df5605ad95a24b7ea74bde7993ba644a63192",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/components/react-bits/InfiniteMenu.css",
+      "sha256": "43b8f2f6cb0b09cf820a5016148b358dd4732bb5a3509a235420fa3f12d4409b",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "src/components/react-bits/InfiniteMenu.tsx",
+      "sha256": "65874267ebf3f9007d21c45c3dd3e9226b1a4d1642cdb0561c181f9894a2147b",
+      "mode": "structural source"
+    },
+    {
       "path": "src/components/react-bits/ScrollVelocity.tsx",
       "sha256": "6cbf833b8ef047d4318d8483434f3b5e61396d6401f527ca9eb2ae52adbb8f6e",
       "mode": "structural source"
+    },
+    {
+      "path": "src/components/react-bits/TargetCursor.tsx",
+      "sha256": "3b7c575575da357d7b0074b93fbc96b5f10f57ddc784c1c410f0258006770142",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/components/react-bits/TechText.css",
+      "sha256": "e71acfbf0f418e78ae3f37499ec36e4e2ca43009b5ba6dc6ac5663fb9d1dc5a8",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "src/components/react-bits/TechText.tsx",
+      "sha256": "b1a17684992a3a09985199dc111527ff4a747c9902e396e46e86f7434b42548d",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/components/react-bits/interactions.css",
+      "sha256": "c2c68f0b16448d301d7cbe6bd4d83dcecbe1aaa7dc30da74e204432461d0e99b",
+      "mode": "document/configuration"
     },
     {
       "path": "src/components/sections/About.tsx",
@@ -237,7 +317,7 @@
     },
     {
       "path": "src/components/sections/ContactAction.tsx",
-      "sha256": "7c3304d91e044838c7424b0a2bacc9ac21bbd76fa8ad8b6a2851f2b57589e578",
+      "sha256": "5c5e514ba3acf99ba06e9c239ad537dd0c6e70854b38f58a9c74a9f6f48418e1",
       "mode": "structural source"
     },
     {
@@ -261,13 +341,23 @@
       "mode": "structural source"
     },
     {
+      "path": "src/components/ui/MotionPreferences.tsx",
+      "sha256": "62b17fb30ee750365852a09e0590943c8cb18c13842181175a418e82e62b5db3",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/components/ui/OptionalEffectBoundary.tsx",
+      "sha256": "fa906906f03755b6ef1b5fe982d00de0c811d8e2dcba1dd7f7288a06dd8acf2d",
+      "mode": "structural source"
+    },
+    {
       "path": "src/components/ui/RollLabel.tsx",
       "sha256": "fdc58c7b311261e734cdf39583ce0156585ad0f2e3f1820e8dd670ab15126c9e",
       "mode": "structural source"
     },
     {
       "path": "src/components/ui/ScrollReveals.tsx",
-      "sha256": "8629aa68eaec48af1457d23c28a8cc2d5844e40eec63b78c9f5feec44d3efc7c",
+      "sha256": "66fad6b99c2ecaca956973d3126f9f4b3b6d9c06b112b4e3402362b0078526d8",
       "mode": "structural source"
     },
     {

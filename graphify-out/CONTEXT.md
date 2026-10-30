@@ -20,6 +20,7 @@ This folder is the persistent map for Shubham Putitundi's current portfolio. Rea
 | Update personal details | `src/data/profile.ts` → homepage sections, navigation, contact |
 | Adjust hero motion | `HeroVisual.tsx` → `CircularText.tsx` / `ScrollVelocity.tsx`; `ScrollReveals.tsx` for page reveals |
 | Change GitHub activity | `github-schema.ts` → API route → `GitHubActivity.tsx` → boundary tests |
+| Change project globe | `ProjectExplorer.tsx` ? `InfiniteMenu.tsx`, project data and local SVG tiles |
 | Change responsive design | `src/app/globals.css` → affected component → browser evidence |
 | Review publication status | `docs/HANDOFF.md` → `docs/verification.md` |
 
@@ -35,4 +36,4 @@ Generated dependencies, builds, browser traces and secrets are excluded. The ré
 
 ## Saved handoff verification
 
-The 2026-10-31 handoff includes the global discovery reference, repository instructions, reviewed document/SVG extraction, compiler-resolved imports, CSS tokens, source inventory, and an offline viewer. The viewer's canvas and search were exercised with external requests blocked; no external requests were needed. The graph's endpoints, confidence scores, semantic source hashes, and freshness check passed. Application source was unchanged by the handoff task. See the report and manifest for current graph counts; see `../docs/verification.md` for the earlier portfolio QA.
+The 2026-10-31 handoff includes the global discovery reference, repository instructions, reviewed document/SVG extraction, compiler-resolved imports, CSS tokens, source inventory, and an offline viewer. The viewer's canvas and search were exercised with external requests blocked; no external requests were needed. The graph's endpoints, confidence scores, semantic source hashes, and freshness check passed. The original handoff task did not change application source. Subsequent design integrations and their current QA are recorded in `../docs/HANDOFF.md` and `../docs/verification.md`; the report and manifest contain current graph counts.
