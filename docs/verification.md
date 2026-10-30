@@ -1,6 +1,18 @@
 # Verification
 
-## Supplied React Bits integration — 2026-10-31 (current)
+## Globe-first project navigation — 2026-10-31 (current)
+
+Production validation at `http://127.0.0.1:3001` on `feat/globe-project-navigation`:
+
+- Production build (including strict TypeScript validation), lint, all four tests and diff checks pass.
+- Native project disclosure is open by default; the homepage contains zero `.project`/`.project-grid` cards. The graphics chunk loads automatically as Work approaches the viewport, with ordinary links covering the waiting/loading state.
+- Clicking Work loads the globe without another expansion step. Its selected-project open action navigated to `/projects/agentic-commerce`. All six compact project links target the existing case-study routes and each returned HTTP 200. Case-study content/diagrams/source links were not edited.
+- Collapse removes the globe; reopening restores it. Expanded project view has no horizontal overflow at 360, 390, 430, 768, 1024, 1440 or 1920px.
+- Live reduced motion leaves zero canvases and six compact project links. A JavaScript-disabled 390px browser has an open disclosure and all six links visible without expansion; no project-card grid remains. Forced WebGL unavailability was checked after one actual context request and preserved all six links.
+- Normal navigation reported zero application page errors. Desktop/mobile screenshots were inspected: `output/playwright/globe-primary-desktop.png` and `globe-primary-mobile.png`.
+- Fresh local mobile Lighthouse: **92 performance / 100 accessibility / 100 best practices / 100 SEO**; LCP ~1.06s, total blocking time 354.5ms, CLS 0. Report: `output/playwright/lighthouse-globe-primary-mobile.json`. Earlier scores below remain historical. Chromium/Windows only; no physical-device or cross-browser claim.
+
+## Supplied React Bits integration — 2026-10-31 (historical checkpoint)
 
 Validated against production `http://127.0.0.1:3001` on branch `feat/react-bits-interactions`. Earlier sections below describe earlier checkpoints, not fresh results for this integration.
 

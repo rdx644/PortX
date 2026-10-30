@@ -50,13 +50,21 @@ Source reviewed: the owner’s Downloads file `React bits .txt` (149,986 bytes, 
 | GooeyNav | Yellow merging pill/droplets behind the existing desktop navigation | Focused SVG/CSS adaptation preserves Next links, section tracking, native focus and the mobile menu. No WebGL navbar or second navigation model. |
 | InfiniteMenu | Optional “Explore the project globe” disclosure above the case-study cards | Typed native-WebGL engine loads only on explicit expansion. No autoplay/intro spin, 36 tiles, bounded DPR, six original local SVG project tiles, drag/arrow-key/Enter access, offscreen suspension and GPU cleanup. |
 
-The normal cards and case-study links remain the primary project presentation. The native disclosure also provides six ordinary project links without JavaScript. Under reduced motion or global pause, or if WebGL/context creation is unavailable or the context is lost, the globe becomes that ordinary link view. No Three.js, GSAP, new npm dependencies, remote images or runtime API keys were added. The previous cube remains removed; the new optional globe is the supplied navigation design, not a replacement hero sculpture.
+At the initial supplied-design checkpoint, the normal cards and case-study links remained the primary project presentation. The native disclosure also provides six ordinary project links without JavaScript. Under reduced motion or global pause, or if WebGL/context creation is unavailable or the context is lost, the globe becomes that ordinary link view. No Three.js, GSAP, new npm dependencies, remote images or runtime API keys were added. The previous cube remains removed; the new optional globe is the supplied navigation design, not a replacement hero sculpture.
 
 `MotionPreferences.tsx` shares the existing live OS-preference subscription and a single Pause/Play state across the hero, name, cursor, sparks, navigation animation, reveals, globe and contact. `OptionalEffectBoundary.tsx` contains failures of intent-loaded decorative chunks: a failed name effect leaves the h1 intact, and a failed globe leaves project links. Heading dimensions do not depend on animation readiness. Active project details have opaque cream information plates to remain readable over moving tiles.
 
 The supplied InfiniteMenu originally wrote mutable refs during render; its typed integration updates those refs in an effect to meet the project’s React rules. GPU resources are deleted on cleanup; forcing `WEBGL_lose_context` during cleanup was rejected because React development remounts can reuse that canvas/context. Context-loss recovery remains explicit. All adapted source files reference `docs/licenses/react-bits.md`.
 
 Public references: https://reactbits.dev/text-animations/tech-text, https://reactbits.dev/animations/target-cursor, https://reactbits.dev/animations/click-spark, https://reactbits.dev/components/infinite-menu, and https://reactbits.dev/components/gooey-nav.
+
+## Globe-first project navigation — approved 2026-10-31
+
+The owner approved removing the duplicate homepage project cards and making the globe the primary project browser. `Projects.tsx` now contains the section introduction, `ProjectExplorer.tsx`, and the GitHub repository link. It no longer imports the card illustrations or project data solely to render duplicate previews. The six dedicated `/projects/[slug]` pages, their source links, diagrams and scope notes remain unchanged.
+
+The native project disclosure is expanded by default, including in server/no-JavaScript output. The globe engine is still code-split and loads automatically when the open Work section is within 250px of the viewport. Until then, while its chunk loads, or under Pause/reduced motion, unavailable/lost WebGL or a chunk failure, the same six compact case-study links provide navigation. The user can collapse and reopen the browser. Selecting a globe tile and using its open arrow or Enter opens the corresponding dedicated case-study route.
+
+Copy now presents this as the primary project view (“Explore my projects”), and TargetCursor brackets follow the selected-project action and compact fallback links. It no longer targets removed card markup. No WebGL autoplay or new dependency was introduced.
 
 ## External configuration still required
 

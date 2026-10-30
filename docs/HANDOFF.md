@@ -11,7 +11,7 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 | Canonical checkout | `D:\CodexProjects\shubham-portfolio` |
 | User-facing path | `C:\Users\putit\shubham-portfolio`, a junction to the canonical checkout |
 | Runtime/cache directory | `D:\CodexProjects\shubham-portfolio-runtime` |
-| Baseline implementation | Commit `93263aa`; current integration branch `feat/react-bits-interactions` |
+| Baseline implementation | Commit `93263aa`; current branch `feat/globe-project-navigation` |
 | Git remote | None configured at handoff creation; do not infer a repository from the owner's profile |
 | Local preview | `http://127.0.0.1:3001`, production preview for the redesign; process survival across sessions is not guaranteed |
 | Baseline source ZIP | `D:\CodexProjects\shubham-portfolio-runtime\shubham-portfolio-source.zip` (implementation checkpoint; not automatically updated) |
@@ -19,7 +19,11 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 
 Older projects `C:\Users\putit\my-portfolio` and `C:\Users\putit\Portofolio_V5` were inspected only for context. This implementation is separate.
 
-## Current supplied-design integration
+## Current project navigation
+
+The owner approved globe-first browsing: the six duplicate homepage cards are removed, and `ProjectExplorer.tsx` renders its native disclosure expanded by default. The graphics chunk loads as the Work section approaches the viewport (250px margin). Six compact case-study links remain available before/loading the graphic and for Pause/reduced motion, no JavaScript, WebGL/context loss or chunk failure. Each globe selection can open its dedicated `/projects/[slug]` page via the open arrow or Enter. All six case-study pages retain their original content, diagrams and source links. TargetCursor is scoped to the globe action and fallback links.
+
+## Supplied-design integration checkpoint
 
 The owner’s Downloads `React bits .txt` supplies five designs. Current integration adds intent-loaded TechText to the name; focused TargetCursor/ClickSpark/GooeyNav adaptations to appropriate controls; and an optional InfiniteMenu project globe above the unchanged case-study card flow. Six original project tile SVGs live in `public/projects/tiles/`. No dependencies were added.
 
@@ -29,7 +33,7 @@ Start with `src/components/hero/HeroName.tsx`, `src/components/projects/ProjectE
 
 Next.js 16.4.3 App Router, React 19.2, strict TypeScript, Tailwind 4, locally hosted Geist (body 400/display 900), Motion, and Zod. Exact installed versions are in `package-lock.json`.
 
-The homepage has sticky responsive navigation; a name-first neo-brutalist hero; a React Bits motion playground; six project previews; about, expertise, virtual internship and credential sections; cached GitHub activity; email/LinkedIn/GitHub contact; and résumé download.
+The homepage has sticky responsive navigation; a name-first neo-brutalist hero; a React Bits motion playground; a default-open globe project browser; about, expertise, virtual internship and credential sections; cached GitHub activity; email/LinkedIn/GitHub contact; and résumé download.
 
 Six statically generated case studies share `src/app/projects/[slug]/page.tsx`: `agentic-commerce`, `zeropatch`, `multiplayer-cursor`, `cybershield`, `wellify-ai`, and `haveloc-agent`. Diagrams are explanatory illustrations. The cursor demonstration is explicitly a local simulation.
 
@@ -75,6 +79,10 @@ Use Node 22.13+; development used Node 26.3.0. Build output is locally linked to
 C: ran out of space during dependency installation and Chromium tracing. Keep tooling caches and temporary files on D:. Avoid launching visible background helpers unless requested.
 
 ## Verification already performed
+
+Current globe-first layout: build/TypeScript, lint, four tests, default-open/zero-card checks, selected-project navigation, all six route/link checks, collapse/reopen, seven widths, reduced motion, no JavaScript and forced graphics failure passed. Fresh local mobile Lighthouse: 92 performance / 100 accessibility / 100 best practices / 100 SEO; LCP ~1.06s, TBT 354.5ms, CLS 0. Evidence is in `docs/verification.md` and `output/playwright/lighthouse-globe-primary-mobile.json`.
+
+Earlier integration checkpoint:
 
 Current supplied-design integration: production build, lint, typecheck, all four tests, seven-width expanded-explorer checks, all six mobile case studies, intent loading, stable h1 dimensions, global Pause/Play, live reduced motion, keyboard/drag/Enter project navigation, touch/menu, no-JavaScript, forced WebGL/context-loss and name-chunk fallback checks pass. Fresh mobile Lighthouse is 93 performance / 100 accessibility / 100 best practices / 100 SEO (LCP ~1.21s, TBT 308ms, CLS 0). See `docs/verification.md` and `output/playwright/lighthouse-bits-mobile.json`.
 

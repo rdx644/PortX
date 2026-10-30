@@ -16,11 +16,11 @@ This folder is the persistent map for Shubham Putitundi's current portfolio. Rea
 
 | Request | Follow these files |
 | --- | --- |
-| Change project content | `src/data/projects.ts` → `Projects.tsx` → shared case-study page |
+| Change project content | `src/data/projects.ts` → `ProjectExplorer.tsx` / shared case-study page |
 | Update personal details | `src/data/profile.ts` → homepage sections, navigation, contact |
 | Adjust hero motion | `HeroVisual.tsx` → `CircularText.tsx` / `ScrollVelocity.tsx`; `ScrollReveals.tsx` for page reveals |
 | Change GitHub activity | `github-schema.ts` → API route → `GitHubActivity.tsx` → boundary tests |
-| Change project globe | `ProjectExplorer.tsx` ? `InfiniteMenu.tsx`, project data and local SVG tiles |
+| Change project globe | `ProjectExplorer.tsx` → `InfiniteMenu.tsx`, project data and local SVG tiles |
 | Change responsive design | `src/app/globals.css` → affected component → browser evidence |
 | Review publication status | `docs/HANDOFF.md` → `docs/verification.md` |
 

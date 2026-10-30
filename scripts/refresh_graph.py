@@ -173,7 +173,7 @@ def main():
     gods=god_nodes(graph); surprises=surprising_connections(graph,communities)
     questions=suggest_questions(graph,communities,named)
     questions=[
-        {'type':'project_trace','question':'How does src/data/projects.ts feed homepage previews and generated case studies?','why':'The content model is imported by both presentation paths.'},
+        {'type':'project_trace','question':'How does src/data/projects.ts feed the default-open globe and dedicated case-study pages?','why':'The content model is imported by both presentation paths.'},
         {'type':'project_trace','question':'How do reduced-motion, no-JavaScript, and GitHub fallbacks preserve usable homepage content?','why':'This connects optional motion, data validation, and the documented initial-content requirement.'},
     ]+questions[:3]
     report=generate(graph,communities,cohesion,named,gods,surprises,detection,{'input':0,'output':0},str(ROOT),suggested_questions=questions)

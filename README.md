@@ -32,7 +32,7 @@ npm ci --cache D:\CodexProjects\shubham-portfolio-runtime\npm-cache
 - Centralized project content in `src/data/projects.ts`; background, links, and credentials in `src/data/profile.ts`.
 - Small client components for navigation, architecture diagrams, the local cursor demo, and GitHub activity.
 - Name-first neo-brutalist hero with intent-loaded TechText, CircularText/ScrollVelocity, focused navigation/cursor/click effects, shared Pause motion controls, and reduced-motion/static fallbacks. The old cube and Three.js dependencies remain removed.
-- Optional native-WebGL InfiniteMenu project explorer, loaded on expansion with six local SVG tiles, keyboard/drag access and ordinary-link fallbacks.
+- Default-open native-WebGL InfiniteMenu is the homepage project browser; duplicate project cards are removed. Graphics load near the Work viewport; six compact case-study links cover loading, reduced motion, no JavaScript and graphics failures. Dedicated case-study pages retain their diagrams and source links.
 - GitHub API access stays on the server, with Zod validation, six-second request timeouts, hourly caching, and a usable failure state. No GitHub token is required.
 - Geist body and heavy display fonts are self-hosted. Motion handles scroll/spring effects; finite progressive reveals keep SSR content visible. No remote font requests.
 - Email contact uses `mailto:`. There is no message-collection backend or implied delivery confirmation.

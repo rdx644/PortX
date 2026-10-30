@@ -42,7 +42,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "1b7c90c8d95a7cf229db4c06afe2aac2d956693fdbfcf321c9035007a262f050",
+      "sha256": "c3e53a017a89f06f0f6909044d00506435d58434b48592ee1e5e234bc9c4ccc5",
       "mode": "document/configuration"
     },
     {
@@ -52,12 +52,12 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "c5e50a1dcb8a2a41f4b470ea6c21f10d38a1a3353a3d5b789f854ae769015dac",
+      "sha256": "3c8eef588465ec4da67cd0b7376efc50ae82e74226e9a615941ca5e4fe07a358",
       "mode": "document/configuration"
     },
     {
       "path": "docs/content-and-decisions.md",
-      "sha256": "e067fa18de78b2b3bb8a01999f9c57026607e0630c003fdf6570dba58efed276",
+      "sha256": "45f1624498e6d943a22d2031acc6723902d7192fb5b2c036b7143941c9384661",
       "mode": "document/configuration"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "path": "docs/verification.md",
-      "sha256": "696ac074680d61be4ba358c7b41b8183a41e026de4a7e1c93d5111e0964540da",
+      "sha256": "ba2a8d8b387a66ed9a4ec5862c351ccdafe1c5ac21e59a0b281c986fd89efcf5",
       "mode": "document/configuration"
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "path": "scripts/refresh_graph.py",
-      "sha256": "4fc2cd4c3baab5b0ea64def0966de6c5cf8ce9aa5fd839d73b29a05837097342",
+      "sha256": "d0907b45b6ac45c29e45a3a5d42c396cb4ac17c0eb6dad056ed8c02325c98e03",
       "mode": "structural source"
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "path": "src/components/projects/ProjectExplorer.tsx",
-      "sha256": "ce5edda04f42df06f82c625cae9fcd2c29940fdd1336d108feed667da0d7e322",
+      "sha256": "143185a8dde0062606ac3782960b9f60856da4626f0556ec8ffa5523406b8f95",
       "mode": "structural source"
     },
     {
@@ -252,7 +252,7 @@
     },
     {
       "path": "src/components/projects/Projects.tsx",
-      "sha256": "221ecd773973eea10bedb4c7687882d2e8cfa91ea713745abb60764443f02915",
+      "sha256": "b513b12843226bed4ab6c51ff47ff2deba0070cea4048333750abb05752ea5dc",
       "mode": "structural source"
     },
     {
@@ -287,7 +287,7 @@
     },
     {
       "path": "src/components/react-bits/TargetCursor.tsx",
-      "sha256": "3b7c575575da357d7b0074b93fbc96b5f10f57ddc784c1c410f0258006770142",
+      "sha256": "e68486b0f84b34bb2c8ca1df050ac3582852a9eba13264e26a6db448d8ad98cd",
       "mode": "structural source"
     },
     {
