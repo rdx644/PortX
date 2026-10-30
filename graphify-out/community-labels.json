@@ -1,0 +1,13 @@
+{
+  "file:src/app/layout.tsx": "Metadata and navigation",
+  "file:src/app/page.tsx": "Homepage composition",
+  "file:src/data/projects.ts": "Project case studies",
+  "file:src/app/api/github/route.ts": "GitHub data validation",
+  "file:src/components/hero/HeroVisual.tsx": "WebGL and interactions",
+  "file:scripts/extract_structure.mjs": "TypeScript graph extraction",
+  "file:scripts/refresh_graph.py": "Graph refresh workflow",
+  "file:package.json": "Dependencies and build tools",
+  "doc_handoff": "Engineering decisions",
+  "directory:.": "Workspace and delivery",
+  "icon_monogram": "Visual identity"
+}

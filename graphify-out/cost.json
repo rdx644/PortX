@@ -1,0 +1,49 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-30T19:22:11.122804+00:00",
+      "files": 57,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_reused": true
+    },
+    {
+      "date": "2026-10-30T19:23:40.271285+00:00",
+      "files": 57,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_reused": true
+    },
+    {
+      "date": "2026-10-30T19:40:43.380232+00:00",
+      "files": 57,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_reused": true
+    },
+    {
+      "date": "2026-10-30T19:42:03.110126+00:00",
+      "files": 57,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_reused": true
+    },
+    {
+      "date": "2026-10-30T19:46:18.474409+00:00",
+      "files": 57,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_reused": true
+    },
+    {
+      "date": "2026-10-30T19:48:13.287350+00:00",
+      "files": 57,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "semantic_reused": true
+    }
+  ],
+  "total_input_tokens": 0,
+  "total_output_tokens": 0,
+  "token_accounting": "unavailable for in-session extraction agents; zero is not a cost claim"
+}

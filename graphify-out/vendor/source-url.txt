@@ -1,0 +1,1 @@
+﻿https://unpkg.com/vis-network@10.1.4/standalone/umd/vis-network.min.js

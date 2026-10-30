@@ -1,5 +1,6 @@
 node_modules
 .next
 output
+graphify-out
 package-lock.json
 docs/implementation-blueprint.md

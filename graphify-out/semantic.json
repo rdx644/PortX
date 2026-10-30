@@ -1,0 +1,1065 @@
+{
+  "nodes": [
+    {
+      "id": "doc_portfolio",
+      "label": "Shubham engineering portfolio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_blueprint",
+      "label": "Portfolio implementation blueprint requirements",
+      "file_type": "document",
+      "source_file": "docs/implementation-blueprint.md",
+      "source_location": "docs/implementation-blueprint.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_editorial",
+      "label": "Warm editorial visual identity",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_authenticity",
+      "label": "Source-backed claims and visible prototype limits",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_components",
+      "label": "Small typed component boundaries",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_homepage",
+      "label": "Server-rendered portfolio homepage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_case_template",
+      "label": "Shared statically generated case-study template",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_projects_data",
+      "label": "Central project content: src/data/projects.ts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_profile_data",
+      "label": "Central profile content: src/data/profile.ts",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_six_cases",
+      "label": "Six engineering project case studies",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_hero_network",
+      "label": "Interactive geometric network sculpture",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_r3f",
+      "label": "Lazy React Three Fiber scene",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_on_demand",
+      "label": "On-demand rendering and limited pixel ratio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_svg_fallback",
+      "label": "Mobile and WebGL-failure SVG fallback",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_initial_independence",
+      "label": "Heading and actions independent of optional services",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_github_endpoint",
+      "label": "Server-side public GitHub endpoint",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_zod",
+      "label": "GitHub response validation with Zod",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_cache_timeout",
+      "label": "Hourly cache and six-second request timeout",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_github_failure",
+      "label": "Usable GitHub network-failure state",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_fork_exclusion",
+      "label": "Fork exclusion from authored GitHub highlights",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_cursor_sim",
+      "label": "Clearly labeled local cursor simulation",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_contact",
+      "label": "Email contact through mailto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_seo",
+      "label": "Metadata sitemap robots and generated social image",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:38",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_qa",
+      "label": "Historical implementation verification at 93263aa",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:70",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_lighthouse",
+      "label": "Historical local mobile Lighthouse: four scores of 100",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_qa_limits",
+      "label": "Chromium-only browser evidence and dependency warning",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:32",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_canonical",
+      "label": "Canonical D: portfolio checkout",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_junction",
+      "label": "C: project path is a directory junction",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_disk_constraint",
+      "label": "C: disk-space constraint",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:66",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_runtime_cache",
+      "label": "D: runtime build cache and temporary files",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_handoff",
+      "label": "Durable project handoff",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_graph_context",
+      "label": "Persistent graph context and coverage inventory",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:92",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_graph_maintenance",
+      "label": "Structural refresh and semantic freshness checks",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:94",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_publication_block",
+      "label": "Publication pending approval after rejected fallback upload",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:85",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_external_setup",
+      "label": "Domain monitoring and analytics still unconfigured",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:87",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reactbits_decision",
+      "label": "React Bits AnimatedContent rejected after review",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_mcp_config",
+      "label": "Shadcn MCP configured; connection needs restart",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:88",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_prototype_limits",
+      "label": "Project evidence boundaries: synthetic data mock portals and documented cloud design",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_source_review",
+      "label": "Source files remain authoritative over the graph",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "icon_monogram",
+      "label": "SP monogram favicon",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "64 by 64 SVG icon containing the visible SP initials in warm off-white."
+    },
+    {
+      "id": "icon_dark_tile",
+      "label": "Dark rounded icon tile",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "A 64 by 64 rectangle with corner radius 10 and fill #171918 forms the icon background."
+    },
+    {
+      "id": "icon_cobalt_dot",
+      "label": "Cobalt punctuation dot",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "A circle at (55,43), radius 4, uses the cobalt accent #315cdb beside the initials."
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_portfolio",
+      "target": "doc_blueprint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_homepage",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_case_template",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_components",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:33",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_editorial",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_authenticity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_six_cases",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_projects_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_projects_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_profile_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_hero_network",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_github_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_contact",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_hero_network",
+      "target": "doc_r3f",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_r3f",
+      "target": "doc_on_demand",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_r3f",
+      "target": "doc_svg_fallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_initial_independence",
+      "target": "doc_svg_fallback",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_initial_independence",
+      "target": "doc_github_failure",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/implementation-blueprint.md",
+      "source_location": "docs/implementation-blueprint.md:855",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_on_demand",
+      "target": "doc_editorial",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_zod",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_cache_timeout",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_github_failure",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_fork_exclusion",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_six_cases",
+      "target": "doc_cursor_sim",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_cursor_sim",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_prototype_limits",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:15",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_fork_exclusion",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_projects_data",
+      "target": "doc_prototype_limits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_seo",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:38",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:72",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_qa_limits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:72",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_svg_fallback",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:18",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_github_failure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:18",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_cursor_sim",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_junction",
+      "target": "doc_canonical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:12",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_disk_constraint",
+      "target": "doc_junction",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:21",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_disk_constraint",
+      "target": "doc_runtime_cache",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:66",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_canonical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:11",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_runtime_cache",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:13",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:70",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_publication_block",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:85",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_external_setup",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:87",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_graph_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:92",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_graph_context",
+      "target": "doc_graph_maintenance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:94",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:17",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_context",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:18",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_reactbits_decision",
+      "target": "doc_initial_independence",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "README.md:71",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_reactbits_decision",
+      "target": "doc_mcp_config",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:88",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_blueprint",
+      "target": "doc_mcp_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/implementation-blueprint.md",
+      "source_location": "docs/implementation-blueprint.md:937",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_blueprint",
+      "target": "doc_authenticity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/implementation-blueprint.md",
+      "source_location": "docs/implementation-blueprint.md:126",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_blueprint",
+      "target": "doc_initial_independence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/implementation-blueprint.md",
+      "source_location": "docs/implementation-blueprint.md:1273",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_publication_block",
+      "target": "doc_external_setup",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:84",
+      "weight": 1.0
+    },
+    {
+      "source": "doc_contact",
+      "target": "doc_publication_block",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:85",
+      "weight": 1.0
+    },
+    {
+      "source": "icon_monogram",
+      "target": "icon_dark_tile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "weight": 1.0
+    },
+    {
+      "source": "icon_monogram",
+      "target": "icon_cobalt_dot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "doc_resilient_optional_visuals",
+      "label": "Optional visuals preserve useful initial content",
+      "nodes": [
+        "doc_r3f",
+        "doc_on_demand",
+        "doc_svg_fallback",
+        "doc_initial_independence"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/HANDOFF.md"
+    },
+    {
+      "id": "doc_future_session_context",
+      "label": "Durable context for future modification",
+      "nodes": [
+        "doc_handoff",
+        "doc_graph_context",
+        "doc_graph_maintenance",
+        "doc_source_review"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "AGENTS.md"
+    },
+    {
+      "id": "doc_credible_project_showcase",
+      "label": "Evidence-constrained project storytelling",
+      "nodes": [
+        "doc_authenticity",
+        "doc_projects_data",
+        "doc_prototype_limits",
+        "doc_case_template"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "token_accounting": "Exact agent token counts unavailable; zero fields are placeholders, not a zero-cost claim.",
+  "source_hashes": {
+    "AGENTS.md": "b2fcf4ed6152f330e90f1148a8ac4f5471466aab9122b9d051507f96b20e7a1f",
+    "README.md": "16b2b82f336862acc3f982128ded4eafaa42403c1d1fbc7a328ee56eda4d9996",
+    "docs/HANDOFF.md": "b8fc29bf85755735e0da3251486867ea58d213bf605b0f29037a1a64321a4749",
+    "docs/content-and-decisions.md": "57571d3302ce7307a9c4c168b4f84fbd2b0f4149de0c922bc5c33cc0efbb06c0",
+    "docs/implementation-blueprint.md": "3e1ee1f28ca18476f69a4ec1cb18ce2a83618160992e91b363a60b6b81375d8a",
+    "docs/verification.md": "35e30365d96e2499bb96fd5917db9804f21da558b62bf35b870350425644eb21",
+    "src/app/icon.svg": "463c5bf4c340c36037620f536bfe0325c39dcc8564d190e3f0f47bae56aeaffe"
+  }
+}

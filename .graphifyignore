@@ -1,0 +1,12 @@
+# Index authored source and documentation, not generated dependencies or evidence.
+node_modules/
+.next/
+.git/
+.vercel/
+output/
+graphify-out/
+.playwright-cli/
+public/resume/
+package-lock.json
+*.tsbuildinfo
+.env*

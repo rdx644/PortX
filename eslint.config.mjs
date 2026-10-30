@@ -4,5 +4,5 @@ import nextTs from 'eslint-config-next/typescript';
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores(['.next/**', 'output/**', 'next-env.d.ts']),
+  globalIgnores(['.next/**', 'output/**', 'graphify-out/**', 'next-env.d.ts']),
 ]);

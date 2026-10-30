@@ -2,6 +2,10 @@
 
 A Next.js App Router portfolio built from `docs/implementation-blueprint.md`, the owner's résumé, and public repositories at [github.com/rdx644](https://github.com/rdx644).
 
+## Future changes and project context
+
+Start with [the handoff](docs/HANDOFF.md) and [repository instructions](AGENTS.md). The [graph context](graphify-out/CONTEXT.md), [interactive map](graphify-out/graph.html), and [audit report](graphify-out/GRAPH_REPORT.md) preserve architecture and decision context. Run `python scripts/refresh_graph.py --check` to check freshness, or `python scripts/refresh_graph.py` after code changes. Documentation semantic updates use the graphify skill. Source files remain authoritative.
+
 ## Run locally
 
 Requires Node.js 22.13+ and npm.
