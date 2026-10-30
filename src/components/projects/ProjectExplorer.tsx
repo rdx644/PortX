@@ -2,7 +2,8 @@
 
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import { useInView } from 'motion/react';
 import { projects } from '@/data/projects';
 import { OptionalEffectBoundary } from '@/components/ui/OptionalEffectBoundary';
 import { useMotionSettings } from '@/components/ui/MotionPreferences';
@@ -10,7 +11,7 @@ import { Arrow } from '@/components/ui/Arrow';
 
 const InfiniteMenu = dynamic(() => import('@/components/react-bits/InfiniteMenu'), {
   ssr: false,
-  loading: () => <p className="explorer-loading">Opening the project globe…</p>,
+  loading: () => <ProjectLinks />,
 });
 const items = projects.map((project) => ({
   image: `/projects/tiles/${project.slug}.svg`,
@@ -32,16 +33,23 @@ function ProjectLinks() {
   );
 }
 export function ProjectExplorer() {
-  const [open, setOpen] = useState(false);
+  const root = useRef<HTMLDetailsElement>(null);
+  const nearby = useInView(root, { once: true, margin: '250px' });
+  const [open, setOpen] = useState(true);
   const [unavailable, setUnavailable] = useState(false);
   const { stopped } = useMotionSettings();
-  const interactive = open && !stopped && !unavailable;
+  const interactive = open && nearby && !stopped && !unavailable;
   return (
-    <details className="project-explorer" onToggle={(event) => setOpen(event.currentTarget.open)}>
+    <details
+      ref={root}
+      open={open}
+      className="project-explorer"
+      onToggle={(event) => setOpen(event.currentTarget.open)}
+    >
       <summary>
         <span>
-          <span className="mono">ANOTHER ANGLE ON THE WORK</span>
-          <strong>Explore the project globe</strong>
+          <span className="mono">SIX SELECTED PROJECTS</span>
+          <strong>Explore my projects</strong>
         </span>
         <span className="explorer-toggle" aria-hidden="true">
           ↗

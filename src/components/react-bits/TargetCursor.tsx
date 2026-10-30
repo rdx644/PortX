@@ -30,7 +30,9 @@ export function TargetCursor() {
       if (event.pointerType !== 'mouse' || !fine.matches) return hide();
       const element =
         event.target instanceof Element
-          ? event.target.closest<HTMLElement>('#work .project h3 a, #work .project-actions a')
+          ? event.target.closest<HTMLElement>(
+              '#work .infinite-menu__action, #work .explorer-fallback a',
+            )
           : null;
       if (!element) return hide();
       if (element !== target) {
