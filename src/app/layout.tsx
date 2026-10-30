@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { ScrollReveals } from '@/components/ui/ScrollReveals';
 import { Navigation } from '@/components/navigation/Navigation';
 import { Footer } from '@/components/sections/Contact';
 import { siteUrl } from '@/lib/site';
@@ -11,10 +12,10 @@ const geist = localFont({
   weight: '400',
 });
 const geistMedium = localFont({
-  src: '../../node_modules/@fontsource/geist/files/geist-latin-500-normal.woff2',
+  src: '../../node_modules/@fontsource/geist/files/geist-latin-900-normal.woff2',
   variable: '--font-display',
   display: 'swap',
-  weight: '500',
+  weight: '900',
 });
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -51,6 +52,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#main">
           Skip to content
         </a>
+        <ScrollReveals />
         <Navigation />
         {children}
         <Footer />

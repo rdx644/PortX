@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { RollLabel } from '@/components/ui/RollLabel';
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { profile } from '@/data/profile';
@@ -71,7 +72,7 @@ export function Navigation() {
               aria-current={pathname === '/' && active === id ? 'location' : undefined}
               onClick={() => setOpen(false)}
             >
-              {label}
+              <RollLabel>{label}</RollLabel>
             </Link>
           ))}
           <a className="nav-resume" href={profile.resume} download>

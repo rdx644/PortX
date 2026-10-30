@@ -1,0 +1,357 @@
+/* Hero: name-first type and the React Bits motion playground. */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr);
+  column-gap: clamp(24px, 4vw, 64px);
+  padding-top: clamp(48px, 6vw, 88px);
+}
+.hero-copy {
+  min-width: 0;
+}
+.hero .eyebrow {
+  font-size: 10px;
+  margin-bottom: 28px;
+  gap: 10px;
+}
+.hero-edition {
+  margin-left: auto;
+  padding-right: 12px;
+  color: var(--muted);
+}
+.hero .hero-name {
+  font-size: clamp(68px, 8.5vw, 142px);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.91;
+  letter-spacing: -0.075em;
+}
+.name-line {
+  display: block;
+  white-space: nowrap;
+}
+.name-line:last-child {
+  color: var(--accent);
+  margin-top: 0.06em;
+}
+.name-letter {
+  display: inline-block;
+  animation: letter-arrive 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--letter) * 35ms);
+}
+.name-period {
+  color: var(--foreground);
+}
+@keyframes letter-arrive {
+  from {
+    transform: translateY(30px) rotateX(-60deg);
+  }
+  to {
+    transform: none;
+  }
+}
+.hero-role {
+  margin-top: 30px;
+  font-size: clamp(17px, 1.7vw, 24px);
+  font-weight: 500;
+  color: var(--foreground);
+  letter-spacing: -0.035em;
+}
+.hero-role span {
+  color: var(--muted);
+}
+.hero-description {
+  font-size: 15px;
+  line-height: 1.8;
+  max-width: 440px;
+  margin-top: 16px;
+}
+.hero-actions {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.hero-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 32px;
+  font-size: 8px;
+  letter-spacing: 0.04em;
+}
+.hero-location .status-dot {
+  margin: 0;
+}
+.hero-visual {
+  align-self: center;
+  min-width: 0;
+  border: 2px solid var(--foreground);
+  background: var(--yellow);
+  box-shadow: 7px 7px 0 var(--foreground);
+  transform: rotate(2deg);
+}
+.visual-meta,
+.visual-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 16px;
+}
+.visual-meta {
+  font-size: 8px;
+  border-bottom: 2px solid var(--foreground);
+}
+.visual-caption {
+  border-top: 2px solid var(--foreground);
+  background: var(--background);
+}
+.visual-caption .mono {
+  font-size: 7px;
+}
+.playground {
+  position: relative;
+  height: clamp(290px, 26vw, 380px);
+  background-image: radial-gradient(#19191935 0.8px, transparent 0.8px);
+  background-size: 16px 16px;
+  overflow: hidden;
+}
+.graphic-label {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  font-size: 7px;
+}
+.orbit-stamp {
+  position: absolute;
+  right: 12px;
+  top: 36px;
+  width: 124px;
+  height: 124px;
+  border: 2px solid var(--foreground);
+  border-radius: 50%;
+  background: var(--pink);
+}
+.orbit-stamp > span {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 62px;
+  line-height: 1;
+}
+.circular-text {
+  position: absolute;
+  inset: 7px;
+  font-family: var(--font-body), sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  animation: stamp-spin 28s linear infinite;
+}
+.circular-text > span {
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  white-space: pre;
+}
+.orbit-stamp:hover .circular-text {
+  animation-play-state: paused;
+}
+@keyframes stamp-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.code-sticker {
+  position: absolute;
+  left: 8%;
+  top: 30%;
+  width: 76%;
+  max-width: 310px;
+  background: var(--background);
+  border: 2px solid var(--foreground);
+  box-shadow: 6px 6px 0 var(--foreground);
+  rotate: -8deg;
+}
+.sticker-chrome {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 9px 12px;
+  border-bottom: 2px solid var(--foreground);
+}
+.sticker-chrome > span:not(.mono) {
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--foreground);
+  border-radius: 50%;
+}
+.sticker-chrome > span:first-child {
+  background: var(--pink);
+}
+.sticker-chrome > span:nth-child(2) {
+  background: var(--yellow);
+}
+.sticker-chrome > span:nth-child(3) {
+  background: var(--accent);
+}
+.sticker-chrome .mono {
+  margin-left: auto;
+  font-size: 8px;
+}
+.sticker-code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 15px;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+.sticker-code em {
+  font-style: normal;
+  color: var(--accent);
+}
+.code-bracket {
+  font-family: var(--font-body), sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  color: var(--accent);
+}
+.sticker-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-top: 2px solid var(--foreground);
+  font-size: 7px;
+}
+.graphic-star {
+  position: absolute;
+  width: 84px;
+  height: 84px;
+  left: 10px;
+  bottom: 18px;
+  fill: var(--accent);
+  stroke: var(--foreground);
+  stroke-width: 2;
+  animation: star-arrive 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes star-arrive {
+  from {
+    transform: scale(0.5) rotate(-100deg);
+  }
+  to {
+    transform: rotate(12deg);
+  }
+}
+.cloud-sticker {
+  position: absolute;
+  bottom: 35px;
+  right: 14px;
+  background: var(--blue-light);
+  border: 2px solid var(--foreground);
+  padding: 10px 14px;
+  font-size: 9px;
+  rotate: 7deg;
+  box-shadow: 3px 3px 0 var(--foreground);
+}
+.graphic-coordinate {
+  position: absolute;
+  bottom: 8px;
+  right: 14px;
+  font-size: 6px;
+}
+.motion-toggle {
+  background: var(--background);
+  border: 1px solid var(--foreground);
+  box-shadow: 2px 2px 0 var(--foreground);
+  min-height: 36px;
+  padding: 8px;
+  font-size: 7px;
+  white-space: nowrap;
+}
+.motion-toggle:hover {
+  background: var(--yellow);
+}
+.motion-toggle:disabled {
+  cursor: default;
+  background: var(--surface);
+}
+[data-motion='paused'] .circular-text {
+  animation-play-state: paused;
+}
+.velocity-strip {
+  grid-column: 1/-1;
+  min-width: 0;
+  overflow: hidden;
+  background: var(--accent);
+  color: var(--background);
+  border: 2px solid var(--foreground);
+  box-shadow: 5px 5px 0 var(--foreground);
+  margin-top: 64px;
+  padding: 16px 0;
+}
+.velocity-track {
+  display: flex;
+  width: max-content;
+  white-space: nowrap;
+  font-family: var(--font-display), sans-serif;
+  font-size: clamp(18px, 2.2vw, 32px);
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+}
+.velocity-track > span {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+.velocity-track b {
+  color: var(--yellow);
+  margin-inline: 24px;
+  font-size: 1.1em;
+}
+.hero-bottom {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 8px;
+  padding-block: 25px;
+  border-bottom: 2px solid var(--foreground);
+  color: var(--muted);
+}
+.hero-bottom a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--foreground);
+}
+.hero-bottom a span {
+  font-size: 21px;
+}
+/* Rolling labels borrow the reference site's playful typographic interaction. */
+.roll-label {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.roll-label > span {
+  display: block;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.roll-label > span:last-child {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+}
+a:hover .roll-label > span,
+a:focus-visible .roll-label > span {
+  transform: translateY(-100%);
+}

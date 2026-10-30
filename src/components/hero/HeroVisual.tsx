@@ -1,81 +1,101 @@
 'use client';
-import dynamic from 'next/dynamic';
-import { Component, useEffect, useState, type ReactNode } from 'react';
-import { NetworkFallback } from './NetworkFallback';
-const Scene = dynamic(() => import('@/components/three/HeroScene'), {
-  ssr: false,
-  loading: () => <NetworkFallback />,
-});
-class SceneBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
-  state = { failed: false };
-  static getDerivedStateFromError() {
-    return { failed: true };
-  }
-  render() {
-    return this.state.failed ? <NetworkFallback /> : this.props.children;
-  }
-}
+
+import { useRef, useState } from 'react';
+import { motion, useInView, useSpring } from 'motion/react';
+import { useReducedMotionPreference } from '@/lib/use-reduced-motion';
+import { CircularText } from '@/components/react-bits/CircularText';
+import { ScrollVelocity } from '@/components/react-bits/ScrollVelocity';
+
 export function HeroVisual() {
-  const [enabled, setEnabled] = useState(false);
-  const [angle, setAngle] = useState(0);
-  useEffect(() => {
-    const media = window.matchMedia(
-      '(min-width: 900px) and (prefers-reduced-motion: no-preference)',
-    );
-    const check = () => {
-      const canvas = document.createElement('canvas');
-      const context = canvas.getContext('webgl2');
-      const connection = navigator as Navigator & {
-        connection?: { saveData?: boolean };
-        deviceMemory?: number;
-      };
-      setEnabled(
-        Boolean(
-          media.matches &&
-          context &&
-          !connection.connection?.saveData &&
-          (connection.deviceMemory ?? 8) >= 4,
-        ),
-      );
-      context?.getExtension('WEBGL_lose_context')?.loseContext();
-    };
-    check();
-    media.addEventListener('change', check);
-    return () => media.removeEventListener('change', check);
-  }, []);
+  const root = useRef<HTMLDivElement>(null);
+  const visible = useInView(root);
+  const reduced = useReducedMotionPreference();
+  const [paused, setPaused] = useState(false);
+  // A static first render also keeps reduced-motion hydration free of an initial spin.
+  const stopped = reduced || paused;
+  const x = useSpring(0, { stiffness: 160, damping: 18 });
+  const y = useSpring(0, { stiffness: 160, damping: 18 });
   return (
-    <div className="hero-visual">
-      <div className="visual-meta mono">
-        <span>FIG. 01 — CONNECTED SYSTEMS</span>
-        <span>XYZ / 003</span>
-      </div>
+    <>
       <div
-        className="scene-frame"
-        role="img"
-        aria-label="Geometric network of connected cubes representing software infrastructure"
+        ref={root}
+        className="hero-visual"
+        data-motion={stopped || !visible ? 'paused' : 'playing'}
       >
-        {enabled ? (
-          <SceneBoundary>
-            <Scene angle={angle} />
-          </SceneBoundary>
-        ) : (
-          <NetworkFallback />
-        )}
-      </div>
-      <div className="visual-caption">
-        <span className="mono">
-          INDEPENDENT PARTS.
-          <br />
-          INTELLIGENT CONNECTIONS.
-        </span>
-        {enabled ? (
-          <button className="scene-control mono" onClick={() => setAngle((v) => v + Math.PI / 4)}>
-            ROTATE ↻
+        <div className="visual-meta mono">
+          <span>IDEAS → WORKING SYSTEMS</span>
+          <span>01 / SP</span>
+        </div>
+        <div
+          className="playground"
+          onPointerMove={(event) => {
+            if (stopped || event.pointerType !== 'mouse') return;
+            const rect = event.currentTarget.getBoundingClientRect();
+            x.set((event.clientX - rect.left - rect.width / 2) / 18);
+            y.set((event.clientY - rect.top - rect.height / 2) / 18);
+          }}
+          onPointerLeave={() => {
+            x.set(0);
+            y.set(0);
+          }}
+        >
+          <span className="graphic-label mono">A LITTLE CURIOUS. ALWAYS BUILDING.</span>
+          <div className="orbit-stamp">
+            <CircularText text="CURIOUS MIND • INTENTIONAL CODE • " />
+            <span>↗</span>
+          </div>
+          <motion.div
+            className="code-sticker"
+            style={{ x: stopped ? 0 : x, y: stopped ? 0 : y }}
+            aria-hidden="true"
+          >
+            <div className="sticker-chrome">
+              <span />
+              <span />
+              <span />
+              <span className="mono">build.ts</span>
+            </div>
+            <div className="sticker-code">
+              <span className="code-bracket">{'{'}</span>
+              <span>
+                think.
+                <br />
+                build.
+                <br />
+                <em>iterate.</em>
+              </span>
+              <span className="code-bracket">{'}'}</span>
+            </div>
+            <div className="sticker-footer mono">
+              <span>IDEA IN. IMPACT OUT.</span>
+              <span>↗</span>
+            </div>
+          </motion.div>
+          <svg className="graphic-star" viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M50 2 60 30 85 15 70 40 98 50 70 60 85 85 60 70 50 98 40 70 15 85 30 60 2 50 30 40 15 15 40 30Z" />
+          </svg>
+          <span className="cloud-sticker mono" aria-hidden="true">
+            ☁ CLOUD THINKER
+          </span>
+          <span className="graphic-coordinate mono">EXPLORE. CONNECT. CREATE.</span>
+        </div>
+        <div className="visual-caption">
+          <span className="mono">
+            SMALL DETAILS.
+            <br />
+            CONSIDERED CONNECTIONS.
+          </span>
+          <button
+            className="motion-toggle mono"
+            disabled={reduced === true}
+            aria-pressed={paused || reduced === true}
+            onClick={() => setPaused(!paused)}
+          >
+            {reduced ? 'REDUCED MOTION' : paused ? 'PLAY MOTION ↗' : 'PAUSE MOTION Ⅱ'}
           </button>
-        ) : (
-          <span className="mono muted">SYSTEM STUDY 01</span>
-        )}
+        </div>
       </div>
-    </div>
+      <ScrollVelocity paused={stopped} />
+    </>
   );
 }

@@ -8,42 +8,46 @@ export default function Image() {
       style={{
         width: '100%',
         height: '100%',
-        background: '#f5f5f0',
-        color: '#171918',
+        background: '#faf7ed',
+        color: '#191919',
         display: 'flex',
         flexDirection: 'column',
-        padding: '65px 75px',
+        padding: '50px 65px',
+        border: '8px solid #191919',
         fontFamily: 'sans-serif',
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 20 }}>
-        <span>SP.</span>
-        <span>SHUBHAM PUTITUNDI</span>
+        <span style={{ background: '#f9d648', border: '2px solid #191919', padding: '8px 12px' }}>
+          SP.
+        </span>
+        <span>SOFTWARE · CLOUD · INTELLIGENT SYSTEMS</span>
       </div>
       <div
         style={{
           display: 'flex',
           flexDirection: 'column',
-          marginTop: 90,
-          fontSize: 88,
+          marginTop: 65,
+          fontSize: 102,
+          fontWeight: 900,
           letterSpacing: -5,
           lineHeight: 1.05,
         }}
       >
-        <span>Software engineer.</span>
-        <span style={{ color: '#315cdb' }}>Cloud thinker.</span>
+        <span>SHUBHAM</span>
+        <span style={{ color: '#244bd7' }}>PUTITUNDI.</span>
       </div>
       <div
         style={{
           display: 'flex',
-          marginTop: 65,
-          borderTop: '1px solid #dedfd8',
+          marginTop: 40,
+          borderTop: '3px solid #191919',
           paddingTop: 25,
           fontSize: 18,
           color: '#60645e',
         }}
       >
-        SOFTWARE · CLOUD · INTELLIGENT SYSTEMS
+        Software engineer. Cloud thinker.
       </div>
     </div>,
     size,
