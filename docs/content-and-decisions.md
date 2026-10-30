@@ -16,19 +16,27 @@ CyberShield uses synthetic datasets and simulated events. The disease-risk case 
 
 The two demo links come from the owner's plan and repository references. Their deployment uptime is not guaranteed. Diagrams are explanatory portfolio illustrations, not screenshots of a running backend. No credentials from repositories are copied into the website.
 
-## Design and performance
+## Design and performance — redesign approved 2026-10-31
 
-Warm off-white, cobalt highlights, Geist typography, square technical panels, and an editorial grid follow the supplied direction. The secondary text token is slightly darker than the initial blueprint to pass contrast checks.
+The owner explicitly requested a high-grade neo-brutalist redesign inspired by https://devfest.gdgchennai.in/, larger name typography instead of a large role title, and React Bits animations in place of the cube. This direction supersedes the original blueprint’s editorial styling and sculpture. Content accuracy boundaries above remain in force.
 
-The network sculpture renders on demand and responds to pointer dragging or the keyboard-accessible Rotate button. It does not run a perpetual animation loop. Mobile, save-data, reduced-motion, low-memory, and WebGL-failure cases receive a lightweight SVG.
+Hero styling is colocated in `src/components/hero/hero.css`, imported from `src/app/globals.css`. The design contract is a cream/ink/cobalt system with yellow and pink accents, heavy locally hosted Geist display type, visible borders, square controls, and hard offset shadows. Shubham Putitundi is the homepage h1; the engineering role is supporting text. Responsive composition prioritizes the name, description, and work action before the decorative playground. Case studies, cards, diagrams, navigation, accordions, GitHub states, contact, and social preview use the same language.
 
-The contact section uses email and professional profile links. A form would add delivery credentials and abuse controls without a current requirement, so no placeholder form was added.
+Reference patterns adapted: finite staggered letter entrances, rolling link labels on hover/focus, section/card reveals on intersection, and playful geometric movement. The portfolio keeps ordinary document scrolling and immediate navigation. No reference branding, imagery, intro gate, audio, or content was copied.
 
-## React Bits review
+`src/components/ui/ScrollReveals.tsx` enhances visible SSR content using IntersectionObserver and finite Web Animations. Reduced-motion changes cancel active reveals. `src/lib/use-reduced-motion.ts` shares a live OS-preference subscription across the hero and contact because the installed Motion hook only snapshots its initial setting. The hero name also renders immediately; its entrance changes transforms rather than hiding the heading. No-JavaScript output remains usable.
 
-Reviewed https://reactbits.dev/r/AnimatedContent-TS-TW.json and https://pro.reactbits.dev/docs/mcp.
+The contact section uses email and professional profile links. No message-collection backend is present.
 
-The AnimatedContent candidate uses GSAP/ScrollTrigger and an initially invisible wrapper. It supports reduced motion, but the extra animation engine and invisible server fallback do not fit this site's constraints. It was not copied or installed. CSS handles the brief intro; Motion handles the contact interaction. Registry configuration is present, but connection verification requires a client restart. Pro registries and license keys are intentionally absent.
+## React Bits integration — 2026-10-31
+
+Reviewed the public TypeScript/CSS registry sources for CircularText, ScrollVelocity, DecryptedText, and Magnet. Integrated focused adaptations of **CircularText** and **ScrollVelocity** in `src/components/react-bits/`. CircularText retains the evenly spaced ring-letter construction with a CSS rotation. ScrollVelocity retains Motion scroll velocity, spring smoothing, and wrapped repeated text. It suspends its update callback offscreen and while paused. The ring stops offscreen; both stop for reduced motion and the visible Pause motion control. Coarse/touch pointers do not move the decorative code sticker.
+
+Sources: https://reactbits.dev/r/CircularText-TS-CSS.json and https://reactbits.dev/r/ScrollVelocity-TS-CSS.json. The copyright and current MIT + Commons Clause conditions are preserved in `docs/licenses/react-bits.md`. These are adaptations, not unmodified registry installations. No Pro components, GSAP, additional animation engine, or remote runtime requests were added.
+
+The old HeroScene and NetworkFallback modules and their exclusive Three.js/Drei/Fiber dependencies were removed; no WebGL path remains. The existing Motion dependency drives scroll and spring interactions. Decorative repeated text and glyphs are hidden from assistive technology; the name has a single accessible label.
+
+The previous AnimatedContent review remains a historical decision: it was rejected because it required GSAP and initially hid content. It is still not installed.
 
 ## External configuration still required
 

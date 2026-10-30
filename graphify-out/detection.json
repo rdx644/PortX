@@ -18,24 +18,27 @@
       "D:\\CodexProjects\\shubham-portfolio\\src\\app\\projects\\[slug]\\page.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\hero\\Hero.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\hero\\HeroVisual.tsx",
-      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\hero\\NetworkFallback.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\navigation\\Navigation.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\projects\\Architecture.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\projects\\CursorDemo.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\projects\\Projects.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\projects\\ProjectVisual.tsx",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\CircularText.tsx",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\ScrollVelocity.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\About.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\Contact.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\ContactAction.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\Experience.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\Expertise.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\GitHubActivity.tsx",
-      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\three\\HeroScene.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\Arrow.tsx",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\RollLabel.tsx",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\ScrollReveals.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\data\\profile.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\data\\projects.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\github-schema.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\site.ts",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\use-reduced-motion.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\utils.ts",
       "D:\\CodexProjects\\shubham-portfolio\\tests\\github.test.ts"
     ],
@@ -45,7 +48,8 @@
       "D:\\CodexProjects\\shubham-portfolio\\docs\\content-and-decisions.md",
       "D:\\CodexProjects\\shubham-portfolio\\docs\\HANDOFF.md",
       "D:\\CodexProjects\\shubham-portfolio\\docs\\implementation-blueprint.md",
-      "D:\\CodexProjects\\shubham-portfolio\\docs\\verification.md"
+      "D:\\CodexProjects\\shubham-portfolio\\docs\\verification.md",
+      "D:\\CodexProjects\\shubham-portfolio\\docs\\licenses\\react-bits.md"
     ],
     "paper": [],
     "image": [
@@ -53,10 +57,10 @@
     ],
     "video": []
   },
-  "total_files": 44,
-  "total_words": 15195,
+  "total_files": 48,
+  "total_words": 16800,
   "needs_graph": false,
-  "warning": "Corpus is ~15,195 words - fits in a single context window. You may not need a graph.",
+  "warning": "Corpus is ~16,800 words - fits in a single context window. You may not need a graph.",
   "skipped_sensitive": [],
   "graphifyignore_patterns": 11
 }

@@ -1,17 +1,6 @@
 {
   "nodes": [
     {
-      "id": "doc_portfolio",
-      "label": "Shubham engineering portfolio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
       "id": "doc_blueprint",
       "label": "Portfolio implementation blueprint requirements",
       "file_type": "document",
@@ -23,8 +12,43 @@
       "contributor": null
     },
     {
+      "id": "icon_monogram",
+      "label": "SP monogram favicon",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "64 by 64 SVG icon containing the visible SP initials in warm off-white."
+    },
+    {
+      "id": "icon_dark_tile",
+      "label": "Dark rounded icon tile",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "A 64 by 64 rectangle with corner radius 10 and fill #171918 forms the icon background."
+    },
+    {
+      "id": "icon_cobalt_dot",
+      "label": "Cobalt punctuation dot",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "A circle at (55,43), radius 4, uses the cobalt accent #315cdb beside the initials."
+    },
+    {
+      "id": "doc_portfolio",
+      "label": "Shubham engineering portfolio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
       "id": "doc_editorial",
-      "label": "Warm editorial visual identity",
+      "label": "Historical editorial styling superseded by approved redesign",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
       "source_location": "docs/content-and-decisions.md:21",
@@ -46,7 +70,7 @@
     },
     {
       "id": "doc_components",
-      "label": "Small typed component boundaries",
+      "label": "Small typed component boundaries and accessible responsive semantics",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:22",
@@ -101,7 +125,7 @@
     },
     {
       "id": "doc_six_cases",
-      "label": "Six engineering project case studies",
+      "label": "Six case studies: commerce, ZeroPatch, cursor, CyberShield, Wellify and Haveloc",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:28",
@@ -112,10 +136,10 @@
     },
     {
       "id": "doc_hero_network",
-      "label": "Interactive geometric network sculpture",
+      "label": "Historical cube sculpture removed at owner's request",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
+      "source_location": "docs/HANDOFF.md:30",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -123,21 +147,10 @@
     },
     {
       "id": "doc_r3f",
-      "label": "Lazy React Three Fiber scene",
+      "label": "Historical Three.js/Fiber/Drei rendering path and dependencies removed",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_on_demand",
-      "label": "On-demand rendering and limited pixel ratio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:34",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -145,10 +158,10 @@
     },
     {
       "id": "doc_svg_fallback",
-      "label": "Mobile and WebGL-failure SVG fallback",
+      "label": "Historical SVG sculpture fallback removed",
       "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -156,7 +169,7 @@
     },
     {
       "id": "doc_initial_independence",
-      "label": "Heading and actions independent of optional services",
+      "label": "Heading actions and server content usable without JavaScript or GitHub",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:30",
@@ -167,7 +180,7 @@
     },
     {
       "id": "doc_github_endpoint",
-      "label": "Server-side public GitHub endpoint",
+      "label": "Server-side public GitHub endpoint without required token",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:32",
@@ -233,7 +246,7 @@
     },
     {
       "id": "doc_contact",
-      "label": "Email contact through mailto",
+      "label": "Email contact through mailto; no message-collection backend",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "README.md:37",
@@ -244,7 +257,7 @@
     },
     {
       "id": "doc_seo",
-      "label": "Metadata sitemap robots and generated social image",
+      "label": "Metadata sitemap robots generated social image and security headers",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "README.md:38",
@@ -258,7 +271,7 @@
       "label": "Historical implementation verification at 93263aa",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:70",
+      "source_location": "docs/HANDOFF.md:77",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -266,10 +279,10 @@
     },
     {
       "id": "doc_lighthouse",
-      "label": "Historical local mobile Lighthouse: four scores of 100",
+      "label": "Historical 2026-10-30 local mobile Lighthouse: four scores of 100",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:22",
+      "source_location": "docs/verification.md:42",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -277,10 +290,10 @@
     },
     {
       "id": "doc_qa_limits",
-      "label": "Chromium-only browser evidence and dependency warning",
+      "label": "Local Chromium on Windows only; no Safari Firefox or physical-device QA",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:32",
+      "source_location": "docs/verification.md:21",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -288,7 +301,7 @@
     },
     {
       "id": "doc_canonical",
-      "label": "Canonical D: portfolio checkout",
+      "label": "Canonical checkout: D:/CodexProjects/shubham-portfolio",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:11",
@@ -299,7 +312,7 @@
     },
     {
       "id": "doc_junction",
-      "label": "C: project path is a directory junction",
+      "label": "C: project path is a local directory junction",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:12",
@@ -313,7 +326,7 @@
       "label": "C: disk-space constraint",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:66",
+      "source_location": "docs/HANDOFF.md:67",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -343,10 +356,10 @@
     },
     {
       "id": "doc_graph_context",
-      "label": "Persistent graph context and coverage inventory",
+      "label": "Persistent graph context and source/config/document/asset coverage inventory",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
+      "source_location": "docs/HANDOFF.md:99",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -354,7 +367,29 @@
     },
     {
       "id": "doc_graph_maintenance",
-      "label": "Structural refresh and semantic freshness checks",
+      "label": "Structural refresh and source-hash-based semantic freshness checks",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:101",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_publication_block",
+      "label": "Publication pending explicit approval and authenticated destination; fallback upload rejected",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_external_setup",
+      "label": "Final domain Sentry and analytics still unconfigured",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:94",
@@ -364,33 +399,11 @@
       "contributor": null
     },
     {
-      "id": "doc_publication_block",
-      "label": "Publication pending approval after rejected fallback upload",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_external_setup",
-      "label": "Domain monitoring and analytics still unconfigured",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:87",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
       "id": "doc_reactbits_decision",
-      "label": "React Bits AnimatedContent rejected after review",
+      "label": "Historical AnimatedContent rejection: GSAP requirement and initially hidden content",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:31",
+      "source_location": "docs/content-and-decisions.md:39",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -398,10 +411,10 @@
     },
     {
       "id": "doc_mcp_config",
-      "label": "Shadcn MCP configured; connection needs restart",
+      "label": "Shadcn MCP configured; connection verification needs client restart",
       "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:88",
+      "source_file": "README.md",
+      "source_location": "README.md:69",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -409,7 +422,7 @@
     },
     {
       "id": "doc_prototype_limits",
-      "label": "Project evidence boundaries: synthetic data mock portals and documented cloud design",
+      "label": "Synthetic data mock portals draft-only outputs and documented cloud design limits",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
       "source_location": "docs/content-and-decisions.md:15",
@@ -420,7 +433,7 @@
     },
     {
       "id": "doc_source_review",
-      "label": "Source files remain authoritative over the graph",
+      "label": "Source files remain authoritative over graph navigation",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:17",
@@ -430,201 +443,469 @@
       "contributor": null
     },
     {
-      "id": "icon_monogram",
-      "label": "SP monogram favicon",
-      "file_type": "image",
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
-      "description": "64 by 64 SVG icon containing the visible SP initials in warm off-white."
+      "id": "doc_neo_brutalism",
+      "label": "Approved cream/ink/cobalt neo-brutalism with yellow/pink accents borders and hard shadows",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     },
     {
-      "id": "icon_dark_tile",
-      "label": "Dark rounded icon tile",
-      "file_type": "image",
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
-      "description": "A 64 by 64 rectangle with corner radius 10 and fill #171918 forms the icon background."
+      "id": "doc_name_first",
+      "label": "Shubham Putitundi is homepage h1; role is supporting text",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     },
     {
-      "id": "icon_cobalt_dot",
-      "label": "Cobalt punctuation dot",
-      "file_type": "image",
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
-      "description": "A circle at (55,43), radius 4, uses the cobalt accent #315cdb beside the initials."
+      "id": "doc_owner_redesign",
+      "label": "Owner's 2026-10-31 redesign request supersedes blueprint design only",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_devfest_reference",
+      "label": "DevFest Chennai reference: https://devfest.gdgchennai.in/",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reference_adaptations",
+      "label": "Finite entrances rolling hover/focus labels intersection reveals and geometric movement",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reference_boundaries",
+      "label": "Ordinary scrolling immediate navigation; no copied branding imagery audio or intro gate",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_geist",
+      "label": "Locally hosted Geist body and heavy display fonts; no remote font requests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_hero_css",
+      "label": "Hero CSS colocated in src/components/hero/hero.css and imported by globals.css",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reactbits_adaptations",
+      "label": "Focused local adaptations of public React Bits CircularText and ScrollVelocity",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_circular_text",
+      "label": "CircularText: evenly spaced ring letters with CSS rotation",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_velocity",
+      "label": "ScrollVelocity: Motion velocity spring smoothing and wrapped repeated text",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_circular_registry",
+      "label": "Public CircularText registry: https://reactbits.dev/r/CircularText-TS-CSS.json",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_registry",
+      "label": "Public ScrollVelocity registry: https://reactbits.dev/r/ScrollVelocity-TS-CSS.json",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_controls",
+      "label": "Visible Pause/Play; ring and strip stop offscreen or for reduced motion",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_pointer_limits",
+      "label": "Decorative code-sticker spring does not move for coarse/touch pointers",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_live_reduced_motion",
+      "label": "Shared live OS reduced-motion subscription with static server snapshot",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_hook_issue",
+      "label": "Installed Motion reduced-motion hook snapshots only initial preference",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_reveals",
+      "label": "IntersectionObserver and finite Web Animations enhance visible SSR content",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_decorative_a11y",
+      "label": "Repeated decorative text/glyphs hidden from assistive technology; single accessible name",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_qa",
+      "label": "Current 2026-10-31 production-preview Chromium verification",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_checks",
+      "label": "Four GitHub boundary tests lint typecheck build and diff checks passed",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_responsive",
+      "label": "Seven homepage widths and six 360px case studies pass without overflow",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_keyboard",
+      "label": "Keyboard menu Escape focus accordions diagrams cursor and resume download checked",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_motion_qa",
+      "label": "Pause/Play and live reduced-motion changes pass; finite reveals cancel",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_nojs",
+      "label": "390px JavaScript-disabled content visible with named h1 links and paused ring",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_lighthouse",
+      "label": "2026-10-31 isolated local mobile Lighthouse 100/100/100/100; LCP 0.80s TBT 42ms CLS 0",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_evidence",
+      "label": "Ignored neo screenshots and lighthouse-neo-mobile.json provide local evidence",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_removed_warning",
+      "label": "Prior Three.js Clock warning no longer applies after rendering stack removal",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_credentials",
+      "label": "Resume-sourced credential names/dates and issuer links; not independently authenticated",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_source_profile",
+      "label": "Owner reference profile: https://github.com/rdx644",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_repo_sources",
+      "label": "Six public project READMEs and disease-risk source tree reviewed; artifacts not executed",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_no_remote",
+      "label": "Separate checkout has no configured Git remote; no push or publication occurred",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_resume_privacy",
+      "label": "Supplied resume downloadable; do not reproduce phone/address in graph or global index",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:85",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license",
+      "label": "React Bits MIT + Commons Clause License Condition v1.0; copyright 2026 David Haz",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_app_use",
+      "label": "React Bits use/copy/modify/distribute within applications websites or products including commercial use",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_notice",
+      "label": "Copyright and permission notices required in copies or substantial portions",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_components",
+      "label": "May not sell sublicense or redistribute components themselves alone bundled or ported",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_tools",
+      "label": "Tools and sounds may not be sold sublicensed redistributed or offered as substantially similar hosted tools",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_exports",
+      "label": "Exports usable in personal/commercial products; no standalone export sales or redistribution as packs/products",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_warranty",
+      "label": "Software provided as-is without warranty or author liability",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_next_local_docs",
+      "label": "Read installed node_modules/next/dist/docs guidance before Next.js coding",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_no_extra_engines",
+      "label": "No React Bits Pro GSAP additional animation engine or remote runtime requests added",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     }
   ],
   "edges": [
-    {
-      "source": "doc_portfolio",
-      "target": "doc_blueprint",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:3",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_homepage",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:31",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_case_template",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:31",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_components",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:33",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_editorial",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:21",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_authenticity",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:13",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_case_template",
-      "target": "doc_six_cases",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_case_template",
-      "target": "doc_projects_data",
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:52",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_projects_data",
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_profile_data",
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_hero_network",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_github_endpoint",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_contact",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_hero_network",
-      "target": "doc_r3f",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_r3f",
-      "target": "doc_on_demand",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_r3f",
-      "target": "doc_svg_fallback",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_initial_independence",
-      "target": "doc_svg_fallback",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
-      "weight": 1.0
-    },
     {
       "source": "doc_initial_independence",
       "target": "doc_github_failure",
@@ -633,306 +914,6 @@
       "confidence_score": 1.0,
       "source_file": "docs/implementation-blueprint.md",
       "source_location": "docs/implementation-blueprint.md:855",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_on_demand",
-      "target": "doc_editorial",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_zod",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:35",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_cache_timeout",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:35",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_github_failure",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_fork_exclusion",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_six_cases",
-      "target": "doc_cursor_sim",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_authenticity",
-      "target": "doc_cursor_sim",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_authenticity",
-      "target": "doc_prototype_limits",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:15",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_authenticity",
-      "target": "doc_fork_exclusion",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:13",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_projects_data",
-      "target": "doc_prototype_limits",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:52",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_seo",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:38",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_lighthouse",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:72",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_qa_limits",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:72",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_svg_fallback",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:18",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_github_failure",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:18",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_cursor_sim",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_junction",
-      "target": "doc_canonical",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:12",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_disk_constraint",
-      "target": "doc_junction",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:21",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_disk_constraint",
-      "target": "doc_runtime_cache",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:66",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_canonical",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:11",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_runtime_cache",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:13",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_qa",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:70",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_publication_block",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_external_setup",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:87",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_graph_context",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_graph_context",
-      "target": "doc_graph_maintenance",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:94",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_source_review",
-      "target": "doc_graph_maintenance",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:17",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_source_review",
-      "target": "doc_graph_context",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:18",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_reactbits_decision",
-      "target": "doc_initial_independence",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:71",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_reactbits_decision",
-      "target": "doc_mcp_config",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:88",
       "weight": 1.0
     },
     {
@@ -966,26 +947,6 @@
       "weight": 1.0
     },
     {
-      "source": "doc_publication_block",
-      "target": "doc_external_setup",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:84",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_contact",
-      "target": "doc_publication_block",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
-      "weight": 1.0
-    },
-    {
       "source": "icon_monogram",
       "target": "icon_dark_tile",
       "relation": "contains",
@@ -1004,26 +965,1052 @@
       "source_file": "src/app/icon.svg",
       "source_location": "src/app/icon.svg:1",
       "weight": 1.0
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_blueprint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_homepage",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_case_template",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_components",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:22",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_authenticity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_neo_brutalism",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_neo_brutalism",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_editorial",
+      "relation": "supersedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_hero_network",
+      "relation": "supersedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_blueprint",
+      "relation": "supersedes_design_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_authenticity",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_devfest_reference",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_neo_brutalism",
+      "target": "doc_name_first",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_neo_brutalism",
+      "target": "doc_geist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_neo_brutalism",
+      "target": "doc_hero_css",
+      "relation": "implemented_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_reference_adaptations",
+      "target": "doc_devfest_reference",
+      "relation": "adapts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_reference_adaptations",
+      "target": "doc_reference_boundaries",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "weight": 1
+    },
+    {
+      "source": "doc_reference_adaptations",
+      "target": "doc_scroll_reveals",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_reference_adaptations",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_name_first",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_reactbits_adaptations",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_six_cases",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_projects_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_projects_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_profile_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_github_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_contact",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_circular_text",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_scroll_velocity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_circular_text",
+      "target": "doc_circular_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_velocity",
+      "target": "doc_scroll_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_motion_controls",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_pointer_limits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_decorative_a11y",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_no_extra_engines",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_license",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_hook_issue",
+      "target": "doc_live_reduced_motion",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_live_reduced_motion",
+      "target": "doc_motion_controls",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_live_reduced_motion",
+      "target": "doc_scroll_reveals",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_reveals",
+      "target": "doc_initial_independence",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_decision",
+      "target": "doc_initial_independence",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:39",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_decision",
+      "target": "doc_no_extra_engines",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:39",
+      "weight": 1
+    },
+    {
+      "source": "doc_r3f",
+      "target": "doc_hero_network",
+      "relation": "historically_implemented",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_svg_fallback",
+      "target": "doc_hero_network",
+      "relation": "historically_supported",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_hero_network",
+      "relation": "replaces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_zod",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_cache_timeout",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_github_failure",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_fork_exclusion",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_initial_independence",
+      "target": "doc_github_failure",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_six_cases",
+      "target": "doc_cursor_sim",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_cursor_sim",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_prototype_limits",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_fork_exclusion",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_credentials",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:9",
+      "weight": 1
+    },
+    {
+      "source": "doc_projects_data",
+      "target": "doc_prototype_limits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1
+    },
+    {
+      "source": "doc_profile_data",
+      "target": "doc_credentials",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_source_profile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_repo_sources",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:7",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_seo",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_resume_privacy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:54",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_checks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_responsive",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_keyboard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_motion_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_nojs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_github_failure",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:14",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_evidence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_removed_warning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_motion_qa",
+      "target": "doc_live_reduced_motion",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_nojs",
+      "target": "doc_initial_independence",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_lighthouse",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_removed_warning",
+      "target": "doc_r3f",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:79",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_svg_fallback",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_github_failure",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_cursor_sim",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:31",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:79",
+      "weight": 1
+    },
+    {
+      "source": "doc_junction",
+      "target": "doc_canonical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:12",
+      "weight": 1
+    },
+    {
+      "source": "doc_disk_constraint",
+      "target": "doc_junction",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_disk_constraint",
+      "target": "doc_runtime_cache",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:67",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_canonical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:11",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_runtime_cache",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:77",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_current_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:71",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_publication_block",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:91",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_external_setup",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:94",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_graph_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:99",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_no_remote",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_graph_context",
+      "target": "doc_graph_maintenance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:101",
+      "weight": 1
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:17",
+      "weight": 1
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_context",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:18",
+      "weight": 1
+    },
+    {
+      "source": "doc_graph_context",
+      "target": "doc_resume_privacy",
+      "relation": "excludes_sensitive_text",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:99",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_mcp_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:69",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_next_local_docs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:42",
+      "weight": 1
+    },
+    {
+      "source": "doc_publication_block",
+      "target": "doc_external_setup",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:93",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_app_use",
+      "relation": "permits",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_notice",
+      "relation": "requires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_components",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_tools",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:17",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_exports",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:19",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_warranty",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:23",
+      "weight": 1
     }
   ],
   "hyperedges": [
     {
-      "id": "doc_resilient_optional_visuals",
-      "label": "Optional visuals preserve useful initial content",
-      "nodes": [
-        "doc_r3f",
-        "doc_on_demand",
-        "doc_svg_fallback",
-        "doc_initial_independence"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md"
-    },
-    {
       "id": "doc_future_session_context",
-      "label": "Durable context for future modification",
+      "label": "Durable context and freshness workflow for future modifications",
       "nodes": [
         "doc_handoff",
         "doc_graph_context",
@@ -1032,34 +2019,51 @@
       ],
       "relation": "participate_in",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "confidence_score": 1,
       "source_file": "AGENTS.md"
     },
     {
+      "id": "doc_accessible_optional_motion",
+      "label": "Decorative motion stays optional across offscreen pause OS changes and no-JavaScript output",
+      "nodes": [
+        "doc_reactbits_adaptations",
+        "doc_motion_controls",
+        "doc_live_reduced_motion",
+        "doc_scroll_reveals",
+        "doc_initial_independence"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md"
+    },
+    {
       "id": "doc_credible_project_showcase",
-      "label": "Evidence-constrained project storytelling",
+      "label": "Evidence-constrained project storytelling preserves prototype and credential limits",
       "nodes": [
         "doc_authenticity",
         "doc_projects_data",
         "doc_prototype_limits",
-        "doc_case_template"
+        "doc_case_template",
+        "doc_credentials"
       ],
       "relation": "form",
       "confidence": "INFERRED",
-      "confidence_score": 0.85,
+      "confidence_score": 0.9,
       "source_file": "README.md"
     }
   ],
-  "input_tokens": 0,
-  "output_tokens": 0,
-  "token_accounting": "Exact agent token counts unavailable; zero fields are placeholders, not a zero-cost claim.",
   "source_hashes": {
-    "AGENTS.md": "b2fcf4ed6152f330e90f1148a8ac4f5471466aab9122b9d051507f96b20e7a1f",
-    "README.md": "16b2b82f336862acc3f982128ded4eafaa42403c1d1fbc7a328ee56eda4d9996",
-    "docs/HANDOFF.md": "b8fc29bf85755735e0da3251486867ea58d213bf605b0f29037a1a64321a4749",
-    "docs/content-and-decisions.md": "57571d3302ce7307a9c4c168b4f84fbd2b0f4149de0c922bc5c33cc0efbb06c0",
+    "AGENTS.md": "f4049ce2f09ff4a3edabd10f9779fe99d397c6975a201369132a488de2d8ff4b",
+    "README.md": "76229ba76b72482923f3d5f007bbe228c16ca6404a8e0e2c89e0d20b552283c1",
+    "docs/HANDOFF.md": "4fed317c0f5a65caaff86a0bcc8e69a4b791cb0dc7dea4ad5857a4e7ad2aae7e",
+    "docs/content-and-decisions.md": "f5d53ddfb4168e1b6bd8e364148951c255e465c5936293255b29838a6cf2a546",
     "docs/implementation-blueprint.md": "3e1ee1f28ca18476f69a4ec1cb18ce2a83618160992e91b363a60b6b81375d8a",
-    "docs/verification.md": "35e30365d96e2499bb96fd5917db9804f21da558b62bf35b870350425644eb21",
-    "src/app/icon.svg": "463c5bf4c340c36037620f536bfe0325c39dcc8564d190e3f0f47bae56aeaffe"
-  }
+    "docs/verification.md": "72ba4e5e41f19815c1ffd323a4c53690fb08bc5c304a65a4d7715ee9db77a6c6",
+    "src/app/icon.svg": "463c5bf4c340c36037620f536bfe0325c39dcc8564d190e3f0f47bae56aeaffe",
+    "docs/licenses/react-bits.md": "783c9ce1a4b4a37cc719a78cbcdd7a16a0372f3b819d807fbb8c14af44914cd0"
+  },
+  "input_tokens": null,
+  "output_tokens": null,
+  "token_accounting": "Exact extraction-agent token counters unavailable; current changed-document semantics re-extracted and unchanged blueprint/icon semantics retained."
 }

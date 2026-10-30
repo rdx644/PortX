@@ -19,7 +19,7 @@ Applies only to this repository. Read `docs/HANDOFF.md` before modifying it.
 
 ## Preserve the design and truthfulness
 
-Keep the warm off-white/cobalt editorial design, typed component boundaries, accessible semantics, responsive layouts, and reduced-motion/WebGL fallbacks. Follow `docs/implementation-blueprint.md`. Never invent metrics, production adoption, direct employment, credentials, or successful external portal submissions. Keep prototype limitations visible.
+Keep the user-approved neo-brutalist design: warm cream, cobalt, yellow/pink accents, heavy name-first typography, ink borders, and hard shadows. Preserve typed component boundaries, accessible semantics, responsive layouts, and reduced-motion/static fallbacks. The 2026-10-31 redesign in `docs/content-and-decisions.md` supersedes the blueprint’s original editorial styling and cube sculpture. Never invent metrics, production adoption, direct employment, credentials, or successful external portal submissions. Keep prototype limitations visible.
 
 ## Verification and graph maintenance
 
@@ -34,3 +34,13 @@ Keep the warm off-white/cobalt editorial design, typed component boundaries, acc
 C: has little free space. Prefer the canonical D: checkout and the cache/temp paths in the handoff. Do not delete unrelated files or move other projects to make room.
 
 No external deployment or GitHub push has occurred. Prior Vercel authentication was invalid; automatic approval review rejected the fallback upload of the source and personal résumé. Publishing is pending explicit user approval and a suitable authenticated destination. This handoff is not deployment authorization.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

@@ -118,6 +118,15 @@
       "coverage": "document/configuration"
     },
     {
+      "id": "file:docs/licenses/react-bits.md",
+      "label": "docs/licenses/react-bits.md",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:1",
+      "kind": "file",
+      "coverage": "document/configuration"
+    },
+    {
       "id": "file:docs/verification.md",
       "label": "docs/verification.md",
       "file_type": "document",
@@ -325,13 +334,13 @@
       "coverage": "structural source"
     },
     {
-      "id": "file:src/components/hero/NetworkFallback.tsx",
-      "label": "src/components/hero/NetworkFallback.tsx",
-      "file_type": "code",
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:1",
+      "id": "file:src/components/hero/hero.css",
+      "label": "src/components/hero/hero.css",
+      "file_type": "document",
+      "source_file": "src/components/hero/hero.css",
+      "source_location": "src/components/hero/hero.css:1",
       "kind": "file",
-      "coverage": "structural source"
+      "coverage": "document/configuration"
     },
     {
       "id": "file:src/components/navigation/Navigation.tsx",
@@ -375,6 +384,24 @@
       "file_type": "code",
       "source_file": "src/components/projects/Projects.tsx",
       "source_location": "src/components/projects/Projects.tsx:1",
+      "kind": "file",
+      "coverage": "structural source"
+    },
+    {
+      "id": "file:src/components/react-bits/CircularText.tsx",
+      "label": "src/components/react-bits/CircularText.tsx",
+      "file_type": "code",
+      "source_file": "src/components/react-bits/CircularText.tsx",
+      "source_location": "src/components/react-bits/CircularText.tsx:1",
+      "kind": "file",
+      "coverage": "structural source"
+    },
+    {
+      "id": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "label": "src/components/react-bits/ScrollVelocity.tsx",
+      "file_type": "code",
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:1",
       "kind": "file",
       "coverage": "structural source"
     },
@@ -433,20 +460,29 @@
       "coverage": "structural source"
     },
     {
-      "id": "file:src/components/three/HeroScene.tsx",
-      "label": "src/components/three/HeroScene.tsx",
-      "file_type": "code",
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:1",
-      "kind": "file",
-      "coverage": "structural source"
-    },
-    {
       "id": "file:src/components/ui/Arrow.tsx",
       "label": "src/components/ui/Arrow.tsx",
       "file_type": "code",
       "source_file": "src/components/ui/Arrow.tsx",
       "source_location": "src/components/ui/Arrow.tsx:1",
+      "kind": "file",
+      "coverage": "structural source"
+    },
+    {
+      "id": "file:src/components/ui/RollLabel.tsx",
+      "label": "src/components/ui/RollLabel.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/RollLabel.tsx",
+      "source_location": "src/components/ui/RollLabel.tsx:1",
+      "kind": "file",
+      "coverage": "structural source"
+    },
+    {
+      "id": "file:src/components/ui/ScrollReveals.tsx",
+      "label": "src/components/ui/ScrollReveals.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:1",
       "kind": "file",
       "coverage": "structural source"
     },
@@ -483,6 +519,15 @@
       "file_type": "code",
       "source_file": "src/lib/site.ts",
       "source_location": "src/lib/site.ts:1",
+      "kind": "file",
+      "coverage": "structural source"
+    },
+    {
+      "id": "file:src/lib/use-reduced-motion.ts",
+      "label": "src/lib/use-reduced-motion.ts",
+      "file_type": "code",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:1",
       "kind": "file",
       "coverage": "structural source"
     },
@@ -662,7 +707,7 @@
       "label": "geist",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:7",
+      "source_location": "src/app/layout.tsx:8",
       "kind": "VariableDeclaration"
     },
     {
@@ -670,7 +715,7 @@
       "label": "geistMedium",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:13",
+      "source_location": "src/app/layout.tsx:14",
       "kind": "VariableDeclaration"
     },
     {
@@ -678,7 +723,7 @@
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:19",
+      "source_location": "src/app/layout.tsx:20",
       "kind": "VariableDeclaration"
     },
     {
@@ -686,7 +731,7 @@
       "label": "RootLayout",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:36",
+      "source_location": "src/app/layout.tsx:37",
       "kind": "FunctionDeclaration"
     },
     {
@@ -814,55 +859,15 @@
       "label": "Hero",
       "file_type": "code",
       "source_file": "src/components/hero/Hero.tsx",
-      "source_location": "src/components/hero/Hero.tsx:4",
+      "source_location": "src/components/hero/Hero.tsx:7",
       "kind": "FunctionDeclaration"
-    },
-    {
-      "id": "symbol:src/components/hero/HeroVisual.tsx#Scene",
-      "label": "Scene",
-      "file_type": "code",
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:5",
-      "kind": "VariableDeclaration"
-    },
-    {
-      "id": "symbol:src/components/hero/HeroVisual.tsx#SceneBoundary",
-      "label": "SceneBoundary",
-      "file_type": "code",
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:9",
-      "kind": "ClassDeclaration"
     },
     {
       "id": "symbol:src/components/hero/HeroVisual.tsx#HeroVisual",
       "label": "HeroVisual",
       "file_type": "code",
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:18",
-      "kind": "FunctionDeclaration"
-    },
-    {
-      "id": "symbol:src/components/hero/NetworkFallback.tsx#nodes",
-      "label": "nodes",
-      "file_type": "code",
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:1",
-      "kind": "VariableDeclaration"
-    },
-    {
-      "id": "symbol:src/components/hero/NetworkFallback.tsx#edges",
-      "label": "edges",
-      "file_type": "code",
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:12",
-      "kind": "VariableDeclaration"
-    },
-    {
-      "id": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
-      "label": "NetworkFallback",
-      "file_type": "code",
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:32",
+      "source_location": "src/components/hero/HeroVisual.tsx:9",
       "kind": "FunctionDeclaration"
     },
     {
@@ -870,7 +875,7 @@
       "label": "links",
       "file_type": "code",
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:7",
+      "source_location": "src/components/navigation/Navigation.tsx:8",
       "kind": "VariableDeclaration"
     },
     {
@@ -878,7 +883,7 @@
       "label": "Navigation",
       "file_type": "code",
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:13",
+      "source_location": "src/components/navigation/Navigation.tsx:14",
       "kind": "FunctionDeclaration"
     },
     {
@@ -930,6 +935,22 @@
       "kind": "FunctionDeclaration"
     },
     {
+      "id": "symbol:src/components/react-bits/CircularText.tsx#CircularText",
+      "label": "CircularText",
+      "file_type": "code",
+      "source_file": "src/components/react-bits/CircularText.tsx",
+      "source_location": "src/components/react-bits/CircularText.tsx:6",
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "id": "symbol:src/components/react-bits/ScrollVelocity.tsx#ScrollVelocity",
+      "label": "ScrollVelocity",
+      "file_type": "code",
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:20",
+      "kind": "FunctionDeclaration"
+    },
+    {
       "id": "symbol:src/components/sections/About.tsx#About",
       "label": "About",
       "file_type": "code",
@@ -958,7 +979,7 @@
       "label": "loadFeatures",
       "file_type": "code",
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:5",
+      "source_location": "src/components/sections/ContactAction.tsx:6",
       "kind": "VariableDeclaration"
     },
     {
@@ -966,7 +987,7 @@
       "label": "ContactAction",
       "file_type": "code",
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:6",
+      "source_location": "src/components/sections/ContactAction.tsx:7",
       "kind": "FunctionDeclaration"
     },
     {
@@ -994,35 +1015,27 @@
       "kind": "FunctionDeclaration"
     },
     {
-      "id": "symbol:src/components/three/HeroScene.tsx#points",
-      "label": "points",
-      "file_type": "code",
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:6",
-      "kind": "VariableDeclaration"
-    },
-    {
-      "id": "symbol:src/components/three/HeroScene.tsx#connections",
-      "label": "connections",
-      "file_type": "code",
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:21",
-      "kind": "VariableDeclaration"
-    },
-    {
-      "id": "symbol:src/components/three/HeroScene.tsx#HeroScene",
-      "label": "HeroScene",
-      "file_type": "code",
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:55",
-      "kind": "FunctionDeclaration"
-    },
-    {
       "id": "symbol:src/components/ui/Arrow.tsx#Arrow",
       "label": "Arrow",
       "file_type": "code",
       "source_file": "src/components/ui/Arrow.tsx",
       "source_location": "src/components/ui/Arrow.tsx:1",
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "id": "symbol:src/components/ui/RollLabel.tsx#RollLabel",
+      "label": "RollLabel",
+      "file_type": "code",
+      "source_file": "src/components/ui/RollLabel.tsx",
+      "source_location": "src/components/ui/RollLabel.tsx:1",
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "id": "symbol:src/components/ui/ScrollReveals.tsx#ScrollReveals",
+      "label": "ScrollReveals",
+      "file_type": "code",
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:7",
       "kind": "FunctionDeclaration"
     },
     {
@@ -1130,6 +1143,46 @@
       "kind": "VariableDeclaration"
     },
     {
+      "id": "symbol:src/lib/use-reduced-motion.ts#query",
+      "label": "query",
+      "file_type": "code",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:5",
+      "kind": "VariableDeclaration"
+    },
+    {
+      "id": "symbol:src/lib/use-reduced-motion.ts#subscribe",
+      "label": "subscribe",
+      "file_type": "code",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:6",
+      "kind": "FunctionDeclaration"
+    },
+    {
+      "id": "symbol:src/lib/use-reduced-motion.ts#snapshot",
+      "label": "snapshot",
+      "file_type": "code",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:11",
+      "kind": "VariableDeclaration"
+    },
+    {
+      "id": "symbol:src/lib/use-reduced-motion.ts#serverSnapshot",
+      "label": "serverSnapshot",
+      "file_type": "code",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:12",
+      "kind": "VariableDeclaration"
+    },
+    {
+      "id": "symbol:src/lib/use-reduced-motion.ts#useReducedMotionPreference",
+      "label": "useReducedMotionPreference",
+      "file_type": "code",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:16",
+      "kind": "FunctionDeclaration"
+    },
+    {
       "id": "symbol:src/lib/utils.ts#cn",
       "label": "cn",
       "file_type": "code",
@@ -1218,22 +1271,6 @@
       "kind": "dependency"
     },
     {
-      "id": "package:@react-three/fiber",
-      "label": "@react-three/fiber",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": null,
-      "kind": "dependency"
-    },
-    {
-      "id": "package:@react-three/drei",
-      "label": "@react-three/drei",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": null,
-      "kind": "dependency"
-    },
-    {
       "id": "package:zod",
       "label": "zod",
       "file_type": "code",
@@ -1274,91 +1311,123 @@
       "kind": "builtin"
     },
     {
-      "id": "css:--font-sans@L3",
+      "id": "css:--font-sans@L4",
       "label": "--font-sans = var(--font-body)",
       "file_type": "code",
       "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:3",
+      "source_location": "src/app/globals.css:4",
       "kind": "design token"
     },
     {
-      "id": "css:--background@L6",
-      "label": "--background = #f5f5f0",
-      "file_type": "code",
-      "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:6",
-      "kind": "design token"
-    },
-    {
-      "id": "css:--foreground@L7",
-      "label": "--foreground = #171918",
+      "id": "css:--background@L7",
+      "label": "--background = #faf7ed",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:7",
       "kind": "design token"
     },
     {
-      "id": "css:--muted@L8",
-      "label": "--muted = #60645e",
+      "id": "css:--foreground@L8",
+      "label": "--foreground = #191919",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:8",
       "kind": "design token"
     },
     {
-      "id": "css:--accent@L9",
-      "label": "--accent = #315cdb",
+      "id": "css:--muted@L9",
+      "label": "--muted = #57574f",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:9",
       "kind": "design token"
     },
     {
-      "id": "css:--border@L10",
-      "label": "--border = #dedfd8",
+      "id": "css:--accent@L10",
+      "label": "--accent = #244bd7",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:10",
       "kind": "design token"
     },
     {
-      "id": "css:--surface@L11",
-      "label": "--surface = #ecede7",
+      "id": "css:--border@L11",
+      "label": "--border = #242424",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:11",
       "kind": "design token"
     },
     {
-      "id": "css:--dark@L12",
-      "label": "--dark = #151817",
+      "id": "css:--surface@L12",
+      "label": "--surface = #eeeade",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:12",
       "kind": "design token"
     },
     {
-      "id": "css:--space@L13",
-      "label": "--space = clamp(24px, 5.5vw, 88px)",
+      "id": "css:--dark@L13",
+      "label": "--dark = #191919",
       "file_type": "code",
       "source_file": "src/app/globals.css",
       "source_location": "src/app/globals.css:13",
       "kind": "design token"
     },
     {
-      "id": "css:--space@L1353",
-      "label": "--space = 28px",
+      "id": "css:--yellow@L14",
+      "label": "--yellow = #f9d648",
       "file_type": "code",
       "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:1353",
+      "source_location": "src/app/globals.css:14",
       "kind": "design token"
     },
     {
-      "id": "css:--space@L1566",
+      "id": "css:--pink@L15",
+      "label": "--pink = #f4b9cf",
+      "file_type": "code",
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:15",
+      "kind": "design token"
+    },
+    {
+      "id": "css:--blue-light@L16",
+      "label": "--blue-light = #dbe4fa",
+      "file_type": "code",
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:16",
+      "kind": "design token"
+    },
+    {
+      "id": "css:--shadow@L17",
+      "label": "--shadow = 5px 5px 0 var(--foreground)",
+      "file_type": "code",
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:17",
+      "kind": "design token"
+    },
+    {
+      "id": "css:--space@L18",
+      "label": "--space = clamp(24px, 5.5vw, 88px)",
+      "file_type": "code",
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:18",
+      "kind": "design token"
+    },
+    {
+      "id": "css:--space@L1507",
+      "label": "--space = 28px",
+      "file_type": "code",
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:1507",
+      "kind": "design token"
+    },
+    {
+      "id": "css:--space@L1682",
       "label": "--space = 22px",
       "file_type": "code",
       "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:1566",
+      "source_location": "src/app/globals.css:1682",
       "kind": "design token"
     },
     {
@@ -1392,6 +1461,13 @@
     {
       "id": "directory:docs",
       "label": "docs",
+      "file_type": "document",
+      "source_file": "",
+      "kind": "directory"
+    },
+    {
+      "id": "directory:docs/licenses",
+      "label": "docs/licenses",
       "file_type": "document",
       "source_file": "",
       "kind": "directory"
@@ -1488,15 +1564,15 @@
       "kind": "directory"
     },
     {
-      "id": "directory:src/components/sections",
-      "label": "src/components/sections",
+      "id": "directory:src/components/react-bits",
+      "label": "src/components/react-bits",
       "file_type": "document",
       "source_file": "",
       "kind": "directory"
     },
     {
-      "id": "directory:src/components/three",
-      "label": "src/components/three",
+      "id": "directory:src/components/sections",
+      "label": "src/components/sections",
       "file_type": "document",
       "source_file": "",
       "kind": "directory"
@@ -1600,29 +1676,11 @@
       "source_location": "scripts/refresh_graph.py:1"
     },
     {
-      "id": "symbol:src/components/hero/HeroVisual.tsx#getDerivedStateFromError",
-      "label": "getDerivedStateFromError()",
+      "id": "symbol:src/components/react-bits/ScrollVelocity.tsx#update",
+      "label": "update()",
       "file_type": "code",
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:11"
-    },
-    {
-      "id": "symbol:src/components/hero/HeroVisual.tsx#check",
-      "label": "check()",
-      "file_type": "code",
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:25"
-    },
-    {
-      "id": "doc_portfolio",
-      "label": "Shubham engineering portfolio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:3",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:43"
     },
     {
       "id": "doc_blueprint",
@@ -1636,8 +1694,43 @@
       "contributor": null
     },
     {
+      "id": "icon_monogram",
+      "label": "SP monogram favicon",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "64 by 64 SVG icon containing the visible SP initials in warm off-white."
+    },
+    {
+      "id": "icon_dark_tile",
+      "label": "Dark rounded icon tile",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "A 64 by 64 rectangle with corner radius 10 and fill #171918 forms the icon background."
+    },
+    {
+      "id": "icon_cobalt_dot",
+      "label": "Cobalt punctuation dot",
+      "file_type": "image",
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "description": "A circle at (55,43), radius 4, uses the cobalt accent #315cdb beside the initials."
+    },
+    {
+      "id": "doc_portfolio",
+      "label": "Shubham engineering portfolio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
       "id": "doc_editorial",
-      "label": "Warm editorial visual identity",
+      "label": "Historical editorial styling superseded by approved redesign",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
       "source_location": "docs/content-and-decisions.md:21",
@@ -1659,7 +1752,7 @@
     },
     {
       "id": "doc_components",
-      "label": "Small typed component boundaries",
+      "label": "Small typed component boundaries and accessible responsive semantics",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:22",
@@ -1714,7 +1807,7 @@
     },
     {
       "id": "doc_six_cases",
-      "label": "Six engineering project case studies",
+      "label": "Six case studies: commerce, ZeroPatch, cursor, CyberShield, Wellify and Haveloc",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:28",
@@ -1725,10 +1818,10 @@
     },
     {
       "id": "doc_hero_network",
-      "label": "Interactive geometric network sculpture",
+      "label": "Historical cube sculpture removed at owner's request",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
+      "source_location": "docs/HANDOFF.md:30",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1736,21 +1829,10 @@
     },
     {
       "id": "doc_r3f",
-      "label": "Lazy React Three Fiber scene",
+      "label": "Historical Three.js/Fiber/Drei rendering path and dependencies removed",
       "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_on_demand",
-      "label": "On-demand rendering and limited pixel ratio",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "README.md:34",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1758,10 +1840,10 @@
     },
     {
       "id": "doc_svg_fallback",
-      "label": "Mobile and WebGL-failure SVG fallback",
+      "label": "Historical SVG sculpture fallback removed",
       "file_type": "document",
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1769,7 +1851,7 @@
     },
     {
       "id": "doc_initial_independence",
-      "label": "Heading and actions independent of optional services",
+      "label": "Heading actions and server content usable without JavaScript or GitHub",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:30",
@@ -1780,7 +1862,7 @@
     },
     {
       "id": "doc_github_endpoint",
-      "label": "Server-side public GitHub endpoint",
+      "label": "Server-side public GitHub endpoint without required token",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:32",
@@ -1846,7 +1928,7 @@
     },
     {
       "id": "doc_contact",
-      "label": "Email contact through mailto",
+      "label": "Email contact through mailto; no message-collection backend",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "README.md:37",
@@ -1857,7 +1939,7 @@
     },
     {
       "id": "doc_seo",
-      "label": "Metadata sitemap robots and generated social image",
+      "label": "Metadata sitemap robots generated social image and security headers",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "README.md:38",
@@ -1871,7 +1953,7 @@
       "label": "Historical implementation verification at 93263aa",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:70",
+      "source_location": "docs/HANDOFF.md:77",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1879,10 +1961,10 @@
     },
     {
       "id": "doc_lighthouse",
-      "label": "Historical local mobile Lighthouse: four scores of 100",
+      "label": "Historical 2026-10-30 local mobile Lighthouse: four scores of 100",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:22",
+      "source_location": "docs/verification.md:42",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1890,10 +1972,10 @@
     },
     {
       "id": "doc_qa_limits",
-      "label": "Chromium-only browser evidence and dependency warning",
+      "label": "Local Chromium on Windows only; no Safari Firefox or physical-device QA",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:32",
+      "source_location": "docs/verification.md:21",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1901,7 +1983,7 @@
     },
     {
       "id": "doc_canonical",
-      "label": "Canonical D: portfolio checkout",
+      "label": "Canonical checkout: D:/CodexProjects/shubham-portfolio",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:11",
@@ -1912,7 +1994,7 @@
     },
     {
       "id": "doc_junction",
-      "label": "C: project path is a directory junction",
+      "label": "C: project path is a local directory junction",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:12",
@@ -1926,7 +2008,7 @@
       "label": "C: disk-space constraint",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:66",
+      "source_location": "docs/HANDOFF.md:67",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1956,10 +2038,10 @@
     },
     {
       "id": "doc_graph_context",
-      "label": "Persistent graph context and coverage inventory",
+      "label": "Persistent graph context and source/config/document/asset coverage inventory",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
+      "source_location": "docs/HANDOFF.md:99",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1967,7 +2049,29 @@
     },
     {
       "id": "doc_graph_maintenance",
-      "label": "Structural refresh and semantic freshness checks",
+      "label": "Structural refresh and source-hash-based semantic freshness checks",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:101",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_publication_block",
+      "label": "Publication pending explicit approval and authenticated destination; fallback upload rejected",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_external_setup",
+      "label": "Final domain Sentry and analytics still unconfigured",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
       "source_location": "docs/HANDOFF.md:94",
@@ -1977,33 +2081,11 @@
       "contributor": null
     },
     {
-      "id": "doc_publication_block",
-      "label": "Publication pending approval after rejected fallback upload",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_external_setup",
-      "label": "Domain monitoring and analytics still unconfigured",
-      "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:87",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
       "id": "doc_reactbits_decision",
-      "label": "React Bits AnimatedContent rejected after review",
+      "label": "Historical AnimatedContent rejection: GSAP requirement and initially hidden content",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:31",
+      "source_location": "docs/content-and-decisions.md:39",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -2011,10 +2093,10 @@
     },
     {
       "id": "doc_mcp_config",
-      "label": "Shadcn MCP configured; connection needs restart",
+      "label": "Shadcn MCP configured; connection verification needs client restart",
       "file_type": "document",
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:88",
+      "source_file": "README.md",
+      "source_location": "README.md:69",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -2022,7 +2104,7 @@
     },
     {
       "id": "doc_prototype_limits",
-      "label": "Project evidence boundaries: synthetic data mock portals and documented cloud design",
+      "label": "Synthetic data mock portals draft-only outputs and documented cloud design limits",
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
       "source_location": "docs/content-and-decisions.md:15",
@@ -2033,7 +2115,7 @@
     },
     {
       "id": "doc_source_review",
-      "label": "Source files remain authoritative over the graph",
+      "label": "Source files remain authoritative over graph navigation",
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:17",
@@ -2043,28 +2125,466 @@
       "contributor": null
     },
     {
-      "id": "icon_monogram",
-      "label": "SP monogram favicon",
-      "file_type": "image",
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
-      "description": "64 by 64 SVG icon containing the visible SP initials in warm off-white."
+      "id": "doc_neo_brutalism",
+      "label": "Approved cream/ink/cobalt neo-brutalism with yellow/pink accents borders and hard shadows",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     },
     {
-      "id": "icon_dark_tile",
-      "label": "Dark rounded icon tile",
-      "file_type": "image",
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
-      "description": "A 64 by 64 rectangle with corner radius 10 and fill #171918 forms the icon background."
+      "id": "doc_name_first",
+      "label": "Shubham Putitundi is homepage h1; role is supporting text",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     },
     {
-      "id": "icon_cobalt_dot",
-      "label": "Cobalt punctuation dot",
-      "file_type": "image",
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
-      "description": "A circle at (55,43), radius 4, uses the cobalt accent #315cdb beside the initials."
+      "id": "doc_owner_redesign",
+      "label": "Owner's 2026-10-31 redesign request supersedes blueprint design only",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_devfest_reference",
+      "label": "DevFest Chennai reference: https://devfest.gdgchennai.in/",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reference_adaptations",
+      "label": "Finite entrances rolling hover/focus labels intersection reveals and geometric movement",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reference_boundaries",
+      "label": "Ordinary scrolling immediate navigation; no copied branding imagery audio or intro gate",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_geist",
+      "label": "Locally hosted Geist body and heavy display fonts; no remote font requests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "README.md:36",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_hero_css",
+      "label": "Hero CSS colocated in src/components/hero/hero.css and imported by globals.css",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_reactbits_adaptations",
+      "label": "Focused local adaptations of public React Bits CircularText and ScrollVelocity",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_circular_text",
+      "label": "CircularText: evenly spaced ring letters with CSS rotation",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_velocity",
+      "label": "ScrollVelocity: Motion velocity spring smoothing and wrapped repeated text",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_circular_registry",
+      "label": "Public CircularText registry: https://reactbits.dev/r/CircularText-TS-CSS.json",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_registry",
+      "label": "Public ScrollVelocity registry: https://reactbits.dev/r/ScrollVelocity-TS-CSS.json",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_controls",
+      "label": "Visible Pause/Play; ring and strip stop offscreen or for reduced motion",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_pointer_limits",
+      "label": "Decorative code-sticker spring does not move for coarse/touch pointers",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_live_reduced_motion",
+      "label": "Shared live OS reduced-motion subscription with static server snapshot",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_motion_hook_issue",
+      "label": "Installed Motion reduced-motion hook snapshots only initial preference",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_scroll_reveals",
+      "label": "IntersectionObserver and finite Web Animations enhance visible SSR content",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_decorative_a11y",
+      "label": "Repeated decorative text/glyphs hidden from assistive technology; single accessible name",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_qa",
+      "label": "Current 2026-10-31 production-preview Chromium verification",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:5",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_checks",
+      "label": "Four GitHub boundary tests lint typecheck build and diff checks passed",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_responsive",
+      "label": "Seven homepage widths and six 360px case studies pass without overflow",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_keyboard",
+      "label": "Keyboard menu Escape focus accordions diagrams cursor and resume download checked",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_motion_qa",
+      "label": "Pause/Play and live reduced-motion changes pass; finite reveals cancel",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_nojs",
+      "label": "390px JavaScript-disabled content visible with named h1 links and paused ring",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_lighthouse",
+      "label": "2026-10-31 isolated local mobile Lighthouse 100/100/100/100; LCP 0.80s TBT 42ms CLS 0",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_current_evidence",
+      "label": "Ignored neo screenshots and lighthouse-neo-mobile.json provide local evidence",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_removed_warning",
+      "label": "Prior Three.js Clock warning no longer applies after rendering stack removal",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_credentials",
+      "label": "Resume-sourced credential names/dates and issuer links; not independently authenticated",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_source_profile",
+      "label": "Owner reference profile: https://github.com/rdx644",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_repo_sources",
+      "label": "Six public project READMEs and disease-risk source tree reviewed; artifacts not executed",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_no_remote",
+      "label": "Separate checkout has no configured Git remote; no push or publication occurred",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_resume_privacy",
+      "label": "Supplied resume downloadable; do not reproduce phone/address in graph or global index",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:85",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license",
+      "label": "React Bits MIT + Commons Clause License Condition v1.0; copyright 2026 David Haz",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_app_use",
+      "label": "React Bits use/copy/modify/distribute within applications websites or products including commercial use",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_notice",
+      "label": "Copyright and permission notices required in copies or substantial portions",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_components",
+      "label": "May not sell sublicense or redistribute components themselves alone bundled or ported",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_tools",
+      "label": "Tools and sounds may not be sold sublicensed redistributed or offered as substantially similar hosted tools",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:17",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_exports",
+      "label": "Exports usable in personal/commercial products; no standalone export sales or redistribution as packs/products",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:19",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_license_warranty",
+      "label": "Software provided as-is without warranty or author liability",
+      "file_type": "document",
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_next_local_docs",
+      "label": "Read installed node_modules/next/dist/docs guidance before Next.js coding",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:42",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_no_extra_engines",
+      "label": "No React Bits Pro GSAP additional animation engine or remote runtime requests added",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
     },
     {
       "id": "package:@fontsource/geist",
@@ -2083,15 +2603,6 @@
       "source_location": "package.json:1",
       "kind": "dependency",
       "version": "19.2.0"
-    },
-    {
-      "id": "package:three",
-      "label": "three",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "package.json:1",
-      "kind": "dependency",
-      "version": "^0.185.0"
     },
     {
       "id": "package:@tailwindcss/postcss",
@@ -2128,15 +2639,6 @@
       "source_location": "package.json:1",
       "kind": "dependency",
       "version": "^19.0.0"
-    },
-    {
-      "id": "package:@types/three",
-      "label": "@types/three",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "package.json:1",
-      "kind": "dependency",
-      "version": "^0.183.0"
     },
     {
       "id": "package:prettier",
@@ -2345,7 +2847,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:7",
+      "source_location": "src/app/layout.tsx:8",
       "weight": 1
     },
     {
@@ -2355,7 +2857,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:13",
+      "source_location": "src/app/layout.tsx:14",
       "weight": 1
     },
     {
@@ -2365,7 +2867,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:19",
+      "source_location": "src/app/layout.tsx:20",
       "weight": 1
     },
     {
@@ -2375,7 +2877,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:36",
+      "source_location": "src/app/layout.tsx:37",
       "weight": 1
     },
     {
@@ -2535,27 +3037,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/Hero.tsx",
-      "source_location": "src/components/hero/Hero.tsx:4",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/hero/HeroVisual.tsx",
-      "target": "symbol:src/components/hero/HeroVisual.tsx#Scene",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:5",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/hero/HeroVisual.tsx",
-      "target": "symbol:src/components/hero/HeroVisual.tsx#SceneBoundary",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:9",
+      "source_location": "src/components/hero/Hero.tsx:7",
       "weight": 1
     },
     {
@@ -2565,37 +3047,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:18",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/hero/NetworkFallback.tsx",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#nodes",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:1",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/hero/NetworkFallback.tsx",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#edges",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:12",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/hero/NetworkFallback.tsx",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "src/components/hero/NetworkFallback.tsx:32",
+      "source_location": "src/components/hero/HeroVisual.tsx:9",
       "weight": 1
     },
     {
@@ -2605,7 +3057,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:7",
+      "source_location": "src/components/navigation/Navigation.tsx:8",
       "weight": 1
     },
     {
@@ -2615,7 +3067,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:13",
+      "source_location": "src/components/navigation/Navigation.tsx:14",
       "weight": 1
     },
     {
@@ -2679,6 +3131,26 @@
       "weight": 1
     },
     {
+      "source": "file:src/components/react-bits/CircularText.tsx",
+      "target": "symbol:src/components/react-bits/CircularText.tsx#CircularText",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/CircularText.tsx",
+      "source_location": "src/components/react-bits/CircularText.tsx:6",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "target": "symbol:src/components/react-bits/ScrollVelocity.tsx#ScrollVelocity",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:20",
+      "weight": 1
+    },
+    {
       "source": "file:src/components/sections/About.tsx",
       "target": "symbol:src/components/sections/About.tsx#About",
       "relation": "declares",
@@ -2715,7 +3187,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:5",
+      "source_location": "src/components/sections/ContactAction.tsx:6",
       "weight": 1
     },
     {
@@ -2725,7 +3197,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:6",
+      "source_location": "src/components/sections/ContactAction.tsx:7",
       "weight": 1
     },
     {
@@ -2759,36 +3231,6 @@
       "weight": 1
     },
     {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "symbol:src/components/three/HeroScene.tsx#points",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:6",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "symbol:src/components/three/HeroScene.tsx#connections",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:21",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "symbol:src/components/three/HeroScene.tsx#HeroScene",
-      "relation": "declares",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:55",
-      "weight": 1
-    },
-    {
       "source": "file:src/components/ui/Arrow.tsx",
       "target": "symbol:src/components/ui/Arrow.tsx#Arrow",
       "relation": "declares",
@@ -2796,6 +3238,26 @@
       "confidence_score": 1,
       "source_file": "src/components/ui/Arrow.tsx",
       "source_location": "src/components/ui/Arrow.tsx:1",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/RollLabel.tsx",
+      "target": "symbol:src/components/ui/RollLabel.tsx#RollLabel",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/ui/RollLabel.tsx",
+      "source_location": "src/components/ui/RollLabel.tsx:1",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/ui/ScrollReveals.tsx",
+      "target": "symbol:src/components/ui/ScrollReveals.tsx#ScrollReveals",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:7",
       "weight": 1
     },
     {
@@ -2926,6 +3388,56 @@
       "confidence_score": 1,
       "source_file": "src/lib/site.ts",
       "source_location": "src/lib/site.ts:1",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#query",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:5",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#subscribe",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:6",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#snapshot",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:11",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#serverSnapshot",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:12",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#useReducedMotionPreference",
+      "relation": "declares",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:16",
       "weight": 1
     },
     {
@@ -3120,7 +3632,7 @@
     },
     {
       "source": "file:src/app/layout.tsx",
-      "target": "file:src/components/navigation/Navigation.tsx",
+      "target": "file:src/components/ui/ScrollReveals.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3130,7 +3642,7 @@
     },
     {
       "source": "file:src/app/layout.tsx",
-      "target": "file:src/components/sections/Contact.tsx",
+      "target": "file:src/components/navigation/Navigation.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3140,7 +3652,7 @@
     },
     {
       "source": "file:src/app/layout.tsx",
-      "target": "file:src/lib/site.ts",
+      "target": "file:src/components/sections/Contact.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3150,12 +3662,22 @@
     },
     {
       "source": "file:src/app/layout.tsx",
-      "target": "file:src/app/globals.css",
+      "target": "file:src/lib/site.ts",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
       "source_location": "src/app/layout.tsx:6",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/layout.tsx",
+      "target": "file:src/app/globals.css",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "src/app/layout.tsx:7",
       "weight": 1
     },
     {
@@ -3165,7 +3687,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:7",
+      "source_location": "src/app/layout.tsx:8",
       "weight": 1
     },
     {
@@ -3175,7 +3697,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:13",
+      "source_location": "src/app/layout.tsx:14",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/app/layout.tsx#RootLayout",
+      "target": "symbol:src/components/ui/ScrollReveals.tsx#ScrollReveals",
+      "relation": "renders",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/layout.tsx",
+      "source_location": "src/app/layout.tsx:55",
       "weight": 1
     },
     {
@@ -3185,7 +3717,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:54",
+      "source_location": "src/app/layout.tsx:56",
       "weight": 1
     },
     {
@@ -3195,7 +3727,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/layout.tsx",
-      "source_location": "src/app/layout.tsx:56",
+      "source_location": "src/app/layout.tsx:58",
       "weight": 1
     },
     {
@@ -3550,7 +4082,7 @@
     },
     {
       "source": "file:src/components/hero/Hero.tsx",
-      "target": "file:src/components/ui/Arrow.tsx",
+      "target": "package:react",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3560,7 +4092,7 @@
     },
     {
       "source": "file:src/components/hero/Hero.tsx",
-      "target": "file:src/data/profile.ts",
+      "target": "file:src/components/ui/RollLabel.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3570,12 +4102,42 @@
     },
     {
       "source": "file:src/components/hero/Hero.tsx",
-      "target": "file:src/components/hero/HeroVisual.tsx",
+      "target": "file:src/components/ui/Arrow.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/Hero.tsx",
       "source_location": "src/components/hero/Hero.tsx:3",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/hero/Hero.tsx",
+      "target": "file:src/data/profile.ts",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/hero/Hero.tsx",
+      "source_location": "src/components/hero/Hero.tsx:4",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/hero/Hero.tsx",
+      "target": "file:src/components/hero/HeroVisual.tsx",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/hero/Hero.tsx",
+      "source_location": "src/components/hero/Hero.tsx:5",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/components/hero/Hero.tsx#Hero",
+      "target": "symbol:src/components/ui/RollLabel.tsx#RollLabel",
+      "relation": "renders",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/hero/Hero.tsx",
+      "source_location": "src/components/hero/Hero.tsx:40",
       "weight": 1
     },
     {
@@ -3585,7 +4147,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/Hero.tsx",
-      "source_location": "src/components/hero/Hero.tsx:24",
+      "source_location": "src/components/hero/Hero.tsx:41",
       "weight": 1
     },
     {
@@ -3595,17 +4157,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/Hero.tsx",
-      "source_location": "src/components/hero/Hero.tsx:35",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/hero/HeroVisual.tsx",
-      "target": "package:next",
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:2",
+      "source_location": "src/components/hero/Hero.tsx:52",
       "weight": 1
     },
     {
@@ -3620,7 +4172,7 @@
     },
     {
       "source": "file:src/components/hero/HeroVisual.tsx",
-      "target": "file:src/components/hero/NetworkFallback.tsx",
+      "target": "package:motion",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3629,9 +4181,9 @@
       "weight": 1
     },
     {
-      "source": "symbol:src/components/hero/HeroVisual.tsx#Scene",
-      "target": "package:next",
-      "relation": "calls",
+      "source": "file:src/components/hero/HeroVisual.tsx",
+      "target": "file:src/lib/use-reduced-motion.ts",
+      "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
@@ -3639,33 +4191,23 @@
       "weight": 1
     },
     {
-      "source": "symbol:src/components/hero/HeroVisual.tsx#Scene",
-      "target": "file:src/components/three/HeroScene.tsx",
-      "relation": "lazy_imports",
+      "source": "file:src/components/hero/HeroVisual.tsx",
+      "target": "file:src/components/react-bits/CircularText.tsx",
+      "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:5",
+      "source_location": "src/components/hero/HeroVisual.tsx:6",
       "weight": 1
     },
     {
-      "source": "symbol:src/components/hero/HeroVisual.tsx#Scene",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
-      "relation": "renders",
+      "source": "file:src/components/hero/HeroVisual.tsx",
+      "target": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
       "source_location": "src/components/hero/HeroVisual.tsx:7",
-      "weight": 1
-    },
-    {
-      "source": "symbol:src/components/hero/HeroVisual.tsx#SceneBoundary",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
-      "relation": "renders",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:15",
       "weight": 1
     },
     {
@@ -3675,37 +4217,47 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:19",
+      "source_location": "src/components/hero/HeroVisual.tsx:10",
       "weight": 1
     },
     {
       "source": "symbol:src/components/hero/HeroVisual.tsx#HeroVisual",
-      "target": "symbol:src/components/hero/HeroVisual.tsx#SceneBoundary",
-      "relation": "renders",
+      "target": "package:motion",
+      "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:58",
+      "source_location": "src/components/hero/HeroVisual.tsx:11",
       "weight": 1
     },
     {
       "source": "symbol:src/components/hero/HeroVisual.tsx#HeroVisual",
-      "target": "symbol:src/components/hero/HeroVisual.tsx#Scene",
-      "relation": "renders",
+      "target": "symbol:src/lib/use-reduced-motion.ts#useReducedMotionPreference",
+      "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:59",
+      "source_location": "src/components/hero/HeroVisual.tsx:12",
       "weight": 1
     },
     {
       "source": "symbol:src/components/hero/HeroVisual.tsx#HeroVisual",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
+      "target": "symbol:src/components/react-bits/CircularText.tsx#CircularText",
       "relation": "renders",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "src/components/hero/HeroVisual.tsx:62",
+      "source_location": "src/components/hero/HeroVisual.tsx:44",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/components/hero/HeroVisual.tsx#HeroVisual",
+      "target": "symbol:src/components/react-bits/ScrollVelocity.tsx#ScrollVelocity",
+      "relation": "renders",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/hero/HeroVisual.tsx",
+      "source_location": "src/components/hero/HeroVisual.tsx:98",
       "weight": 1
     },
     {
@@ -3720,7 +4272,7 @@
     },
     {
       "source": "file:src/components/navigation/Navigation.tsx",
-      "target": "package:react",
+      "target": "file:src/components/ui/RollLabel.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -3730,12 +4282,22 @@
     },
     {
       "source": "file:src/components/navigation/Navigation.tsx",
+      "target": "package:react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/navigation/Navigation.tsx",
+      "source_location": "src/components/navigation/Navigation.tsx:4",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/navigation/Navigation.tsx",
       "target": "file:src/data/profile.ts",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:5",
+      "source_location": "src/components/navigation/Navigation.tsx:6",
       "weight": 1
     },
     {
@@ -3745,7 +4307,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:6",
+      "source_location": "src/components/navigation/Navigation.tsx:7",
       "weight": 1
     },
     {
@@ -3755,7 +4317,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:14",
+      "source_location": "src/components/navigation/Navigation.tsx:15",
       "weight": 1
     },
     {
@@ -3765,7 +4327,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:18",
+      "source_location": "src/components/navigation/Navigation.tsx:19",
       "weight": 1
     },
     {
@@ -3775,7 +4337,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:49",
+      "source_location": "src/components/navigation/Navigation.tsx:50",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/components/navigation/Navigation.tsx#Navigation",
+      "target": "symbol:src/components/ui/RollLabel.tsx#RollLabel",
+      "relation": "renders",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/navigation/Navigation.tsx",
+      "source_location": "src/components/navigation/Navigation.tsx:75",
       "weight": 1
     },
     {
@@ -3785,7 +4357,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "src/components/navigation/Navigation.tsx:78",
+      "source_location": "src/components/navigation/Navigation.tsx:79",
       "weight": 1
     },
     {
@@ -3969,6 +4541,46 @@
       "weight": 1
     },
     {
+      "source": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "target": "package:react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:6",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "target": "package:motion",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:7",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/components/react-bits/ScrollVelocity.tsx#ScrollVelocity",
+      "target": "package:react",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:21",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/components/react-bits/ScrollVelocity.tsx#ScrollVelocity",
+      "target": "package:motion",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "src/components/react-bits/ScrollVelocity.tsx:23",
+      "weight": 1
+    },
+    {
       "source": "file:src/components/sections/About.tsx",
       "target": "file:src/data/profile.ts",
       "relation": "imports",
@@ -4060,7 +4672,7 @@
     },
     {
       "source": "file:src/components/sections/ContactAction.tsx",
-      "target": "file:src/components/ui/Arrow.tsx",
+      "target": "file:src/lib/use-reduced-motion.ts",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4070,12 +4682,22 @@
     },
     {
       "source": "file:src/components/sections/ContactAction.tsx",
-      "target": "file:src/data/profile.ts",
+      "target": "file:src/components/ui/Arrow.tsx",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
       "source_location": "src/components/sections/ContactAction.tsx:4",
+      "weight": 1
+    },
+    {
+      "source": "file:src/components/sections/ContactAction.tsx",
+      "target": "file:src/data/profile.ts",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/sections/ContactAction.tsx",
+      "source_location": "src/components/sections/ContactAction.tsx:5",
       "weight": 1
     },
     {
@@ -4085,17 +4707,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:5",
+      "source_location": "src/components/sections/ContactAction.tsx:6",
       "weight": 1
     },
     {
       "source": "symbol:src/components/sections/ContactAction.tsx#ContactAction",
-      "target": "package:motion",
+      "target": "symbol:src/lib/use-reduced-motion.ts#useReducedMotionPreference",
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:7",
+      "source_location": "src/components/sections/ContactAction.tsx:8",
       "weight": 1
     },
     {
@@ -4105,7 +4727,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:9",
+      "source_location": "src/components/sections/ContactAction.tsx:10",
       "weight": 1
     },
     {
@@ -4115,7 +4737,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "src/components/sections/ContactAction.tsx:18",
+      "source_location": "src/components/sections/ContactAction.tsx:19",
       "weight": 1
     },
     {
@@ -4209,83 +4831,43 @@
       "weight": 1
     },
     {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "package:@react-three/fiber",
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:2",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "package:@react-three/drei",
-      "relation": "imports",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:3",
-      "weight": 1
-    },
-    {
-      "source": "file:src/components/three/HeroScene.tsx",
+      "source": "file:src/components/ui/ScrollReveals.tsx",
       "target": "package:react",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:4",
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:3",
       "weight": 1
     },
     {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "file:src/components/hero/NetworkFallback.tsx",
+      "source": "file:src/components/ui/ScrollReveals.tsx",
+      "target": "package:next",
       "relation": "imports",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:5",
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:4",
       "weight": 1
     },
     {
-      "source": "symbol:src/components/three/HeroScene.tsx#HeroScene",
+      "source": "symbol:src/components/ui/ScrollReveals.tsx#ScrollReveals",
+      "target": "package:next",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:8",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/components/ui/ScrollReveals.tsx#ScrollReveals",
       "target": "package:react",
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:56",
-      "weight": 1
-    },
-    {
-      "source": "symbol:src/components/three/HeroScene.tsx#HeroScene",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
-      "relation": "renders",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:57",
-      "weight": 1
-    },
-    {
-      "source": "symbol:src/components/three/HeroScene.tsx#HeroScene",
-      "target": "package:@react-three/fiber",
-      "relation": "renders",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:59",
-      "weight": 1
-    },
-    {
-      "source": "symbol:src/components/three/HeroScene.tsx#HeroScene",
-      "target": "package:@react-three/drei",
-      "relation": "renders",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "src/components/three/HeroScene.tsx:80",
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "src/components/ui/ScrollReveals.tsx:9",
       "weight": 1
     },
     {
@@ -4296,6 +4878,26 @@
       "confidence_score": 1,
       "source_file": "src/lib/github-schema.ts",
       "source_location": "src/lib/github-schema.ts:1",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "package:react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:3",
+      "weight": 1
+    },
+    {
+      "source": "symbol:src/lib/use-reduced-motion.ts#useReducedMotionPreference",
+      "target": "package:react",
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "src/lib/use-reduced-motion.ts:17",
       "weight": 1
     },
     {
@@ -4390,27 +4992,17 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--font-sans@L3",
+      "target": "css:--font-sans@L4",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:3",
+      "source_location": "src/app/globals.css:4",
       "weight": 1
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--background@L6",
-      "relation": "defines_token",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:6",
-      "weight": 1
-    },
-    {
-      "source": "file:src/app/globals.css",
-      "target": "css:--foreground@L7",
+      "target": "css:--background@L7",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4420,7 +5012,7 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--muted@L8",
+      "target": "css:--foreground@L8",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4430,7 +5022,7 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--accent@L9",
+      "target": "css:--muted@L9",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4440,7 +5032,7 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--border@L10",
+      "target": "css:--accent@L10",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4450,7 +5042,7 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--surface@L11",
+      "target": "css:--border@L11",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4460,7 +5052,7 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--dark@L12",
+      "target": "css:--surface@L12",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4470,7 +5062,7 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--space@L13",
+      "target": "css:--dark@L13",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4480,22 +5072,72 @@
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--space@L1353",
+      "target": "css:--yellow@L14",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:1353",
+      "source_location": "src/app/globals.css:14",
       "weight": 1
     },
     {
       "source": "file:src/app/globals.css",
-      "target": "css:--space@L1566",
+      "target": "css:--pink@L15",
       "relation": "defines_token",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/app/globals.css",
-      "source_location": "src/app/globals.css:1566",
+      "source_location": "src/app/globals.css:15",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/globals.css",
+      "target": "css:--blue-light@L16",
+      "relation": "defines_token",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:16",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/globals.css",
+      "target": "css:--shadow@L17",
+      "relation": "defines_token",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:17",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/globals.css",
+      "target": "css:--space@L18",
+      "relation": "defines_token",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:18",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/globals.css",
+      "target": "css:--space@L1507",
+      "relation": "defines_token",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:1507",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/globals.css",
+      "target": "css:--space@L1682",
+      "relation": "defines_token",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/globals.css",
+      "source_location": "src/app/globals.css:1682",
       "weight": 1
     },
     {
@@ -4665,6 +5307,26 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/implementation-blueprint.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:docs/licenses",
+      "target": "file:docs/licenses/react-bits.md",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:docs",
+      "target": "directory:docs/licenses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
       "source_location": null,
       "weight": 1
     },
@@ -5010,11 +5672,11 @@
     },
     {
       "source": "directory:src/components/hero",
-      "target": "file:src/components/hero/NetworkFallback.tsx",
+      "target": "file:src/components/hero/hero.css",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/components/hero/NetworkFallback.tsx",
+      "source_file": "src/components/hero/hero.css",
       "source_location": null,
       "weight": 1
     },
@@ -5089,6 +5751,36 @@
       "weight": 1
     },
     {
+      "source": "directory:src/components/react-bits",
+      "target": "file:src/components/react-bits/CircularText.tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/CircularText.tsx",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:src/components",
+      "target": "directory:src/components/react-bits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/CircularText.tsx",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:src/components/react-bits",
+      "target": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": null,
+      "weight": 1
+    },
+    {
       "source": "directory:src/components/sections",
       "target": "file:src/components/sections/About.tsx",
       "relation": "contains",
@@ -5159,26 +5851,6 @@
       "weight": 1
     },
     {
-      "source": "directory:src/components/three",
-      "target": "file:src/components/three/HeroScene.tsx",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": null,
-      "weight": 1
-    },
-    {
-      "source": "directory:src/components",
-      "target": "directory:src/components/three",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": null,
-      "weight": 1
-    },
-    {
       "source": "directory:src/components/ui",
       "target": "file:src/components/ui/Arrow.tsx",
       "relation": "contains",
@@ -5195,6 +5867,26 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "src/components/ui/Arrow.tsx",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:src/components/ui",
+      "target": "file:src/components/ui/RollLabel.tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/ui/RollLabel.tsx",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:src/components/ui",
+      "target": "file:src/components/ui/ScrollReveals.tsx",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/components/ui/ScrollReveals.tsx",
       "source_location": null,
       "weight": 1
     },
@@ -5260,6 +5952,16 @@
     },
     {
       "source": "directory:src/lib",
+      "target": "file:src/lib/use-reduced-motion.ts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": null,
+      "weight": 1
+    },
+    {
+      "source": "directory:src/lib",
       "target": "file:src/lib/utils.ts",
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -5316,16 +6018,6 @@
       "confidence_score": 1,
       "source_file": "AGENTS.md",
       "source_location": "AGENTS.md:18",
-      "weight": 1
-    },
-    {
-      "source": "file:AGENTS.md",
-      "target": "file:docs/implementation-blueprint.md",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:22",
       "weight": 1
     },
     {
@@ -5410,6 +6102,16 @@
     },
     {
       "source": "file:README.md",
+      "target": "file:docs/licenses/react-bits.md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:71",
+      "weight": 1
+    },
+    {
+      "source": "file:README.md",
       "target": "file:docs/verification.md",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -5465,7 +6167,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:88",
+      "source_location": "docs/HANDOFF.md:95",
       "weight": 1
     },
     {
@@ -5495,7 +6197,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:74",
+      "source_location": "docs/HANDOFF.md:71",
       "weight": 1
     },
     {
@@ -5515,7 +6217,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:49",
+      "source_location": "docs/HANDOFF.md:50",
       "weight": 1
     },
     {
@@ -5525,7 +6227,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:94",
+      "source_location": "docs/HANDOFF.md:101",
       "weight": 1
     },
     {
@@ -5535,7 +6237,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:47",
+      "source_location": "docs/HANDOFF.md:48",
       "weight": 1
     },
     {
@@ -5555,7 +6257,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:49",
       "weight": 1
     },
     {
@@ -5565,7 +6267,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:49",
       "weight": 1
     },
     {
@@ -5595,7 +6297,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:49",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/HANDOFF.md",
+      "target": "file:src/components/hero/hero.css",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:73",
       "weight": 1
     },
     {
@@ -5615,17 +6327,27 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:47",
+      "source_location": "docs/HANDOFF.md:48",
       "weight": 1
     },
     {
       "source": "file:docs/HANDOFF.md",
-      "target": "file:src/components/three/HeroScene.tsx",
+      "target": "file:src/components/ui/RollLabel.tsx",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:45",
+      "source_location": "docs/HANDOFF.md:46",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/HANDOFF.md",
+      "target": "file:src/components/ui/ScrollReveals.tsx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:46",
       "weight": 1
     },
     {
@@ -5655,7 +6377,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:47",
+      "source_location": "docs/HANDOFF.md:48",
       "weight": 1
     },
     {
@@ -5665,7 +6387,67 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:49",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/HANDOFF.md",
+      "target": "file:src/lib/use-reduced-motion.ts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:73",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "file:docs/licenses/react-bits.md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "file:src/app/globals.css",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "file:src/components/hero/hero.css",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "file:src/components/ui/ScrollReveals.tsx",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "file:src/lib/use-reduced-motion.ts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
       "weight": 1
     },
     {
@@ -5716,6 +6498,26 @@
       "confidence_score": 1,
       "source_file": "docs/implementation-blueprint.md",
       "source_location": "docs/implementation-blueprint.md:1172",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "file:docs/licenses/react-bits.md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "file:src/lib/use-reduced-motion.ts",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
       "weight": 1
     },
     {
@@ -6109,42 +6911,12 @@
       "confidence_score": 1
     },
     {
-      "source": "file:src/components/hero/Hero.tsx",
-      "target": "symbol:src/components/hero/Hero.tsx#Hero",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/hero/Hero.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1
-    },
-    {
       "source": "file:src/components/hero/HeroVisual.tsx",
-      "target": "symbol:src/components/hero/HeroVisual.tsx#getDerivedStateFromError",
+      "target": "symbol:src/components/hero/HeroVisual.tsx#HeroVisual",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1
-    },
-    {
-      "source": "file:src/components/hero/HeroVisual.tsx",
-      "target": "symbol:src/components/hero/HeroVisual.tsx#check",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/hero/HeroVisual.tsx",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1
-    },
-    {
-      "source": "file:src/components/hero/NetworkFallback.tsx",
-      "target": "symbol:src/components/hero/NetworkFallback.tsx#NetworkFallback",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/hero/NetworkFallback.tsx",
-      "source_location": "L32",
+      "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6154,7 +6926,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/navigation/Navigation.tsx",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6185,6 +6957,26 @@
       "confidence": "EXTRACTED",
       "source_file": "src/components/projects/ProjectVisual.tsx",
       "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/components/react-bits/CircularText.tsx",
+      "target": "symbol:src/components/react-bits/CircularText.tsx#CircularText",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/react-bits/CircularText.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/components/react-bits/ScrollVelocity.tsx",
+      "target": "symbol:src/components/react-bits/ScrollVelocity.tsx#update",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "L43",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6224,7 +7016,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6234,7 +7026,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/sections/ContactAction.tsx",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6249,22 +7041,32 @@
       "confidence_score": 1
     },
     {
-      "source": "file:src/components/three/HeroScene.tsx",
-      "target": "symbol:src/components/three/HeroScene.tsx#HeroScene",
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/three/HeroScene.tsx",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1
-    },
-    {
       "source": "file:src/components/ui/Arrow.tsx",
       "target": "symbol:src/components/ui/Arrow.tsx#Arrow",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/ui/Arrow.tsx",
       "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/components/ui/RollLabel.tsx",
+      "target": "symbol:src/components/ui/RollLabel.tsx#RollLabel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/RollLabel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/components/ui/ScrollReveals.tsx",
+      "target": "symbol:src/components/ui/ScrollReveals.tsx#ScrollReveals",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ui/ScrollReveals.tsx",
+      "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6285,6 +7087,46 @@
       "confidence": "EXTRACTED",
       "source_file": "src/lib/github-schema.ts",
       "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#subscribe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#serverSnapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1
+    },
+    {
+      "source": "file:src/lib/use-reduced-motion.ts",
+      "target": "symbol:src/lib/use-reduced-motion.ts#useReducedMotionPreference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/use-reduced-motion.ts",
+      "source_location": "L16",
       "weight": 1.0,
       "confidence_score": 1
     },
@@ -6329,173 +7171,23 @@
       "weight": 1.0
     },
     {
-      "source": "doc_portfolio",
-      "target": "doc_blueprint",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:3",
+      "source": "symbol:scripts/refresh_graph.py#main",
+      "target": "symbol:src/components/react-bits/ScrollVelocity.tsx#update",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/refresh_graph.py",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
-      "source": "doc_portfolio",
-      "target": "doc_homepage",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:31",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_case_template",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:31",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_components",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:33",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_editorial",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:21",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_authenticity",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:13",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_case_template",
-      "target": "doc_six_cases",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_case_template",
-      "target": "doc_projects_data",
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:52",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_projects_data",
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_profile_data",
-      "relation": "shares_data_with",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_hero_network",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_github_endpoint",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_homepage",
-      "target": "doc_contact",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_hero_network",
-      "target": "doc_r3f",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_r3f",
-      "target": "doc_on_demand",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_r3f",
-      "target": "doc_svg_fallback",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_initial_independence",
-      "target": "doc_svg_fallback",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:30",
+      "source": "symbol:src/components/react-bits/ScrollVelocity.tsx#update",
+      "target": "symbol:src/app/api/github/route.ts#GET",
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/components/react-bits/ScrollVelocity.tsx",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -6506,306 +7198,6 @@
       "confidence_score": 1.0,
       "source_file": "docs/implementation-blueprint.md",
       "source_location": "docs/implementation-blueprint.md:855",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_on_demand",
-      "target": "doc_editorial",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_zod",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:35",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_cache_timeout",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:35",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_github_failure",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_github_endpoint",
-      "target": "doc_fork_exclusion",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_six_cases",
-      "target": "doc_cursor_sim",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_authenticity",
-      "target": "doc_cursor_sim",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:28",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_authenticity",
-      "target": "doc_prototype_limits",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:15",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_authenticity",
-      "target": "doc_fork_exclusion",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:13",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_projects_data",
-      "target": "doc_prototype_limits",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:52",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_portfolio",
-      "target": "doc_seo",
-      "relation": "implements",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:38",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_lighthouse",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:72",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_qa_limits",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:72",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_svg_fallback",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:18",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_github_failure",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:18",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_qa",
-      "target": "doc_cursor_sim",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_junction",
-      "target": "doc_canonical",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:12",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_disk_constraint",
-      "target": "doc_junction",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:21",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_disk_constraint",
-      "target": "doc_runtime_cache",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:66",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_canonical",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:11",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_runtime_cache",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:13",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_qa",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:70",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_publication_block",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_external_setup",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:87",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_handoff",
-      "target": "doc_graph_context",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_graph_context",
-      "target": "doc_graph_maintenance",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:94",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_source_review",
-      "target": "doc_graph_maintenance",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:17",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_source_review",
-      "target": "doc_graph_context",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:18",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_reactbits_decision",
-      "target": "doc_initial_independence",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "README.md:71",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_reactbits_decision",
-      "target": "doc_mcp_config",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:88",
       "weight": 1.0
     },
     {
@@ -6839,26 +7231,6 @@
       "weight": 1.0
     },
     {
-      "source": "doc_publication_block",
-      "target": "doc_external_setup",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:84",
-      "weight": 1.0
-    },
-    {
-      "source": "doc_contact",
-      "target": "doc_publication_block",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
-      "weight": 1.0
-    },
-    {
       "source": "icon_monogram",
       "target": "icon_dark_tile",
       "relation": "contains",
@@ -6879,13 +7251,1033 @@
       "weight": 1.0
     },
     {
-      "source": "file:README.md",
-      "target": "doc_portfolio",
-      "relation": "documents",
+      "source": "doc_portfolio",
+      "target": "doc_blueprint",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
       "source_location": "README.md:3",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_homepage",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_case_template",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:31",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_components",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:22",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_authenticity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_neo_brutalism",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:34",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_neo_brutalism",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_editorial",
+      "relation": "supersedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_hero_network",
+      "relation": "supersedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_blueprint",
+      "relation": "supersedes_design_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_authenticity",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_owner_redesign",
+      "target": "doc_devfest_reference",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_neo_brutalism",
+      "target": "doc_name_first",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_neo_brutalism",
+      "target": "doc_geist",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_neo_brutalism",
+      "target": "doc_hero_css",
+      "relation": "implemented_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "doc_reference_adaptations",
+      "target": "doc_devfest_reference",
+      "relation": "adapts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_reference_adaptations",
+      "target": "doc_reference_boundaries",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "weight": 1
+    },
+    {
+      "source": "doc_reference_adaptations",
+      "target": "doc_scroll_reveals",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_reference_adaptations",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_name_first",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_reactbits_adaptations",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_six_cases",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_projects_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_projects_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_profile_data",
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_github_endpoint",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_contact",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_circular_text",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_scroll_velocity",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_circular_text",
+      "target": "doc_circular_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_velocity",
+      "target": "doc_scroll_registry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_motion_controls",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_pointer_limits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_decorative_a11y",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_no_extra_engines",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_license",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_hook_issue",
+      "target": "doc_live_reduced_motion",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_live_reduced_motion",
+      "target": "doc_motion_controls",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_live_reduced_motion",
+      "target": "doc_scroll_reveals",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_reveals",
+      "target": "doc_initial_independence",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_decision",
+      "target": "doc_initial_independence",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:39",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_decision",
+      "target": "doc_no_extra_engines",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:39",
+      "weight": 1
+    },
+    {
+      "source": "doc_r3f",
+      "target": "doc_hero_network",
+      "relation": "historically_implemented",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_svg_fallback",
+      "target": "doc_hero_network",
+      "relation": "historically_supported",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
+      "weight": 1
+    },
+    {
+      "source": "doc_reactbits_adaptations",
+      "target": "doc_hero_network",
+      "relation": "replaces",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_zod",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_cache_timeout",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:35",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_github_failure",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_github_endpoint",
+      "target": "doc_fork_exclusion",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:32",
+      "weight": 1
+    },
+    {
+      "source": "doc_six_cases",
+      "target": "doc_cursor_sim",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_cursor_sim",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:28",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_prototype_limits",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_fork_exclusion",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_authenticity",
+      "target": "doc_credentials",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:9",
+      "weight": 1
+    },
+    {
+      "source": "doc_projects_data",
+      "target": "doc_prototype_limits",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1
+    },
+    {
+      "source": "doc_profile_data",
+      "target": "doc_credentials",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:52",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_source_profile",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:3",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_repo_sources",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:7",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_seo",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_resume_privacy",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:54",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_checks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_responsive",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_keyboard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_motion_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_nojs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_github_failure",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:14",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_current_evidence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_removed_warning",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_motion_qa",
+      "target": "doc_live_reduced_motion",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_nojs",
+      "target": "doc_initial_independence",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_lighthouse",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_removed_warning",
+      "target": "doc_r3f",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:79",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_svg_fallback",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_github_failure",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_cursor_sim",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:31",
+      "weight": 1
+    },
+    {
+      "source": "doc_qa",
+      "target": "doc_qa_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:79",
+      "weight": 1
+    },
+    {
+      "source": "doc_junction",
+      "target": "doc_canonical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:12",
+      "weight": 1
+    },
+    {
+      "source": "doc_disk_constraint",
+      "target": "doc_junction",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:21",
+      "weight": 1
+    },
+    {
+      "source": "doc_disk_constraint",
+      "target": "doc_runtime_cache",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:67",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_canonical",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:11",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_runtime_cache",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:13",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:77",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_current_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:71",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_publication_block",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:91",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_external_setup",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:94",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_graph_context",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:99",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_no_remote",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_graph_context",
+      "target": "doc_graph_maintenance",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:101",
+      "weight": 1
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:17",
+      "weight": 1
+    },
+    {
+      "source": "doc_source_review",
+      "target": "doc_graph_context",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:18",
+      "weight": 1
+    },
+    {
+      "source": "doc_graph_context",
+      "target": "doc_resume_privacy",
+      "relation": "excludes_sensitive_text",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:99",
+      "weight": 1
+    },
+    {
+      "source": "doc_portfolio",
+      "target": "doc_mcp_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:69",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_next_local_docs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:42",
+      "weight": 1
+    },
+    {
+      "source": "doc_publication_block",
+      "target": "doc_external_setup",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:93",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_app_use",
+      "relation": "permits",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_notice",
+      "relation": "requires",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_components",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_tools",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:17",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_exports",
+      "relation": "restricts",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:19",
+      "weight": 1
+    },
+    {
+      "source": "doc_license",
+      "target": "doc_license_warranty",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:23",
       "weight": 1
     },
     {
@@ -6896,6 +8288,46 @@
       "confidence_score": 1,
       "source_file": "docs/implementation-blueprint.md",
       "source_location": "docs/implementation-blueprint.md:11",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/icon.svg",
+      "target": "icon_monogram",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/icon.svg",
+      "target": "icon_dark_tile",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "weight": 1
+    },
+    {
+      "source": "file:src/app/icon.svg",
+      "target": "icon_cobalt_dot",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "src/app/icon.svg",
+      "source_location": "src/app/icon.svg:1",
+      "weight": 1
+    },
+    {
+      "source": "file:README.md",
+      "target": "doc_portfolio",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:3",
       "weight": 1
     },
     {
@@ -6985,37 +8417,27 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:26",
-      "weight": 1
-    },
-    {
-      "source": "file:README.md",
-      "target": "doc_r3f",
-      "relation": "documents",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
-      "weight": 1
-    },
-    {
-      "source": "file:README.md",
-      "target": "doc_on_demand",
-      "relation": "documents",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "README.md",
-      "source_location": "README.md:34",
+      "source_location": "docs/HANDOFF.md:30",
       "weight": 1
     },
     {
       "source": "file:docs/content-and-decisions.md",
-      "target": "doc_svg_fallback",
+      "target": "doc_r3f",
       "relation": "documents",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:23",
+      "source_location": "docs/content-and-decisions.md:37",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/HANDOFF.md",
+      "target": "doc_svg_fallback",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:30",
       "weight": 1
     },
     {
@@ -7115,7 +8537,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:70",
+      "source_location": "docs/HANDOFF.md:77",
       "weight": 1
     },
     {
@@ -7125,7 +8547,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:22",
+      "source_location": "docs/verification.md:42",
       "weight": 1
     },
     {
@@ -7135,7 +8557,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:32",
+      "source_location": "docs/verification.md:21",
       "weight": 1
     },
     {
@@ -7165,7 +8587,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:66",
+      "source_location": "docs/HANDOFF.md:67",
       "weight": 1
     },
     {
@@ -7195,7 +8617,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
+      "source_location": "docs/HANDOFF.md:99",
       "weight": 1
     },
     {
@@ -7205,7 +8627,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:94",
+      "source_location": "docs/HANDOFF.md:101",
       "weight": 1
     },
     {
@@ -7215,7 +8637,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:85",
+      "source_location": "docs/HANDOFF.md:91",
       "weight": 1
     },
     {
@@ -7225,7 +8647,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:87",
+      "source_location": "docs/HANDOFF.md:94",
       "weight": 1
     },
     {
@@ -7235,17 +8657,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/content-and-decisions.md",
-      "source_location": "docs/content-and-decisions.md:31",
+      "source_location": "docs/content-and-decisions.md:39",
       "weight": 1
     },
     {
-      "source": "file:docs/HANDOFF.md",
+      "source": "file:README.md",
       "target": "doc_mcp_config",
       "relation": "documents",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:88",
+      "source_file": "README.md",
+      "source_location": "README.md:69",
       "weight": 1
     },
     {
@@ -7269,58 +8691,428 @@
       "weight": 1
     },
     {
-      "source": "file:src/app/icon.svg",
-      "target": "icon_monogram",
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_neo_brutalism",
       "relation": "documents",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
       "weight": 1
     },
     {
-      "source": "file:src/app/icon.svg",
-      "target": "icon_dark_tile",
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_name_first",
       "relation": "documents",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
       "weight": 1
     },
     {
-      "source": "file:src/app/icon.svg",
-      "target": "icon_cobalt_dot",
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_owner_redesign",
       "relation": "documents",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "src/app/icon.svg",
-      "source_location": "src/app/icon.svg:1",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_devfest_reference",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:21",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_reference_adaptations",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_reference_boundaries",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:25",
+      "weight": 1
+    },
+    {
+      "source": "file:README.md",
+      "target": "doc_geist",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:36",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_hero_css",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:23",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_reactbits_adaptations",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_circular_text",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_scroll_velocity",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_circular_registry",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_scroll_registry",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_motion_controls",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_pointer_limits",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:33",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_live_reduced_motion",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:12",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_motion_hook_issue",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_scroll_reveals",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:27",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_decorative_a11y",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:37",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_qa",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:5",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_checks",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_responsive",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_keyboard",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_motion_qa",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_nojs",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:13",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_lighthouse",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:16",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_current_evidence",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:19",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/verification.md",
+      "target": "doc_removed_warning",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_credentials",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:9",
+      "weight": 1
+    },
+    {
+      "source": "file:AGENTS.md",
+      "target": "doc_source_profile",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:7",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_repo_sources",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:7",
+      "weight": 1
+    },
+    {
+      "source": "file:AGENTS.md",
+      "target": "doc_no_remote",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:10",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/HANDOFF.md",
+      "target": "doc_resume_privacy",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:85",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:1",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license_app_use",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:8",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license_notice",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:10",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license_components",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:15",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license_tools",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:17",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license_exports",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:19",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/licenses/react-bits.md",
+      "target": "doc_license_warranty",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/licenses/react-bits.md",
+      "source_location": "docs/licenses/react-bits.md:23",
+      "weight": 1
+    },
+    {
+      "source": "file:AGENTS.md",
+      "target": "doc_next_local_docs",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:42",
+      "weight": 1
+    },
+    {
+      "source": "file:docs/content-and-decisions.md",
+      "target": "doc_no_extra_engines",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:35",
       "weight": 1
     },
     {
       "source": "file:package.json",
       "target": "package:@fontsource/geist",
-      "relation": "dependencies",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "package.json",
-      "source_location": "package.json:1",
-      "weight": 1
-    },
-    {
-      "source": "file:package.json",
-      "target": "package:@react-three/drei",
-      "relation": "dependencies",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "package.json",
-      "source_location": "package.json:1",
-      "weight": 1
-    },
-    {
-      "source": "file:package.json",
-      "target": "package:@react-three/fiber",
       "relation": "dependencies",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -7390,16 +9182,6 @@
     },
     {
       "source": "file:package.json",
-      "target": "package:three",
-      "relation": "dependencies",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "package.json",
-      "source_location": "package.json:1",
-      "weight": 1
-    },
-    {
-      "source": "file:package.json",
       "target": "package:zod",
       "relation": "dependencies",
       "confidence": "EXTRACTED",
@@ -7441,16 +9223,6 @@
     {
       "source": "file:package.json",
       "target": "package:@types/react-dom",
-      "relation": "devDependencies",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "package.json",
-      "source_location": "package.json:1",
-      "weight": 1
-    },
-    {
-      "source": "file:package.json",
-      "target": "package:@types/three",
       "relation": "devDependencies",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -7511,22 +9283,8 @@
   ],
   "hyperedges": [
     {
-      "id": "doc_resilient_optional_visuals",
-      "label": "Optional visuals preserve useful initial content",
-      "nodes": [
-        "doc_r3f",
-        "doc_on_demand",
-        "doc_svg_fallback",
-        "doc_initial_independence"
-      ],
-      "relation": "form",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/HANDOFF.md"
-    },
-    {
       "id": "doc_future_session_context",
-      "label": "Durable context for future modification",
+      "label": "Durable context and freshness workflow for future modifications",
       "nodes": [
         "doc_handoff",
         "doc_graph_context",
@@ -7535,21 +9293,37 @@
       ],
       "relation": "participate_in",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "confidence_score": 1,
       "source_file": "AGENTS.md"
     },
     {
+      "id": "doc_accessible_optional_motion",
+      "label": "Decorative motion stays optional across offscreen pause OS changes and no-JavaScript output",
+      "nodes": [
+        "doc_reactbits_adaptations",
+        "doc_motion_controls",
+        "doc_live_reduced_motion",
+        "doc_scroll_reveals",
+        "doc_initial_independence"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md"
+    },
+    {
       "id": "doc_credible_project_showcase",
-      "label": "Evidence-constrained project storytelling",
+      "label": "Evidence-constrained project storytelling preserves prototype and credential limits",
       "nodes": [
         "doc_authenticity",
         "doc_projects_data",
         "doc_prototype_limits",
-        "doc_case_template"
+        "doc_case_template",
+        "doc_credentials"
       ],
       "relation": "form",
       "confidence": "INFERRED",
-      "confidence_score": 0.85,
+      "confidence_score": 0.9,
       "source_file": "README.md"
     }
   ],

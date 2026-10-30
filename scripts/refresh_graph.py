@@ -174,7 +174,7 @@ def main():
     questions=suggest_questions(graph,communities,named)
     questions=[
         {'type':'project_trace','question':'How does src/data/projects.ts feed homepage previews and generated case studies?','why':'The content model is imported by both presentation paths.'},
-        {'type':'project_trace','question':'How do the WebGL and GitHub fallbacks preserve usable homepage content?','why':'This connects graphics, data validation, and the documented initial-content requirement.'},
+        {'type':'project_trace','question':'How do reduced-motion, no-JavaScript, and GitHub fallbacks preserve usable homepage content?','why':'This connects optional motion, data validation, and the documented initial-content requirement.'},
     ]+questions[:3]
     report=generate(graph,communities,cohesion,named,gods,surprises,detection,{'input':0,'output':0},str(ROOT),suggested_questions=questions)
     report=report.replace('- Token cost: 0 input · 0 output','- Token cost: unavailable (in-session extraction-agent counters were not exposed)')
