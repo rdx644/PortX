@@ -1,11 +1,11 @@
 'use client';
 import { LazyMotion, m } from 'motion/react';
-import { useReducedMotionPreference } from '@/lib/use-reduced-motion';
+import { useMotionSettings } from '@/components/ui/MotionPreferences';
 import { Arrow } from '@/components/ui/Arrow';
 import { profile } from '@/data/profile';
 const loadFeatures = () => import('motion/react').then((module) => module.domAnimation);
 export function ContactAction() {
-  const reduce = useReducedMotionPreference();
+  const { stopped: reduce } = useMotionSettings();
   return (
     <LazyMotion features={loadFeatures}>
       <m.a

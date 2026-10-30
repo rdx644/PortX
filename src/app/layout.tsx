@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { MotionPreferences } from '@/components/ui/MotionPreferences';
+import { ClickSpark } from '@/components/react-bits/ClickSpark';
+import { TargetCursor } from '@/components/react-bits/TargetCursor';
 import { ScrollReveals } from '@/components/ui/ScrollReveals';
 import { Navigation } from '@/components/navigation/Navigation';
 import { Footer } from '@/components/sections/Contact';
@@ -52,10 +55,14 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <a className="skip-link" href="#main">
           Skip to content
         </a>
-        <ScrollReveals />
-        <Navigation />
-        {children}
-        <Footer />
+        <MotionPreferences>
+          <ClickSpark />
+          <TargetCursor />
+          <ScrollReveals />
+          <Navigation />
+          {children}
+          <Footer />
+        </MotionPreferences>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(person).replace(/</g, '\\u003c') }}

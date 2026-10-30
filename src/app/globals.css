@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @import '../components/hero/hero.css';
+@import '../components/react-bits/interactions.css';
 @theme inline {
   --font-sans: var(--font-body);
 }

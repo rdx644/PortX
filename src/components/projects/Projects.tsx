@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { projects, repositoryUrl } from '@/data/projects';
 import { Arrow } from '@/components/ui/Arrow';
+import { ProjectExplorer } from './ProjectExplorer';
 import { ProjectVisual } from './ProjectVisual';
 export function Projects() {
   return (
@@ -20,6 +21,7 @@ export function Projects() {
           The decisions behind the code.
         </p>
       </div>
+      <ProjectExplorer />
       <div className="project-grid">
         {projects.map((project, index) => (
           <article

@@ -1,18 +1,15 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { motion, useInView, useSpring } from 'motion/react';
-import { useReducedMotionPreference } from '@/lib/use-reduced-motion';
+import { useMotionSettings } from '@/components/ui/MotionPreferences';
 import { CircularText } from '@/components/react-bits/CircularText';
 import { ScrollVelocity } from '@/components/react-bits/ScrollVelocity';
 
 export function HeroVisual() {
   const root = useRef<HTMLDivElement>(null);
   const visible = useInView(root);
-  const reduced = useReducedMotionPreference();
-  const [paused, setPaused] = useState(false);
-  // A static first render also keeps reduced-motion hydration free of an initial spin.
-  const stopped = reduced || paused;
+  const { reduced, paused, stopped, setPaused } = useMotionSettings();
   const x = useSpring(0, { stiffness: 160, damping: 18 });
   const y = useSpring(0, { stiffness: 160, damping: 18 });
   return (

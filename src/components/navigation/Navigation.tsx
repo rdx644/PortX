@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { GooeyNav } from '@/components/react-bits/GooeyNav';
 import { RollLabel } from '@/components/ui/RollLabel';
 import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
@@ -65,9 +66,11 @@ export function Navigation() {
           aria-label="Primary navigation"
           className={open ? 'nav-links is-open' : 'nav-links'}
         >
+          <GooeyNav activeId={pathname === '/' ? active : ''} />
           {links.map(([id, label]) => (
             <Link
               key={id}
+              data-nav-id={id}
               href={`/#${id}`}
               aria-current={pathname === '/' && active === id ? 'location' : undefined}
               onClick={() => setOpen(false)}

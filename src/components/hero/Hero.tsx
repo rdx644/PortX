@@ -1,4 +1,4 @@
-import type { CSSProperties } from 'react';
+import { HeroName } from './HeroName';
 import { RollLabel } from '@/components/ui/RollLabel';
 import { Arrow } from '@/components/ui/Arrow';
 import { profile } from '@/data/profile';
@@ -12,22 +12,7 @@ export function Hero() {
           <span className="tiny-square" /> THE PORTFOLIO OF{' '}
           <span className="hero-edition">2026 / INDIA</span>
         </p>
-        <h1 id="hero-title" className="hero-name" aria-label="Shubham Putitundi">
-          {['Shubham', 'Putitundi'].map((word, wordIndex) => (
-            <span className="name-line" aria-hidden="true" key={word}>
-              {Array.from(word).map((letter, index) => (
-                <span
-                  className="name-letter"
-                  style={{ '--letter': index + wordIndex * 4 } as CSSProperties}
-                  key={index}
-                >
-                  {letter}
-                </span>
-              ))}
-              {wordIndex === 1 && <span className="name-period">.</span>}
-            </span>
-          ))}
-        </h1>
+        <HeroName />
         <p className="hero-role">
           Software engineer. <span>Cloud thinker.</span>
         </p>

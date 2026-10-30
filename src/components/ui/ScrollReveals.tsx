@@ -1,11 +1,13 @@
 'use client';
 
 import { useEffect } from 'react';
+import { useMotionSettings } from './MotionPreferences';
 import { usePathname } from 'next/navigation';
 
 // Progressive enhancement: server-rendered content is always visible without JavaScript.
 export function ScrollReveals() {
   const pathname = usePathname();
+  const { stopped } = useMotionSettings();
   useEffect(() => {
     const media = window.matchMedia('(prefers-reduced-motion: reduce)');
     const animations = new Set<Animation>();
@@ -14,7 +16,7 @@ export function ScrollReveals() {
       observer?.disconnect();
       animations.forEach((animation) => animation.cancel());
       animations.clear();
-      if (media.matches) return;
+      if (media.matches || stopped) return;
       observer = new IntersectionObserver(
         (entries) => {
           for (const entry of entries) {
@@ -46,6 +48,6 @@ export function ScrollReveals() {
       media.removeEventListener('change', configure);
       animations.forEach((animation) => animation.cancel());
     };
-  }, [pathname]);
+  }, [pathname, stopped]);
   return null;
 }
