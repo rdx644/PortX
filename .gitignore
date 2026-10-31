@@ -12,3 +12,5 @@ graphify-out/.graphify_*
 graphify-out/converted/
 graphify-out/cache/
 __pycache__/
+
+.netlify/
