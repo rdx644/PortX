@@ -179,6 +179,17 @@
       "contributor": null
     },
     {
+      "id": "doc_neo_brutalism",
+      "label": "Current dark neo-brutalism: charcoal off-white periwinkle slate borders yellow/pink stamps and ink shadows",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:22",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
       "id": "doc_portfolio",
       "label": "Shubham engineering portfolio",
       "file_type": "document",
@@ -227,7 +238,7 @@
       "label": "Shared statically generated case-study template",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:50",
+      "source_location": "docs/HANDOFF.md:58",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -260,7 +271,7 @@
       "label": "Six case studies: commerce, ZeroPatch, cursor, CyberShield, Wellify and Haveloc",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:50",
+      "source_location": "docs/HANDOFF.md:58",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -271,7 +282,7 @@
       "label": "Historical cube sculpture removed at owner's request",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -293,7 +304,7 @@
       "label": "Historical SVG sculpture fallback removed",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -304,7 +315,7 @@
       "label": "Static heading and compact project links survive animation readiness motion preferences graphics/chunk failure and no JavaScript",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:36",
+      "source_location": "docs/HANDOFF.md:44",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -315,7 +326,7 @@
       "label": "Server-side public GitHub endpoint without required token",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:54",
+      "source_location": "docs/HANDOFF.md:62",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -326,7 +337,7 @@
       "label": "GitHub response validation with Zod",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:37",
+      "source_location": "README.md:38",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -337,7 +348,7 @@
       "label": "Hourly cache and six-second request timeout",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:37",
+      "source_location": "README.md:38",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -348,7 +359,7 @@
       "label": "Usable GitHub network-failure state",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:54",
+      "source_location": "docs/HANDOFF.md:62",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -370,7 +381,7 @@
       "label": "Clearly labeled local cursor simulation",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:50",
+      "source_location": "docs/HANDOFF.md:58",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -381,7 +392,7 @@
       "label": "Email contact through mailto; no message-collection backend",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:39",
+      "source_location": "README.md:40",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -392,7 +403,7 @@
       "label": "Metadata sitemap robots generated social image and security headers",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:40",
+      "source_location": "README.md:41",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -403,7 +414,7 @@
       "label": "Historical implementation verification at 93263aa",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:114",
+      "source_location": "docs/HANDOFF.md:125",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -414,7 +425,7 @@
       "label": "Historical 2026-10-30 local mobile Lighthouse: four scores of 100",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:106",
+      "source_location": "docs/verification.md:122",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -425,7 +436,7 @@
       "label": "Local Chromium/Windows and emulated mobile only; no Safari Firefox physical-device field-performance or external-publication claim",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:15",
+      "source_location": "docs/verification.md:17",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -458,7 +469,7 @@
       "label": "C: disk-space constraint",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
+      "source_location": "docs/HANDOFF.md:101",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -480,7 +491,7 @@
       "label": "Persistent graph context and source/config/document/asset coverage inventory",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:136",
+      "source_location": "docs/HANDOFF.md:147",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -491,7 +502,7 @@
       "label": "Structural refresh and source-hash-based semantic freshness checks",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:138",
+      "source_location": "docs/HANDOFF.md:149",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -502,7 +513,7 @@
       "label": "Publication pending explicit approval and authenticated destination; fallback upload rejected",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:128",
+      "source_location": "docs/HANDOFF.md:139",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -513,7 +524,7 @@
       "label": "Final domain Sentry and analytics still unconfigured",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:131",
+      "source_location": "docs/HANDOFF.md:142",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -535,7 +546,7 @@
       "label": "Shadcn MCP configured; connection verification needs client restart",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:71",
+      "source_location": "README.md:72",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -547,17 +558,6 @@
       "file_type": "document",
       "source_file": "docs/content-and-decisions.md",
       "source_location": "docs/content-and-decisions.md:15",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null
-    },
-    {
-      "id": "doc_neo_brutalism",
-      "label": "Current dark neo-brutalism: charcoal off-white periwinkle slate borders yellow/pink stamps and ink shadows",
-      "file_type": "document",
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:22",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -623,7 +623,7 @@
       "label": "Locally hosted Geist body and heavy display fonts; no remote font requests",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:38",
+      "source_location": "README.md:39",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -645,7 +645,7 @@
       "label": "Local React Bits adaptations include ring strip five supplied designs and approved ScrollReveal",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "README.md:73",
+      "source_location": "README.md:74",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -763,7 +763,7 @@
     },
     {
       "id": "doc_current_qa",
-      "label": "Current dark-theme production-preview Chromium QA on feat/dark-neo-brutalist at2b224ad",
+      "label": "Current Anime.js/MCP production-preview Chromium QA on feat/animejs-interactions checkpoints cfedc9c/1ff5c6a",
       "file_type": "document",
       "source_file": "docs/verification.md",
       "source_location": "docs/verification.md:5",
@@ -774,10 +774,10 @@
     },
     {
       "id": "doc_current_checks",
-      "label": "Current strict TypeScript production build ESLint four existing tests and diff checks pass; theme adds no dependencies/suppressions",
+      "label": "Current strict TypeScript build ESLint four tests diff checks and production npm audit pass; Anime4.5.0 pinned",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:7",
+      "source_location": "docs/verification.md:8",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -785,10 +785,10 @@
     },
     {
       "id": "doc_current_responsive",
-      "label": "Current seven homepage widths and six390px case-study routes pass HTTP200 with dark backgrounds and no overflow",
+      "label": "Current seven homepage widths and six390px case routes pass HTTP200 without overflow; client next-case navigation works",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:10",
+      "source_location": "docs/verification.md:11",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -799,7 +799,7 @@
       "label": "Historical globe-first QA: selected-project action and six compact route links returned HTTP 200",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:39",
+      "source_location": "docs/verification.md:55",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -807,10 +807,10 @@
     },
     {
       "id": "doc_current_motion_qa",
-      "label": "Current forward/reverse word opacity scrub retained; Pause clears dim/blur and live reduced motion restores static reading",
+      "label": "Current Pause/live reduced motion revert scopes and styles disable Replay; reduced visits skip runtime and chunk failures remain usable",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
+      "source_location": "docs/verification.md:10",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -818,7 +818,7 @@
     },
     {
       "id": "doc_current_nojs",
-      "label": "Current390px no-JavaScript output retains dark background eight readable narrative blocks six project links and no overflow",
+      "label": "Current390px no-JavaScript output has eight readable narrative blocks six links disabled Replay and no overflow",
       "file_type": "document",
       "source_file": "docs/verification.md",
       "source_location": "docs/verification.md:12",
@@ -829,7 +829,7 @@
     },
     {
       "id": "doc_current_lighthouse",
-      "label": "Current dark-theme single local mobile Lighthouse100/100/100/100 LCP0.914s TBT66ms CLS0",
+      "label": "Current optimized Anime intent-build single local mobile Lighthouse100/100/100/100 LCP0.914s TBT59ms CLS0",
       "file_type": "document",
       "source_file": "docs/verification.md",
       "source_location": "docs/verification.md:13",
@@ -840,10 +840,10 @@
     },
     {
       "id": "doc_current_evidence",
-      "label": "Current dark hero globe About Expertise Contact menu case patch and OpenGraph screenshots under ignored output/playwright",
+      "label": "Current anime hero/skills/diagram animation frames mobile screenshots MCP guidance and lighthouse-anime-intent-mobile report",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:15",
+      "source_location": "docs/verification.md:17",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -854,7 +854,7 @@
       "label": "Prior Three.js Clock warning no longer applies after rendering stack removal",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:85",
+      "source_location": "docs/verification.md:101",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -887,7 +887,7 @@
       "label": "Supplied resume downloadable; do not reproduce phone/address in graph or global index",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:122",
+      "source_location": "docs/HANDOFF.md:133",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1019,7 +1019,7 @@
       "label": "Six original local SVG project tiles under public/projects/tiles",
       "file_type": "document",
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:40",
+      "source_location": "docs/HANDOFF.md:48",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1118,7 +1118,7 @@
       "label": "Historical supplied-design QA: initial zero canvases; name hover adds two canvases without h1 layout jump",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:50",
+      "source_location": "docs/verification.md:66",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1129,7 +1129,7 @@
       "label": "Historical supplied-design QA: blocked TechText chunk preserved h1 DOM name main content and then-present cards",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:57",
+      "source_location": "docs/verification.md:73",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1140,7 +1140,7 @@
       "label": "Historical supplied-design QA: intercepted WebGL failure and forced context loss exposed six links",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:56",
+      "source_location": "docs/verification.md:72",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1151,7 +1151,7 @@
       "label": "Historical supplied-design QA: keyboard CTA produces eight sparks removed after 550ms",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:52",
+      "source_location": "docs/verification.md:68",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1162,7 +1162,7 @@
       "label": "Historical neo-brutalist redesign checkpoint production-preview Chromium verification",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:69",
+      "source_location": "docs/verification.md:85",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1173,7 +1173,7 @@
       "label": "Historical neo-brutalist local mobile Lighthouse 100/100/100/100; LCP 0.80s TBT 42ms CLS 0",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:80",
+      "source_location": "docs/verification.md:96",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1184,7 +1184,7 @@
       "label": "Historical neo screenshots and lighthouse-neo-mobile.json under ignored output/playwright",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:83",
+      "source_location": "docs/verification.md:99",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1261,7 +1261,7 @@
       "label": "Historical supplied-design production-preview Chromium QA on feat/react-bits-interactions",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:47",
+      "source_location": "docs/verification.md:63",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1272,7 +1272,7 @@
       "label": "Historical supplied-design local mobile Lighthouse 93/100/100/100; LCP 1.21s TBT 308ms CLS 0",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:61",
+      "source_location": "docs/verification.md:77",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1283,7 +1283,7 @@
       "label": "Historical bits screenshots and lighthouse-bits-mobile.json under ignored output/playwright",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:63",
+      "source_location": "docs/verification.md:79",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1294,7 +1294,7 @@
       "label": "Historical supplied-design QA: globe drag arrow keys Enter and touch/menu checked",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:53",
+      "source_location": "docs/verification.md:69",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1305,7 +1305,7 @@
       "label": "Historical supplied-design QA: shared Pause/Play and live reduced motion disable animations canvases and brackets",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:55",
+      "source_location": "docs/verification.md:71",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1316,7 +1316,7 @@
       "label": "Historical globe-first QA: default-open zero-card state and near-viewport loading passed",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:38",
+      "source_location": "docs/verification.md:54",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1327,7 +1327,7 @@
       "label": "Historical globe-first QA: forced WebGL unavailability after actual request preserved six links",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:41",
+      "source_location": "docs/verification.md:57",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1393,7 +1393,7 @@
       "label": "Eight homepage narrative paragraphs and eight placements per each of six case studies",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:22",
+      "source_location": "docs/verification.md:38",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1489,10 +1489,10 @@
     },
     {
       "id": "doc_scroll_reveal_progress_qa",
-      "label": "Current dark-theme wheel scroll moves words from opacity0.1-0.861 to1 and reverses to partial state",
+      "label": "Historical dark-theme wheel scroll moved words from partial opacity to1 and reversed",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
+      "source_location": "docs/verification.md:28",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1503,7 +1503,7 @@
       "label": "Historical ScrollReveal QA: aborting both GSAP/ScrollTrigger chunks leaves text static and clear",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:24",
+      "source_location": "docs/verification.md:40",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1514,7 +1514,7 @@
       "label": "Historical optimized ScrollReveal QA: zero initial split words/GSAP requests and viewport preparation",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:25",
+      "source_location": "docs/verification.md:41",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1525,7 +1525,7 @@
       "label": "Historical ScrollReveal fixed samples: performance88/100/100 LCP1.208/0.914/0.928s TBT482.5/78/81ms CLS0",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:27",
+      "source_location": "docs/verification.md:43",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1536,7 +1536,7 @@
       "label": "Historical ScrollReveal88 below90 target; median100 meets it; benchmark variation prevents stable field claim",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:27",
+      "source_location": "docs/verification.md:43",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1547,7 +1547,7 @@
       "label": "Historical first ScrollReveal split during initial hydration and scored84; variation prevents attributing entire gain to deferral",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:29",
+      "source_location": "docs/verification.md:45",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1558,7 +1558,7 @@
       "label": "Historical globe-first production-preview Chromium verification on feat/globe-project-navigation",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:35",
+      "source_location": "docs/verification.md:51",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1569,7 +1569,7 @@
       "label": "Historical globe-first Lighthouse92/100/100/100 LCP1.06s TBT354.5ms CLS0",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:43",
+      "source_location": "docs/verification.md:59",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1580,7 +1580,7 @@
       "label": "Historical globe-primary desktop/mobile screenshots and lighthouse-globe-primary-mobile.json",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:42",
+      "source_location": "docs/verification.md:58",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1657,7 +1657,7 @@
       "label": "Globe renderer uses dark theme opaque dark info plates and ink-on-periwinkle project action",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
+      "source_location": "docs/verification.md:27",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1720,10 +1720,10 @@
     },
     {
       "id": "doc_dark_contrast_qa",
-      "label": "Axe text-contrast checks: zero violations on homepage and six case routes in stable paused/reduced reading states",
+      "label": "Historical dark-theme axe contrast checks found zero homepage/case violations in paused/reduced reading states",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:9",
+      "source_location": "docs/verification.md:25",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1734,7 +1734,7 @@
       "label": "Decorative circular text dot captions and arrow reviewed manually; ratios6.15:1 off-white/dots10.93:1 ink/pink12.7:1 ink/yellow7.2:1 muted/navy",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:9",
+      "source_location": "docs/verification.md:25",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1745,7 +1745,7 @@
       "label": "Automated contrast and manual decorative review do not establish full WCAG conformance",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:9",
+      "source_location": "docs/verification.md:25",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1753,10 +1753,10 @@
     },
     {
       "id": "doc_dark_menu_qa",
-      "label": "Current mobile menu opens and selecting About closes it with aria-expanded=false",
+      "label": "Historical dark-theme mobile menu opened and choosing About closed it",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:10",
+      "source_location": "docs/verification.md:26",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1767,7 +1767,7 @@
       "label": "Historical ScrollReveal production-preview Chromium verification on feat/scroll-reveal-text at e221742",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:19",
+      "source_location": "docs/verification.md:35",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1778,7 +1778,7 @@
       "label": "Historical fixed ScrollReveal mobile samples88/100/100 median100; accessibility/best-practices/SEO100 throughout",
       "file_type": "document",
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:27",
+      "source_location": "docs/verification.md:43",
       "source_url": null,
       "captured_at": null,
       "author": null,
@@ -1787,6 +1787,303 @@
     {
       "id": "doc_scroll_checkpoint_evidence",
       "label": "Historical reveal screenshots and all three lighthouse-scroll-reveal-deferred-mobile reports retained",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:47",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_approval",
+      "label": "Owner explicitly requested additional Anime.js animations through MCP",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_dependency",
+      "label": "Anime.js4.5.0 pinned as the only new app dependency",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_mcp",
+      "label": "Pinned community anime-js-mcp-server1.0.0 installed separately outside app with scripts disabled",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_mcp_calls",
+      "label": "Actual local SDK stdio: tools/list5 tools and three timeline-sequence stagger performance calls succeeded",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_mcp_config",
+      "label": "Tested pinned npx config uses D cache quiet logging empty token override; native tools need client restart",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_mcp_boundary",
+      "label": "Community MCP is development-only outside app tree; no portfolio files/GitHub token supplied and no website runtime calls",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_v4_adaptation",
+      "label": "Community guidance usesv3 syntax; implementation follows official4.5 React scope timeline stagger and spring APIs",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_official_refs",
+      "label": "Official animejs.com React scope timeline utilities/stagger and easings/spring references",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_effects",
+      "label": "Scoped finite AnimeEffects hero skill-tag and selected-diagram feedback enhancement",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_hero_replay",
+      "label": "Hero sequence springs ring/star/cloud and staggers brackets; first pointer/keyboard Replay requests engine without gating name/actions",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_skill_cascade",
+      "label": "Opened native skill disclosure cascades its tags",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_diagram_feedback",
+      "label": "Architecture selection springs node/caption and decorative segmented strip; shows selected step rather than live execution",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_intent_loading",
+      "label": "Runtime waits actual scroll/keyboard/playground/Replay intent plus eligible region within300px and idle scheduling",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_idle_schedule",
+      "label": "Optional import uses idle1200ms timeout or600ms fallback; untouched homepage fetches no Anime runtime",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_scopes",
+      "label": "Each region replaces/reverts previous scope before replay toggle or selection to bound rapid interactions",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_motion_cleanup",
+      "label": "Pause/live reduced motion/route cleanup detach listeners observers revert scopes and clear painted styles",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_static",
+      "label": "NoJS/reduced-motion/failed runtime preserves readable content native disclosures and diagram selection with Replay disabled",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_transform_ownership",
+      "label": "Old CSS star entrance removed so Anime.js owns that shape's transforms",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_preservation",
+      "label": "Anime additions preserve GSAP word scrub Motion parallax/strip dark palette default-open globe and content boundaries",
+      "file_type": "document",
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_intent_qa",
+      "label": "Untouched page zero Anime requests; first Replay changes transforms; keyboard/eight replays/six rapid toggles settle without app errors",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:9",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_failure_qa",
+      "label": "Actual runtime chunk aborted twice; heading/content remain usable and Replay disables without unhandled errors",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_diagram_qa",
+      "label": "All six diagrams keyboard-select aria-pressed spring and sequential segment scaling; chips show stagger at100ms",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_preintent_samples",
+      "label": "Historical near-viewport/idle build performance76/85/88 median85; LCP1.816/1.157/1.128s TBT1000.3/571/464ms CLS0",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_anime_host_variation",
+      "label": "Historical pre-intent host indices603/2281/1808; not all variation attributable to code; retained reports prompted intent fix",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_dark_checkpoint_qa",
+      "label": "Historical dark-theme production-preview Chromium QA at2b224ad",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:21",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_dark_checkpoint_lighthouse",
+      "label": "Historical dark-theme single local Lighthouse100/100/100/100 LCP0.914s TBT66ms CLS0",
+      "file_type": "document",
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:29",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "doc_dark_checkpoint_evidence",
+      "label": "Historical dark screenshots and lighthouse-dark-mobile.json retained",
       "file_type": "document",
       "source_file": "docs/verification.md",
       "source_location": "docs/verification.md:31",
@@ -1958,6 +2255,16 @@
       "weight": 1
     },
     {
+      "source": "doc_dark_request",
+      "target": "doc_neo_brutalism",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "AGENTS.md",
+      "source_location": "AGENTS.md:22",
+      "weight": 1
+    },
+    {
       "source": "doc_portfolio",
       "target": "doc_blueprint",
       "relation": "references",
@@ -2104,7 +2411,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "weight": 1
     },
     {
@@ -2134,7 +2441,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "weight": 1
     },
     {
@@ -2144,7 +2451,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:56",
       "weight": 1
     },
     {
@@ -2154,7 +2461,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:56",
       "weight": 1
     },
     {
@@ -2164,7 +2471,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:50",
+      "source_location": "docs/HANDOFF.md:58",
       "weight": 1
     },
     {
@@ -2174,7 +2481,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:54",
+      "source_location": "README.md:55",
       "weight": 1
     },
     {
@@ -2204,7 +2511,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:56",
       "weight": 1
     },
     {
@@ -2214,7 +2521,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:48",
+      "source_location": "docs/HANDOFF.md:56",
       "weight": 1
     },
     {
@@ -2374,7 +2681,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "weight": 1
     },
     {
@@ -2384,7 +2691,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "weight": 1
     },
     {
@@ -2404,7 +2711,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:37",
+      "source_location": "README.md:38",
       "weight": 1
     },
     {
@@ -2414,7 +2721,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:37",
+      "source_location": "README.md:38",
       "weight": 1
     },
     {
@@ -2424,7 +2731,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:54",
+      "source_location": "docs/HANDOFF.md:62",
       "weight": 1
     },
     {
@@ -2434,7 +2741,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:54",
+      "source_location": "docs/HANDOFF.md:62",
       "weight": 1
     },
     {
@@ -2444,7 +2751,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:52",
+      "source_location": "docs/HANDOFF.md:60",
       "weight": 1
     },
     {
@@ -2454,7 +2761,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:50",
+      "source_location": "docs/HANDOFF.md:58",
       "weight": 1
     },
     {
@@ -2464,7 +2771,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:50",
+      "source_location": "docs/HANDOFF.md:58",
       "weight": 1
     },
     {
@@ -2504,7 +2811,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:54",
+      "source_location": "README.md:55",
       "weight": 1
     },
     {
@@ -2514,7 +2821,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:54",
+      "source_location": "README.md:55",
       "weight": 1
     },
     {
@@ -2544,7 +2851,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:40",
+      "source_location": "README.md:41",
       "weight": 1
     },
     {
@@ -2554,7 +2861,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:56",
+      "source_location": "README.md:57",
       "weight": 1
     },
     {
@@ -2564,7 +2871,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:85",
+      "source_location": "docs/verification.md:101",
       "weight": 1
     },
     {
@@ -2574,7 +2881,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:116",
+      "source_location": "docs/HANDOFF.md:127",
       "weight": 1
     },
     {
@@ -2584,7 +2891,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:102",
+      "source_location": "docs/verification.md:118",
       "weight": 1
     },
     {
@@ -2594,7 +2901,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:102",
+      "source_location": "docs/verification.md:118",
       "weight": 1
     },
     {
@@ -2604,7 +2911,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:95",
+      "source_location": "docs/verification.md:111",
       "weight": 1
     },
     {
@@ -2614,7 +2921,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:116",
+      "source_location": "docs/HANDOFF.md:127",
       "weight": 1
     },
     {
@@ -2644,7 +2951,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:92",
+      "source_location": "docs/HANDOFF.md:101",
       "weight": 1
     },
     {
@@ -2674,7 +2981,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:114",
+      "source_location": "docs/HANDOFF.md:125",
       "weight": 1
     },
     {
@@ -2684,7 +2991,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:128",
+      "source_location": "docs/HANDOFF.md:139",
       "weight": 1
     },
     {
@@ -2694,7 +3001,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:131",
+      "source_location": "docs/HANDOFF.md:142",
       "weight": 1
     },
     {
@@ -2704,7 +3011,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:136",
+      "source_location": "docs/HANDOFF.md:147",
       "weight": 1
     },
     {
@@ -2724,7 +3031,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:138",
+      "source_location": "docs/HANDOFF.md:149",
       "weight": 1
     },
     {
@@ -2734,7 +3041,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:136",
+      "source_location": "docs/HANDOFF.md:147",
       "weight": 1
     },
     {
@@ -2744,7 +3051,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:71",
+      "source_location": "README.md:72",
       "weight": 1
     },
     {
@@ -2754,7 +3061,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:130",
+      "source_location": "docs/HANDOFF.md:141",
       "weight": 1
     },
     {
@@ -2764,7 +3071,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:73",
+      "source_location": "README.md:74",
       "weight": 1
     },
     {
@@ -3114,7 +3421,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:50",
+      "source_location": "docs/verification.md:66",
       "weight": 1
     },
     {
@@ -3124,7 +3431,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:50",
+      "source_location": "docs/verification.md:66",
       "weight": 1
     },
     {
@@ -3134,7 +3441,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:57",
+      "source_location": "docs/verification.md:73",
       "weight": 1
     },
     {
@@ -3144,7 +3451,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:56",
+      "source_location": "docs/verification.md:72",
       "weight": 1
     },
     {
@@ -3154,7 +3461,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:52",
+      "source_location": "docs/verification.md:68",
       "weight": 1
     },
     {
@@ -3164,7 +3471,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:80",
+      "source_location": "docs/verification.md:96",
       "weight": 1
     },
     {
@@ -3174,7 +3481,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:83",
+      "source_location": "docs/verification.md:99",
       "weight": 1
     },
     {
@@ -3184,7 +3491,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:78",
+      "source_location": "docs/verification.md:94",
       "weight": 1
     },
     {
@@ -3194,7 +3501,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:85",
+      "source_location": "docs/verification.md:101",
       "weight": 1
     },
     {
@@ -3204,7 +3511,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:85",
+      "source_location": "docs/verification.md:101",
       "weight": 1
     },
     {
@@ -3214,7 +3521,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:108",
+      "source_location": "docs/HANDOFF.md:119",
       "weight": 1
     },
     {
@@ -3414,7 +3721,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:38",
+      "source_location": "docs/verification.md:54",
       "weight": 1
     },
     {
@@ -3424,7 +3731,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:38",
+      "source_location": "docs/verification.md:54",
       "weight": 1
     },
     {
@@ -3434,7 +3741,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:41",
+      "source_location": "docs/verification.md:57",
       "weight": 1
     },
     {
@@ -3444,7 +3751,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:61",
+      "source_location": "docs/verification.md:77",
       "weight": 1
     },
     {
@@ -3454,7 +3761,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:63",
+      "source_location": "docs/verification.md:79",
       "weight": 1
     },
     {
@@ -3464,7 +3771,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:53",
+      "source_location": "docs/verification.md:69",
       "weight": 1
     },
     {
@@ -3474,7 +3781,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:55",
+      "source_location": "docs/verification.md:71",
       "weight": 1
     },
     {
@@ -3484,7 +3791,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:50",
+      "source_location": "docs/verification.md:66",
       "weight": 1
     },
     {
@@ -3494,7 +3801,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:57",
+      "source_location": "docs/verification.md:73",
       "weight": 1
     },
     {
@@ -3504,7 +3811,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:56",
+      "source_location": "docs/verification.md:72",
       "weight": 1
     },
     {
@@ -3514,7 +3821,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:52",
+      "source_location": "docs/verification.md:68",
       "weight": 1
     },
     {
@@ -3524,7 +3831,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:51",
+      "source_location": "docs/verification.md:67",
       "weight": 1
     },
     {
@@ -3534,7 +3841,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:51",
+      "source_location": "docs/verification.md:67",
       "weight": 1
     },
     {
@@ -3544,7 +3851,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:54",
+      "source_location": "docs/verification.md:70",
       "weight": 1
     },
     {
@@ -3554,7 +3861,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:55",
+      "source_location": "docs/verification.md:71",
       "weight": 1
     },
     {
@@ -3564,7 +3871,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:104",
+      "source_location": "docs/HANDOFF.md:115",
       "weight": 1
     },
     {
@@ -3634,7 +3941,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "README.md",
-      "source_location": "README.md:73",
+      "source_location": "README.md:74",
       "weight": 1
     },
     {
@@ -3684,7 +3991,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:22",
+      "source_location": "docs/verification.md:38",
       "weight": 1
     },
     {
@@ -3754,7 +4061,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:32",
+      "source_location": "docs/HANDOFF.md:40",
       "weight": 1
     },
     {
@@ -3844,7 +4151,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:23",
+      "source_location": "docs/verification.md:39",
       "weight": 1
     },
     {
@@ -3854,7 +4161,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:24",
+      "source_location": "docs/verification.md:40",
       "weight": 1
     },
     {
@@ -3864,7 +4171,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:25",
+      "source_location": "docs/verification.md:41",
       "weight": 1
     },
     {
@@ -3874,7 +4181,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:27",
+      "source_location": "docs/verification.md:43",
       "weight": 1
     },
     {
@@ -3884,7 +4191,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:43",
+      "source_location": "docs/verification.md:59",
       "weight": 1
     },
     {
@@ -3894,7 +4201,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:42",
+      "source_location": "docs/verification.md:58",
       "weight": 1
     },
     {
@@ -3904,7 +4211,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:38",
+      "source_location": "docs/verification.md:54",
       "weight": 1
     },
     {
@@ -3914,7 +4221,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:41",
+      "source_location": "docs/verification.md:57",
       "weight": 1
     },
     {
@@ -3924,17 +4231,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:100",
-      "weight": 1
-    },
-    {
-      "source": "doc_dark_request",
-      "target": "doc_neo_brutalism",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "AGENTS.md",
-      "source_location": "AGENTS.md:22",
+      "source_location": "docs/HANDOFF.md:111",
       "weight": 1
     },
     {
@@ -4044,7 +4341,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
+      "source_location": "docs/verification.md:27",
       "weight": 1
     },
     {
@@ -4054,7 +4351,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:11",
+      "source_location": "docs/verification.md:27",
       "weight": 1
     },
     {
@@ -4168,8 +4465,488 @@
       "weight": 1
     },
     {
+      "source": "doc_dark_contrast_qa",
+      "target": "doc_dark_manual_contrast",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:25",
+      "weight": 1
+    },
+    {
+      "source": "doc_dark_contrast_qa",
+      "target": "doc_dark_wcag_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:25",
+      "weight": 1
+    },
+    {
+      "source": "doc_dark_manual_contrast",
+      "target": "doc_dark_wcag_limits",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:25",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_qa",
+      "target": "doc_scroll_checkpoint_lighthouse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_qa",
+      "target": "doc_scroll_checkpoint_evidence",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:47",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_qa",
+      "target": "doc_scroll_reveal_placements",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:38",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_qa",
+      "target": "doc_scroll_reveal_failure_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:40",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_qa",
+      "target": "doc_scroll_reveal_initial_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:41",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_lighthouse",
+      "target": "doc_scroll_reveal_samples",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_lighthouse",
+      "target": "doc_scroll_reveal_variation",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:43",
+      "weight": 1
+    },
+    {
+      "source": "doc_scroll_checkpoint_lighthouse",
+      "target": "doc_scroll_reveal_preoptimization",
+      "relation": "supersedes_measurement_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:45",
+      "weight": 1
+    },
+    {
+      "source": "doc_handoff",
+      "target": "doc_scroll_checkpoint_qa",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:109",
+      "weight": 1
+    },
+    {
+      "source": "doc_globe_qa",
+      "target": "doc_current_keyboard",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_keyboard",
+      "target": "doc_globe_navigation",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:55",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_approval",
+      "target": "doc_anime_effects",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_approval",
+      "target": "doc_anime_mcp",
+      "relation": "authorizes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_dependency",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/HANDOFF.md",
+      "source_location": "docs/HANDOFF.md:26",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_mcp",
+      "target": "doc_anime_mcp_calls",
+      "relation": "queried_via",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_mcp",
+      "target": "doc_anime_mcp_config",
+      "relation": "configured_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_mcp",
+      "target": "doc_anime_mcp_boundary",
+      "relation": "bounded_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:91",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_mcp_calls",
+      "target": "doc_anime_v4_adaptation",
+      "relation": "guides",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_v4_adaptation",
+      "target": "doc_anime_official_refs",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_v4_adaptation",
+      "target": "doc_anime_effects",
+      "relation": "guides",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:93",
+      "weight": 1
+    },
+    {
+      "source": "doc_homepage",
+      "target": "doc_anime_effects",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:37",
+      "weight": 1
+    },
+    {
+      "source": "doc_case_template",
+      "target": "doc_anime_diagram_feedback",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": "README.md:37",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_hero_replay",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_skill_cascade",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_diagram_feedback",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_intent_loading",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_intent_loading",
+      "target": "doc_anime_idle_schedule",
+      "relation": "precedes",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_scopes",
+      "relation": "uses",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_motion_cleanup",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_motion_preferences",
+      "target": "doc_anime_motion_cleanup",
+      "relation": "controls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_motion_cleanup",
+      "target": "doc_anime_static",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_static",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_static",
+      "target": "doc_initial_independence",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_transform_ownership",
+      "target": "doc_anime_hero_replay",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_effects",
+      "target": "doc_anime_preservation",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preservation",
+      "target": "doc_scroll_reveal",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preservation",
+      "target": "doc_scroll_velocity",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preservation",
+      "target": "doc_neo_brutalism",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preservation",
+      "target": "doc_globe_default_open",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preservation",
+      "target": "doc_authenticity",
+      "relation": "preserves",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:97",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preintent_samples",
+      "target": "doc_anime_intent_loading",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preintent_samples",
+      "target": "doc_anime_host_variation",
+      "relation": "limited_by",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_preintent_samples",
+      "target": "doc_blueprint",
+      "relation": "below_performance_target_of",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_intent_loading",
+      "target": "doc_scroll_reveal_deferred",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/content-and-decisions.md",
+      "source_location": "docs/content-and-decisions.md:95",
+      "weight": 1
+    },
+    {
       "source": "doc_current_qa",
       "target": "doc_current_checks",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:8",
+      "weight": 1
+    },
+    {
+      "source": "doc_current_qa",
+      "target": "doc_anime_mcp_calls",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4179,27 +4956,7 @@
     },
     {
       "source": "doc_current_qa",
-      "target": "doc_dark_default",
-      "relation": "verifies_locally",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:8",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_browser_social_theme",
-      "relation": "verifies_locally",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:8",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_qa",
-      "target": "doc_dark_contrast_qa",
+      "target": "doc_anime_intent_qa",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4209,7 +4966,7 @@
     },
     {
       "source": "doc_current_qa",
-      "target": "doc_current_responsive",
+      "target": "doc_current_motion_qa",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4219,7 +4976,7 @@
     },
     {
       "source": "doc_current_qa",
-      "target": "doc_dark_menu_qa",
+      "target": "doc_anime_failure_qa",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4229,8 +4986,8 @@
     },
     {
       "source": "doc_current_qa",
-      "target": "doc_dark_globe",
-      "relation": "verifies_locally",
+      "target": "doc_anime_diagram_qa",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
@@ -4239,12 +4996,12 @@
     },
     {
       "source": "doc_current_qa",
-      "target": "doc_current_motion_qa",
+      "target": "doc_current_responsive",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
+      "source_location": "docs/verification.md:11",
       "weight": 1
     },
     {
@@ -4274,7 +5031,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:15",
+      "source_location": "docs/verification.md:17",
       "weight": 1
     },
     {
@@ -4284,13 +5041,13 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:15",
+      "source_location": "docs/verification.md:17",
       "weight": 1
     },
     {
-      "source": "doc_dark_contrast_qa",
-      "target": "doc_dark_manual_contrast",
-      "relation": "references",
+      "source": "doc_anime_intent_qa",
+      "target": "doc_anime_intent_loading",
+      "relation": "verifies_locally",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
@@ -4298,9 +5055,9 @@
       "weight": 1
     },
     {
-      "source": "doc_dark_contrast_qa",
-      "target": "doc_dark_wcag_limits",
-      "relation": "limited_by",
+      "source": "doc_anime_intent_qa",
+      "target": "doc_anime_hero_replay",
+      "relation": "verifies_locally",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
@@ -4308,38 +5065,58 @@
       "weight": 1
     },
     {
-      "source": "doc_dark_manual_contrast",
-      "target": "doc_dark_wcag_limits",
-      "relation": "limited_by",
+      "source": "doc_anime_intent_qa",
+      "target": "doc_anime_scopes",
+      "relation": "verifies_locally",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
       "source_location": "docs/verification.md:9",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_failure_qa",
+      "target": "doc_anime_static",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:10",
       "weight": 1
     },
     {
       "source": "doc_current_motion_qa",
-      "target": "doc_scroll_reveal_progress_qa",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_motion_qa",
-      "target": "doc_scroll_reveal_static",
+      "target": "doc_anime_motion_cleanup",
       "relation": "verifies_locally",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
+      "source_location": "docs/verification.md:10",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_diagram_qa",
+      "target": "doc_anime_diagram_feedback",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
+      "weight": 1
+    },
+    {
+      "source": "doc_anime_diagram_qa",
+      "target": "doc_anime_skill_cascade",
+      "relation": "verifies_locally",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:11",
       "weight": 1
     },
     {
       "source": "doc_current_nojs",
-      "target": "doc_dark_default",
+      "target": "doc_anime_static",
       "relation": "verifies_locally",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4348,13 +5125,13 @@
       "weight": 1
     },
     {
-      "source": "doc_current_nojs",
-      "target": "doc_globe_fallback",
-      "relation": "verifies_locally",
+      "source": "doc_current_lighthouse",
+      "target": "doc_anime_intent_loading",
+      "relation": "verifies_runtime_omission",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:12",
+      "source_location": "docs/verification.md:13",
       "weight": 1
     },
     {
@@ -4368,18 +5145,28 @@
       "weight": 1
     },
     {
-      "source": "doc_scroll_checkpoint_qa",
-      "target": "doc_scroll_checkpoint_lighthouse",
+      "source": "doc_current_lighthouse",
+      "target": "doc_anime_preintent_samples",
+      "relation": "supersedes_measurement_of",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:15",
+      "weight": 1
+    },
+    {
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_dark_checkpoint_lighthouse",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:27",
+      "source_location": "docs/verification.md:29",
       "weight": 1
     },
     {
-      "source": "doc_scroll_checkpoint_qa",
-      "target": "doc_scroll_checkpoint_evidence",
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_dark_checkpoint_evidence",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4388,28 +5175,8 @@
       "weight": 1
     },
     {
-      "source": "doc_scroll_checkpoint_qa",
-      "target": "doc_scroll_reveal_placements",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:22",
-      "weight": 1
-    },
-    {
-      "source": "doc_scroll_checkpoint_qa",
-      "target": "doc_scroll_reveal_failure_qa",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:24",
-      "weight": 1
-    },
-    {
-      "source": "doc_scroll_checkpoint_qa",
-      "target": "doc_scroll_reveal_initial_qa",
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_dark_contrast_qa",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -4418,19 +5185,39 @@
       "weight": 1
     },
     {
-      "source": "doc_scroll_checkpoint_lighthouse",
-      "target": "doc_scroll_reveal_samples",
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_dark_menu_qa",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:27",
+      "source_location": "docs/verification.md:26",
       "weight": 1
     },
     {
-      "source": "doc_scroll_checkpoint_lighthouse",
-      "target": "doc_scroll_reveal_variation",
-      "relation": "limited_by",
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_dark_default",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:24",
+      "weight": 1
+    },
+    {
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_browser_social_theme",
+      "relation": "historically_verified",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md",
+      "source_location": "docs/verification.md:24",
+      "weight": 1
+    },
+    {
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_dark_globe",
+      "relation": "historically_verified",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
@@ -4438,13 +5225,13 @@
       "weight": 1
     },
     {
-      "source": "doc_scroll_checkpoint_lighthouse",
-      "target": "doc_scroll_reveal_preoptimization",
-      "relation": "supersedes_measurement_of",
+      "source": "doc_dark_checkpoint_qa",
+      "target": "doc_scroll_reveal_progress_qa",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:29",
+      "source_location": "docs/verification.md:28",
       "weight": 1
     },
     {
@@ -4454,37 +5241,17 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:96",
+      "source_location": "docs/HANDOFF.md:105",
       "weight": 1
     },
     {
       "source": "doc_handoff",
-      "target": "doc_scroll_checkpoint_qa",
+      "target": "doc_dark_checkpoint_qa",
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/HANDOFF.md",
-      "source_location": "docs/HANDOFF.md:98",
-      "weight": 1
-    },
-    {
-      "source": "doc_globe_qa",
-      "target": "doc_current_keyboard",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:39",
-      "weight": 1
-    },
-    {
-      "source": "doc_current_keyboard",
-      "target": "doc_globe_navigation",
-      "relation": "historically_verified",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1,
-      "source_file": "docs/verification.md",
-      "source_location": "docs/verification.md:39",
+      "source_location": "docs/HANDOFF.md:107",
       "weight": 1
     }
   ],
@@ -4504,14 +5271,16 @@
       "source_file": "AGENTS.md"
     },
     {
-      "id": "doc_dark_color_roles",
-      "label": "Dark neo-brutalism separates readable text slate borders ink shadows and bright ink-text stamps across surfaces",
+      "id": "doc_anime_optional_interactions",
+      "label": "Finite hero skill and selected-diagram effects share per-region scopes intent loading and static cleanup",
       "nodes": [
-        "doc_neo_brutalism",
-        "doc_dark_palette",
-        "doc_dark_roles",
-        "doc_bright_stamp_text",
-        "doc_dark_surfaces"
+        "doc_anime_effects",
+        "doc_anime_hero_replay",
+        "doc_anime_skill_cascade",
+        "doc_anime_diagram_feedback",
+        "doc_anime_scopes",
+        "doc_anime_motion_cleanup",
+        "doc_anime_static"
       ],
       "relation": "form",
       "confidence": "EXTRACTED",
@@ -4519,34 +5288,48 @@
       "source_file": "docs/content-and-decisions.md"
     },
     {
-      "id": "doc_dark_behavior_continuity",
-      "label": "Theme preserves GSAP narrative effects shared preferences static fallbacks and globe-first case-study navigation",
+      "id": "doc_anime_mcp_guidance_workflow",
+      "label": "Local community MCP guidance uses tested pinned stdio tooling and official v4 adaptation outside website runtime",
       "nodes": [
-        "doc_dark_preservation",
-        "doc_scroll_reveal",
-        "doc_motion_preferences",
-        "doc_scroll_reveal_static",
-        "doc_globe_navigation",
-        "doc_globe_fallback",
-        "doc_six_cases"
+        "doc_anime_mcp",
+        "doc_anime_mcp_calls",
+        "doc_anime_mcp_config",
+        "doc_anime_mcp_boundary",
+        "doc_anime_v4_adaptation",
+        "doc_anime_official_refs"
       ],
       "relation": "form",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
       "source_file": "docs/content-and-decisions.md"
+    },
+    {
+      "id": "doc_anime_measured_intent_loading",
+      "label": "Retained pre-intent samples and host variation motivated delayed runtime loading verified by optimized request log",
+      "nodes": [
+        "doc_anime_preintent_samples",
+        "doc_anime_host_variation",
+        "doc_anime_intent_loading",
+        "doc_anime_intent_qa",
+        "doc_current_lighthouse"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "docs/verification.md"
     }
   ],
   "source_hashes": {
     "AGENTS.md": "f5ecb35f02ad70b246e00e30eea1c195285f03817074501474f0b222651ac6cf",
-    "README.md": "074de1d5487f8a694ade28f64190a02a6c125d528c45e28064072e8fcfd06a94",
-    "docs/HANDOFF.md": "0b1eb9dc7eadfd5a6bd02f3a817789b62069298a808ffbf4f8960fdca68dbb27",
-    "docs/content-and-decisions.md": "3242febdd04146dc570570beb6732fffb7302756f4203238d26f478014dec19b",
+    "README.md": "deec52dc29d13506c66db91f3124fdc17231501162bea0863117020c47f5e4c5",
+    "docs/HANDOFF.md": "ef04cee8a08b7f761b024d5b1b77454830013e022c6ba2337be33a792d96ffa5",
+    "docs/content-and-decisions.md": "1847d053c84096a2d3fa365447d2f4e8580b6fc727341ffc8aa3ac23aa7fdd31",
     "docs/implementation-blueprint.md": "3e1ee1f28ca18476f69a4ec1cb18ce2a83618160992e91b363a60b6b81375d8a",
-    "docs/verification.md": "b983838b401f9f77b61716104a449767c11bbc1caea375b971d7446b488c85ad",
+    "docs/verification.md": "a0622541282931e3cbfbf0ac9838218a60992e8597ebbb942e2237ae06162ceb",
     "src/app/icon.svg": "463c5bf4c340c36037620f536bfe0325c39dcc8564d190e3f0f47bae56aeaffe",
     "docs/licenses/react-bits.md": "783c9ce1a4b4a37cc719a78cbcdd7a16a0372f3b819d807fbb8c14af44914cd0"
   },
   "input_tokens": null,
   "output_tokens": null,
-  "token_accounting": "Exact semantic extraction-agent token counters unavailable; no task token total is inferred. Deterministic structural counts are separate."
+  "token_accounting": "Exact semantic-agent counters unavailable; no task token usage inferred. Deterministic structural refresh counts are separate."
 }

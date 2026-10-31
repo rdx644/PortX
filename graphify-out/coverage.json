@@ -2,7 +2,7 @@
   "files": [
     {
       "path": ".codex/config.toml",
-      "sha256": "f3b7aa05b9c93fdf60dc2d60e642d7e5857e0c384acdec23f15cb3ff78cb7303",
+      "sha256": "6ef7f41ffb75b7a31cb8c6d52183b265c1efcaa7fc2f2ebdef80286bf64ac107",
       "mode": "document/configuration"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "074de1d5487f8a694ade28f64190a02a6c125d528c45e28064072e8fcfd06a94",
+      "sha256": "deec52dc29d13506c66db91f3124fdc17231501162bea0863117020c47f5e4c5",
       "mode": "document/configuration"
     },
     {
@@ -52,12 +52,12 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "0b1eb9dc7eadfd5a6bd02f3a817789b62069298a808ffbf4f8960fdca68dbb27",
+      "sha256": "ef04cee8a08b7f761b024d5b1b77454830013e022c6ba2337be33a792d96ffa5",
       "mode": "document/configuration"
     },
     {
       "path": "docs/content-and-decisions.md",
-      "sha256": "3242febdd04146dc570570beb6732fffb7302756f4203238d26f478014dec19b",
+      "sha256": "1847d053c84096a2d3fa365447d2f4e8580b6fc727341ffc8aa3ac23aa7fdd31",
       "mode": "document/configuration"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "path": "docs/verification.md",
-      "sha256": "b983838b401f9f77b61716104a449767c11bbc1caea375b971d7446b488c85ad",
+      "sha256": "a0622541282931e3cbfbf0ac9838218a60992e8597ebbb942e2237ae06162ceb",
       "mode": "document/configuration"
     },
     {
@@ -92,12 +92,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "236fd4b677de907a814c8e5b2a925f7a029e7d20a2644daaf25ff7e1aa4c9982",
+      "sha256": "dc482d52248bee78ddf5cf4aede3ffa6ac0b15ee2f102cee582f5df1802e2f8d",
       "mode": "metadata only"
     },
     {
       "path": "package.json",
-      "sha256": "5a2d47453eb65f1c47de22a81da27853778a51bbde8de5bfe70b844b6d94181e",
+      "sha256": "27d5e31c8248e286f080ad89bfc0295331214a839879d8c81d0e55b42a6a0317",
       "mode": "document/configuration"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "path": "src/app/globals.css",
-      "sha256": "55e3527409cf11b6e2f4ec4b1c931a72cf7aca0da5df6421f2558542e7a705fe",
+      "sha256": "0a3e62f07a59c2e16eb7c24bd6ccfa93caac13d437aaefe45b18e6f7364cf27e",
       "mode": "document/configuration"
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "path": "src/app/layout.tsx",
-      "sha256": "ee6ff0aee580ed386047e710e9f889f1b9bf5a57a6d3ad5b5965a9c275afd1ce",
+      "sha256": "abf44dde91dbf9e4b400f0dab1472fb22a06305e805ee4727f0402b7559fe2cf",
       "mode": "structural source"
     },
     {
@@ -217,12 +217,12 @@
     },
     {
       "path": "src/components/hero/HeroVisual.tsx",
-      "sha256": "6c25761ed81aef22a48676a614116a3073fa2baf3bbc9ea83b413aabe0cc24e4",
+      "sha256": "8389611271b61a7aa945ee904f5dcce2331251700f90dc67da58d5fa405f9cae",
       "mode": "structural source"
     },
     {
       "path": "src/components/hero/hero.css",
-      "sha256": "64c21d1d8ce3a3c20451f1ba0f596b24f2cd49b468636dcd4fea93995be240e7",
+      "sha256": "92c26c1818309f47808162c7928cdfbf02d4de5c101cd81c474b76684f21ed48",
       "mode": "document/configuration"
     },
     {
@@ -232,7 +232,7 @@
     },
     {
       "path": "src/components/projects/Architecture.tsx",
-      "sha256": "6a574876e52d68edd3784ca9ce9c7b92e443b214d7d99e6e0ee4681c698a9035",
+      "sha256": "a6d96a923a56b81204e1f14c2d31102a0dc0fc52c2b05906de2828bfb0e5ffd4",
       "mode": "structural source"
     },
     {
@@ -346,6 +346,11 @@
       "mode": "structural source"
     },
     {
+      "path": "src/components/ui/AnimeEffects.tsx",
+      "sha256": "8d4608a3f2693c56eb9965ef072f4d47ed4f5729a0f8f73dfb3777c696cbe49f",
+      "mode": "structural source"
+    },
+    {
       "path": "src/components/ui/Arrow.tsx",
       "sha256": "1db078c66afb760d207f5ac4cb2665a41d0ece6682a4e47ee6cf119dff00e51d",
       "mode": "structural source"
@@ -378,6 +383,11 @@
     {
       "path": "src/data/projects.ts",
       "sha256": "7fbec124f41b3a49b86e2d84d1cc87c33fd6a5dd9dc2b20c6a4d5155fe0163b1",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/lib/anime-effects.ts",
+      "sha256": "9bd3fe5c4494528a934bb7bc1dc735ec37bebeedba63d5e5ae731b72e5419c48",
       "mode": "structural source"
     },
     {

@@ -11,13 +11,21 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 | Canonical checkout | `D:\CodexProjects\shubham-portfolio` |
 | User-facing path | `C:\Users\putit\shubham-portfolio`, a junction to the canonical checkout |
 | Runtime/cache directory | `D:\CodexProjects\shubham-portfolio-runtime` |
-| Baseline implementation | Commit `93263aa`; current branch `feat/dark-neo-brutalist` |
+| Baseline implementation | Commit `93263aa`; current branch `feat/animejs-interactions` |
 | Git remote | None configured at handoff creation; do not infer a repository from the owner's profile |
 | Local preview | `http://127.0.0.1:3001`, production preview for the redesign; process survival across sessions is not guaranteed |
 | Baseline source ZIP | `D:\CodexProjects\shubham-portfolio-runtime\shubham-portfolio-source.zip` (implementation checkpoint; not automatically updated) |
 | Global discovery pointer | `C:\Users\putit\.codex\projects\shubham-portfolio.md` |
 
 Older projects `C:\Users\putit\my-portfolio` and `C:\Users\putit\Portofolio_V5` were inspected only for context. This implementation is separate.
+
+## Current Anime.js interactions and MCP
+
+The owner requested Anime.js through MCP. Pinned community `anime-js-mcp-server@1.0.0` was inspected, installed outside the app and actually queried over local MCP stdio for timeline/stagger/performance guidance. Its examples target v3; the implementation uses official v4.5 APIs. Evidence: `output/playwright/anime-mcp-guidance.json`. `.codex/config.toml` saves the tested pinned npx command and D: cache with quiet logging/no GitHub token. Restart Codex for native tool exposure in a future session; local MCP calls already worked. No website runtime calls the MCP server.
+
+Anime.js 4.5.0 is the only new app dependency. `src/components/ui/AnimeEffects.tsx` lazily loads `src/lib/anime-effects.ts` after scroll, keyboard or playground interaction near eligible content during idle time. It sequences the hero graphic with Replay, cascades opened skill tags and springs selected architecture nodes/captions with a decorative selected-step strip. Scopes are replaced per region, keeping repeat interactions bounded. Pause/live reduced motion and navigation revert animated styles and detach listeners/observers. Reduced-motion visits skip the runtime; no JavaScript or an aborted runtime chunk preserves readable content and ordinary controls with Replay disabled. The star's old CSS entrance was removed to prevent transform conflicts. Existing GSAP text reveal, Motion parallax, dark theme and globe-first projects remain.
+
+Implementation checkpoints: `cfedc9c` (interactions) and `1ff5c6a` (intent loading). Details and actual QA are in `docs/content-and-decisions.md` and `docs/verification.md`.
 
 ## Current visual theme
 
@@ -67,6 +75,7 @@ The cube, SVG sculpture fallback, and exclusive Three.js dependencies were remov
 | React Bits engines and focused adaptations | `src/components/react-bits/` |
 | Optional project globe and static fallback | `src/components/projects/ProjectExplorer.tsx`, `public/projects/tiles/` |
 | Shared pause/reduced motion and optional chunk fallback | `src/components/ui/MotionPreferences.tsx`, `src/components/ui/OptionalEffectBoundary.tsx` |
+| Anime.js hero/skill/diagram interactions | `src/components/ui/AnimeEffects.tsx`, `src/lib/anime-effects.ts`; `.codex/config.toml` for MCP |
 | Scroll-scrubbed detail text | `src/components/react-bits/ScrollReveal.tsx`, `src/lib/scroll-reveal-runtime.ts` |
 | Finite scroll entrances and rolling labels | `src/components/ui/ScrollReveals.tsx`, `src/components/ui/RollLabel.tsx` |
 | Architecture interactions and cursor simulation | `src/components/projects/` |
@@ -93,7 +102,9 @@ C: ran out of space during dependency installation and Chromium tracing. Keep to
 
 ## Verification already performed
 
-Current dark-theme build: production build/TypeScript, lint, four tests, seven responsive widths, all six case-study routes, mobile navigation, dark/no-JavaScript output, motion controls and forward/reverse ScrollReveal passed. Automated text-contrast checks report zero violations on the homepage and six case studies, with decorative/manual items separately reviewed. Fresh isolated local mobile Lighthouse: 100 performance/accessibility/best practices/SEO; LCP ~0.914s, TBT 66ms, CLS 0. This is one local sample, not field metrics. Implementation checkpoint `2b224ad`; detailed evidence is in `docs/verification.md`. Older scores below remain historical.
+Current Anime.js/MCP integration: direct local MCP calls and configured version command succeed; typecheck/build/lint/four tests and production dependency audit pass. Browser checks cover first-click Replay, zero untouched-page runtime requests, finite/staggered transforms, rapid/keyboard interactions, Pause/live reduced motion, runtime chunk failure, no JavaScript, seven widths and six case studies. Fresh optimized mobile Lighthouse: 100 performance/accessibility/best practices/SEO, LCP ~0.914s, TBT 59ms, CLS 0. The prior near-viewport-only implementation scored 76/85/88 and was corrected with intent loading; retain those reports as historical evidence. See `docs/verification.md` for all samples and limits.
+
+Historical dark-theme checkpoint: production build/TypeScript, lint, four tests, seven responsive widths, all six case-study routes, mobile navigation, dark/no-JavaScript output, motion controls and forward/reverse ScrollReveal passed. Automated text-contrast checks report zero violations on the homepage and six case studies, with decorative/manual items separately reviewed. Fresh isolated local mobile Lighthouse: 100 performance/accessibility/best practices/SEO; LCP ~0.914s, TBT 66ms, CLS 0. This is one local sample, not field metrics. Implementation checkpoint `2b224ad`; detailed evidence is in `docs/verification.md`. Older scores below remain historical.
 
 Historical ScrollReveal checkpoint: production build/TypeScript, lint, four tests, forward/reverse scroll progression, Pause/Play, live reduced motion, no-JavaScript and engine-failure readability, seven homepage widths and all six case-study routes passed. Initial homepage has zero split words or GSAP engine requests; text prepares near the viewport. Final fixed three-sample mobile Lighthouse performance was 88 / 100 / 100 (median 100), with accessibility/best practices/SEO 100 throughout, LCP 1.208 / 0.914 / 0.928s, TBT 482.5 / 78 / 81ms and CLS 0. The 88 sample is below the 90 target; retain the full range rather than promising a consistent 100. Evidence and historical pre-optimization 84 are in `docs/verification.md`. Implementation checkpoint: `e221742`.
 

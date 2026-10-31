@@ -39,6 +39,7 @@
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\Experience.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\Expertise.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\sections\\GitHubActivity.tsx",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\AnimeEffects.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\Arrow.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\MotionPreferences.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\OptionalEffectBoundary.tsx",
@@ -46,6 +47,7 @@
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\ui\\ScrollReveals.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\data\\profile.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\data\\projects.ts",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\anime-effects.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\github-schema.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\scroll-reveal-runtime.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\site.ts",
@@ -74,10 +76,10 @@
     ],
     "video": []
   },
-  "total_files": 65,
-  "total_words": 33040,
+  "total_files": 67,
+  "total_words": 35199,
   "needs_graph": false,
-  "warning": "Corpus is ~33,040 words - fits in a single context window. You may not need a graph.",
+  "warning": "Corpus is ~35,199 words - fits in a single context window. You may not need a graph.",
   "skipped_sensitive": [],
   "graphifyignore_patterns": 11
 }

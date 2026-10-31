@@ -19,6 +19,7 @@ This folder is the persistent map for Shubham Putitundi's current portfolio. Rea
 | Change project content | `src/data/projects.ts` → `ProjectExplorer.tsx` / shared case-study page |
 | Update personal details | `src/data/profile.ts` → homepage sections, navigation, contact |
 | Adjust hero motion | `HeroVisual.tsx` → `CircularText.tsx` / `ScrollVelocity.tsx`; `ScrollReveals.tsx` for page reveals |
+| Change Anime.js interactions | `AnimeEffects.tsx` → lazy `anime-effects.ts`; HeroVisual/Expertise/Architecture targets and MotionPreferences; `.codex/config.toml` for local MCP |
 | Change scrolling text | `ScrollReveal.tsx` → `scroll-reveal-runtime.ts`, About/Expertise/Experience and shared case-study paragraphs; `MotionPreferences.tsx` for Pause/reduced motion |
 | Change GitHub activity | `github-schema.ts` → API route → `GitHubActivity.tsx` → boundary tests |
 | Change project globe | `ProjectExplorer.tsx` → `InfiniteMenu.tsx`, project data and local SVG tiles |

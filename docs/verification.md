@@ -1,6 +1,22 @@
 # Verification
 
-## Dark neo-brutalist theme — 2026-10-31 (current)
+## Anime.js via MCP — 2026-10-31 (current)
+
+Production build on `feat/animejs-interactions`, checkpoints `cfedc9c` and `1ff5c6a`, at `http://127.0.0.1:3001`:
+
+- Actual MCP SDK stdio connection to pinned community `anime-js-mcp-server@1.0.0` succeeded. `tools/list` exposed five tools; `get_anime_example` (`timeline-sequence`), `get_anime_component` (`stagger`), and `get_anime_docs` (`performance`) all returned guidance. Saved evidence: `output/playwright/anime-mcp-guidance.json`. The server supplies v3 examples; the app implements official v4.5 APIs. No portfolio files or GitHub token were sent. The configured pinned npx command returned version 1.0.0. Native Codex tool exposure requires restarting the client; local MCP was already used.
+- Anime.js 4.5.0 is pinned. Strict TypeScript, production build, ESLint, four existing tests and diff checks pass. The production npm audit reports zero known vulnerabilities; no unrelated dependency upgrades or check suppressions were introduced.
+- Untouched homepage: zero optional Anime.js runtime requests, no `data-anime-ready`, and an enabled hydrated Replay button. The first Replay click loads the engine and produces the hero's playing state; measured star/bracket matrices confirm actual changing transforms. Hero, skill and diagram effects settle to idle. Keyboard Replay and skill disclosure activation work. Eight repeated Replay activations and six rapid skill toggles settle correctly without app errors; scopes replace prior instances per region.
+- Shared Pause reverts the star/bracket inline styles, marks the hero static and disables Replay. Play restores eligibility. Live reduced motion clears chip transform/opacity styles. A reduced-motion visit makes zero optional runtime requests and leaves Replay disabled. Deliberately aborting the actual runtime chunk twice leaves the heading/content usable and disables Replay without unhandled normal page errors.
+- Skill chips show distinct staggered transform matrices at 100ms. Every case-study diagram responds to keyboard step selection with `aria-pressed=true`, a playing spring and sequential segment scaling; the strip is decorative selection feedback. All six routes return HTTP 200 at 390px without horizontal overflow. Client-side next-case navigation works.
+- Homepage widths 360, 390, 430, 768, 1024, 1440 and 1920 have no horizontal overflow. Final JavaScript-disabled 390px output retains eight readable narrative blocks, six project links, disabled Replay and no overflow. The new controls do not gate the name or actions. Normal browser checks collected zero application page errors.
+- Fresh optimized-build mobile Lighthouse: **100 performance / 100 accessibility / 100 best practices / 100 SEO**, LCP ~0.914s, TBT 59ms, CLS 0. Its request log confirms the Anime.js runtime was not fetched before interaction. Report: `output/playwright/lighthouse-anime-intent-mobile.json`. This is one local lab sample, not field performance.
+
+The earlier near-viewport/idle-only build measured **76 / 85 / 88 performance** (median 85), with the other three categories 100 throughout. LCP 1.816 / 1.157 / 1.128s; TBT 1000.3 / 571 / 464ms; CLS 0. Host benchmark indices also varied (603 / 2281 / 1808), so not all variation can be attributed to code. These results prompted the intent-loading correction, and all three reports remain saved as `lighthouse-anime-mobile.json`, `lighthouse-anime-mobile-2.json`, `lighthouse-anime-mobile-3.json`. The optimized initial page now verifiably omits that engine. Previous dark/ScrollReveal scores below describe their historical builds.
+
+Inspected animation frames and mobile screenshots under ignored `output/playwright/`: `anime-hero-motion.png`, `anime-skills-motion.png`, `anime-diagram-motion.png`, `anime-hero-mobile.png`, `anime-skills-mobile.png`. Chromium on Windows and emulated mobile only; Safari, Firefox and physical devices were not tested. No external publication occurred.
+
+## Dark neo-brutalist theme — 2026-10-31 (historical checkpoint)
 
 Production build on `feat/dark-neo-brutalist`, implementation checkpoint `2b224ad`, at `http://127.0.0.1:3001`:
 
