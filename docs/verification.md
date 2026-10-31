@@ -1,6 +1,22 @@
 # Verification
 
-## Globe-first project navigation — 2026-10-31 (current)
+## ScrollReveal portfolio text — 2026-10-31 (current)
+
+Production build on `feat/scroll-reveal-text`, implementation checkpoint `e221742`, at `http://127.0.0.1:3001`:
+
+- Strict TypeScript production build, lint, four GitHub boundary tests and diff checks pass. GSAP 3.15.0 is pinned. No checks or assertions were weakened.
+- Eight homepage narrative paragraphs use the supplied React Bits engine; each of the six case studies has eight narrative placements. Existing heading levels, actions, source links, scope notes, lists and credential controls retain their semantics.
+- Actual wheel scrolling at 1440px measured dim/4px-blurred words before entry, staggered opacities ranging from 0.815 down to 0.1 partway through, then every word at opacity 1 and zero blur by a 480px viewport top. Reverse scrolling restored the staggered partial state. This verifies scroll-linked scrubbing rather than just a one-time entrance.
+- Pause clears custom styles: zero dim/blurred words. Play restores the effect. Live reduced-motion changes likewise restore clarity; reduced-motion visits do not request either GSAP chunk. Engine failure was deliberately injected by aborting both actual GSAP/ScrollTrigger chunks: text remained static and fully clear.
+- The optimized build starts with zero split-word nodes and zero GSAP engine requests on the homepage. Words are prepared near the viewport. JavaScript-disabled 390px output has all eight readable ordinary narrative paragraphs, zero word spans, and six project links. This preserves useful server output without animation code.
+- Homepage widths 360, 390, 430, 768, 1024, 1440 and 1920px have no horizontal overflow. All six case-study routes return HTTP 200 at 390px with no overflow and activate nearby narrative reveals. The existing globe still loads and duplicate project-card grids remain absent. Normal interaction checks reported zero application page errors.
+- Fresh final-build mobile Lighthouse used a fixed three-sample set, retaining every result: performance **88 / 100 / 100** (median 100); accessibility, best practices and SEO **100 in all three**. LCP **1.208 / 0.914 / 0.928 seconds**; TBT **482.5 / 78 / 81ms**; CLS **0 throughout**. Host benchmark indices varied (1676 / 2747 / 2310.5), so these local samples are not a stable field-performance claim. The initial 88 sample is below the blueprint's 90 target; the median meets it. Reports: `lighthouse-scroll-reveal-deferred-mobile.json`, `lighthouse-scroll-reveal-deferred-mobile-2.json`, `lighthouse-scroll-reveal-deferred-mobile-3.json` under `output/playwright/`.
+
+An earlier implementation split words during initial hydration and scored 84 (`lighthouse-scroll-reveal-mobile.json`). Splitting was deferred before final verification; the initial DOM now stays unsplit. Audit variation prevents attributing the entire score change to that adjustment. Prior globe/design audit scores below describe their historical builds.
+
+Inspected screenshots: `reveal-about-progress-desktop.png`, `reveal-about-desktop.png`, `reveal-about-mobile.png`, and `reveal-case-mobile.png` under ignored `output/playwright/`. Chromium on Windows only; Safari, Firefox and physical devices were not tested. No deployment or external publication occurred.
+
+## Globe-first project navigation — 2026-10-31 (historical checkpoint)
 
 Production validation at `http://127.0.0.1:3001` on `feat/globe-project-navigation`:
 

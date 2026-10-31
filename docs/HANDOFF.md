@@ -11,7 +11,7 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 | Canonical checkout | `D:\CodexProjects\shubham-portfolio` |
 | User-facing path | `C:\Users\putit\shubham-portfolio`, a junction to the canonical checkout |
 | Runtime/cache directory | `D:\CodexProjects\shubham-portfolio-runtime` |
-| Baseline implementation | Commit `93263aa`; current branch `feat/globe-project-navigation` |
+| Baseline implementation | Commit `93263aa`; current branch `feat/scroll-reveal-text` |
 | Git remote | None configured at handoff creation; do not infer a repository from the owner's profile |
 | Local preview | `http://127.0.0.1:3001`, production preview for the redesign; process survival across sessions is not guaranteed |
 | Baseline source ZIP | `D:\CodexProjects\shubham-portfolio-runtime\shubham-portfolio-source.zip` (implementation checkpoint; not automatically updated) |
@@ -19,13 +19,19 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 
 Older projects `C:\Users\putit\my-portfolio` and `C:\Users\putit\Portofolio_V5` were inspected only for context. This implementation is separate.
 
+## Current scrolling text
+
+The owner explicitly supplied and requested React Bits ScrollReveal. Its typed adaptation now reveals About, Expertise/Experience introduction text, internship descriptions and shared case-study narrative paragraphs as scrolling sharpens/fades words into place. Scroll backward to reverse. Defaults retain the requested words/fade/0.1 opacity/4px blur/3-degree rotation/zero smoothing; portfolio prose finishes at `bottom 65%` for a visible reading interval. The About lead is larger.
+
+Start with `src/components/react-bits/ScrollReveal.tsx`, its CSS and `src/lib/scroll-reveal-runtime.ts`. GSAP 3.15.0 is pinned and dynamically loaded. Word splitting is deferred until 600px before the viewport, preserving simple initial server/hydration text. Shared Pause and live reduced motion clear blur/opacity/transforms; no JavaScript and failed engine imports leave readable text. Semantic paragraphs and unsplit screen-reader text preserve accessibility. Existing finite entrances skip parents containing this effect. A shared layout observer handles changing globe/disclosure heights. This explicit request supersedes the earlier no-GSAP decision for this component; AnimatedContent is still absent.
+
 ## Current project navigation
 
 The owner approved globe-first browsing: the six duplicate homepage cards are removed, and `ProjectExplorer.tsx` renders its native disclosure expanded by default. The graphics chunk loads as the Work section approaches the viewport (250px margin). Six compact case-study links remain available before/loading the graphic and for Pause/reduced motion, no JavaScript, WebGL/context loss or chunk failure. Each globe selection can open its dedicated `/projects/[slug]` page via the open arrow or Enter. All six case-study pages retain their original content, diagrams and source links. TargetCursor is scoped to the globe action and fallback links.
 
-## Supplied-design integration checkpoint
+## Historical supplied-design integration checkpoint
 
-The owner’s Downloads `React bits .txt` supplies five designs. Current integration adds intent-loaded TechText to the name; focused TargetCursor/ClickSpark/GooeyNav adaptations to appropriate controls; and an optional InfiniteMenu project globe above the unchanged case-study card flow. Six original project tile SVGs live in `public/projects/tiles/`. No dependencies were added.
+The owner’s Downloads `React bits .txt` supplies five designs. The following describes that earlier checkpoint; globe-first navigation and ScrollReveal above supersede its card, loading and dependency details. Current integration adds intent-loaded TechText to the name; focused TargetCursor/ClickSpark/GooeyNav adaptations to appropriate controls; and an optional InfiniteMenu project globe above the unchanged case-study card flow. Six original project tile SVGs live in `public/projects/tiles/`. No dependencies were added.
 
 Start with `src/components/hero/HeroName.tsx`, `src/components/projects/ProjectExplorer.tsx`, `src/components/react-bits/`, `src/components/ui/MotionPreferences.tsx` and `src/components/ui/OptionalEffectBoundary.tsx`. The existing Pause button now shares its state across the effects; OS reduced motion remains live. Static links/heading remain available for reduced motion, graphics failure, chunk failure, and no-JavaScript use. The globe has no autoplay and is only loaded after expansion. See `docs/content-and-decisions.md` for the component-by-component decisions.
 
@@ -55,7 +61,8 @@ The cube, SVG sculpture fallback, and exclusive Three.js dependencies were remov
 | React Bits engines and focused adaptations | `src/components/react-bits/` |
 | Optional project globe and static fallback | `src/components/projects/ProjectExplorer.tsx`, `public/projects/tiles/` |
 | Shared pause/reduced motion and optional chunk fallback | `src/components/ui/MotionPreferences.tsx`, `src/components/ui/OptionalEffectBoundary.tsx` |
-| Progressive scroll reveals and rolling labels | `src/components/ui/ScrollReveals.tsx`, `src/components/ui/RollLabel.tsx` |
+| Scroll-scrubbed detail text | `src/components/react-bits/ScrollReveal.tsx`, `src/lib/scroll-reveal-runtime.ts` |
+| Finite scroll entrances and rolling labels | `src/components/ui/ScrollReveals.tsx`, `src/components/ui/RollLabel.tsx` |
 | Architecture interactions and cursor simulation | `src/components/projects/` |
 | GitHub schema, fetching, rendering | `src/lib/github-schema.ts`, `src/app/api/github/route.ts`, `src/components/sections/GitHubActivity.tsx` |
 | Metadata, domain, sitemap, social image | `src/app/layout.tsx`, `src/lib/site.ts`, `src/app/sitemap.ts`, `src/app/opengraph-image.tsx` |
@@ -80,7 +87,9 @@ C: ran out of space during dependency installation and Chromium tracing. Keep to
 
 ## Verification already performed
 
-Current globe-first layout: build/TypeScript, lint, four tests, default-open/zero-card checks, selected-project navigation, all six route/link checks, collapse/reopen, seven widths, reduced motion, no JavaScript and forced graphics failure passed. Fresh local mobile Lighthouse: 92 performance / 100 accessibility / 100 best practices / 100 SEO; LCP ~1.06s, TBT 354.5ms, CLS 0. Evidence is in `docs/verification.md` and `output/playwright/lighthouse-globe-primary-mobile.json`.
+Current ScrollReveal build: production build/TypeScript, lint, four tests, forward/reverse scroll progression, Pause/Play, live reduced motion, no-JavaScript and engine-failure readability, seven homepage widths and all six case-study routes passed. Initial homepage has zero split words or GSAP engine requests; text prepares near the viewport. Final fixed three-sample mobile Lighthouse performance was 88 / 100 / 100 (median 100), with accessibility/best practices/SEO 100 throughout, LCP 1.208 / 0.914 / 0.928s, TBT 482.5 / 78 / 81ms and CLS 0. The 88 sample is below the 90 target; retain the full range rather than promising a consistent 100. Evidence and historical pre-optimization 84 are in `docs/verification.md`. Implementation checkpoint: `e221742`.
+
+Historical globe-first layout checkpoint: build/TypeScript, lint, four tests, default-open/zero-card checks, selected-project navigation, all six route/link checks, collapse/reopen, seven widths, reduced motion, no JavaScript and forced graphics failure passed. Fresh local mobile Lighthouse: 92 performance / 100 accessibility / 100 best practices / 100 SEO; LCP ~1.06s, TBT 354.5ms, CLS 0. Evidence is in `docs/verification.md` and `output/playwright/lighthouse-globe-primary-mobile.json`.
 
 Earlier integration checkpoint:
 
@@ -112,7 +121,7 @@ CyberShield uses synthetic data. Disease prediction has code artifacts and docum
 - Automatic approval review rejected a fallback upload via the deployment skill because it would send source and the personal résumé to an unverified destination without explicit approval. Do not retry or bypass it based on this context file. The user has not yet approved publication.
 - For approved deployment, use an authenticated, user-approved destination and set `NEXT_PUBLIC_SITE_URL` to the final HTTPS domain. Preview metadata can use `VERCEL_URL`.
 - Custom domain, Sentry, and Vercel Analytics are not configured.
-- `.codex/config.toml` configures the shadcn MCP server, but connection verification requires a client restart. React Bits public CircularText and ScrollVelocity are now adapted locally with attribution/license. AnimatedContent remains rejected because it adds GSAP and hides SSR content. No Pro integration is installed.
+- `.codex/config.toml` configures the shadcn MCP server, but connection verification requires a client restart. React Bits public CircularText and ScrollVelocity are now adapted locally with attribution/license. AnimatedContent remains absent after its historical review. The owner explicitly authorized GSAP for the separate ScrollReveal integration above, with readable SSR and lazy engine loading. No Pro integration is installed.
 
 ## Persistent graph and future sessions
 

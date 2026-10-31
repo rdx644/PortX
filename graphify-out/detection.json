@@ -29,6 +29,7 @@
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\ClickSpark.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\GooeyNav.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\InfiniteMenu.tsx",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\ScrollReveal.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\ScrollVelocity.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\TargetCursor.tsx",
       "D:\\CodexProjects\\shubham-portfolio\\src\\components\\react-bits\\TechText.tsx",
@@ -46,6 +47,7 @@
       "D:\\CodexProjects\\shubham-portfolio\\src\\data\\profile.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\data\\projects.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\github-schema.ts",
+      "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\scroll-reveal-runtime.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\site.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\use-reduced-motion.ts",
       "D:\\CodexProjects\\shubham-portfolio\\src\\lib\\utils.ts",
@@ -72,10 +74,10 @@
     ],
     "video": []
   },
-  "total_files": 63,
-  "total_words": 29400,
+  "total_files": 65,
+  "total_words": 32124,
   "needs_graph": false,
-  "warning": "Corpus is ~29,400 words - fits in a single context window. You may not need a graph.",
+  "warning": "Corpus is ~32,124 words - fits in a single context window. You may not need a graph.",
   "skipped_sensitive": [],
   "graphifyignore_patterns": 11
 }

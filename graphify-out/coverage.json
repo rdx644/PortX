@@ -42,7 +42,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "c3e53a017a89f06f0f6909044d00506435d58434b48592ee1e5e234bc9c4ccc5",
+      "sha256": "52c7198a67807b2f6b9d553f3b2351733926331dc65519461268906b74aabc5e",
       "mode": "document/configuration"
     },
     {
@@ -52,12 +52,12 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "3c8eef588465ec4da67cd0b7376efc50ae82e74226e9a615941ca5e4fe07a358",
+      "sha256": "04e381444000cc21fe8590a11f681fef92e96d876735d652eee2125a1abac9a2",
       "mode": "document/configuration"
     },
     {
       "path": "docs/content-and-decisions.md",
-      "sha256": "45f1624498e6d943a22d2031acc6723902d7192fb5b2c036b7143941c9384661",
+      "sha256": "a4f611a7f3cd0c50c0aab0d76209685dbf8bfedc02946f8776b3d1ff1d4dc3da",
       "mode": "document/configuration"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "path": "docs/verification.md",
-      "sha256": "ba2a8d8b387a66ed9a4ec5862c351ccdafe1c5ac21e59a0b281c986fd89efcf5",
+      "sha256": "e4fb14d1c4882d1bc03db4212a78621a9445095386d399d5071b79dd160c5d92",
       "mode": "document/configuration"
     },
     {
@@ -92,12 +92,12 @@
     },
     {
       "path": "package-lock.json",
-      "sha256": "2cfaf2c6b528ca259c0215afb0d5759e530a9d811c6d5e39e25723f509c4402c",
+      "sha256": "236fd4b677de907a814c8e5b2a925f7a029e7d20a2644daaf25ff7e1aa4c9982",
       "mode": "metadata only"
     },
     {
       "path": "package.json",
-      "sha256": "88aaf92971a2889a74c1afd0f80f9d996a249e11cbca1c9a9ae9ddc8238ab2ff",
+      "sha256": "5a2d47453eb65f1c47de22a81da27853778a51bbde8de5bfe70b844b6d94181e",
       "mode": "document/configuration"
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "path": "src/app/projects/[slug]/page.tsx",
-      "sha256": "bc8e00a28435c7bd371dbfddaea4ed26df2708031d885210c0df700915cdd7a8",
+      "sha256": "48e8fcf7112233955d00c5c319d6e5cd6930d39db0ff50eb1d470c8c610e5b3e",
       "mode": "structural source"
     },
     {
@@ -281,6 +281,16 @@
       "mode": "structural source"
     },
     {
+      "path": "src/components/react-bits/ScrollReveal.css",
+      "sha256": "ca115fab59ddc15e1212c6c307a5bbe8a1c6f25300161ed9892156b0d4059786",
+      "mode": "document/configuration"
+    },
+    {
+      "path": "src/components/react-bits/ScrollReveal.tsx",
+      "sha256": "779d8b5ecb6f97afb4e89dedece42032bbae83f49919a4ad67b7d680fb0b15bd",
+      "mode": "structural source"
+    },
+    {
       "path": "src/components/react-bits/ScrollVelocity.tsx",
       "sha256": "6cbf833b8ef047d4318d8483434f3b5e61396d6401f527ca9eb2ae52adbb8f6e",
       "mode": "structural source"
@@ -307,7 +317,7 @@
     },
     {
       "path": "src/components/sections/About.tsx",
-      "sha256": "c003217d313bbb82f2cd5e044f622c22ba1c2dfd583fd54d7c0591a4994aa67f",
+      "sha256": "577e36a6367af2763dac2bd4eb0fcbe02b5fe6105332d3cd8044cf64207d806a",
       "mode": "structural source"
     },
     {
@@ -322,12 +332,12 @@
     },
     {
       "path": "src/components/sections/Experience.tsx",
-      "sha256": "59ece7e9db1cb91480b9f2e407751a42ffd87b9fd9d97dad848135d3cc8267a1",
+      "sha256": "22f11697f959b68e3eccfe3714fc12591baff4437df56c1c5a7636aad937cc39",
       "mode": "structural source"
     },
     {
       "path": "src/components/sections/Expertise.tsx",
-      "sha256": "cdf2d9e42899f4c2b6861e863d095194fc3ba57a6a6ed407dde4e7bb44695070",
+      "sha256": "d93128137c39a8981c5fa6e57487b35e527795e8975b850c2a13138e4457337f",
       "mode": "structural source"
     },
     {
@@ -357,7 +367,7 @@
     },
     {
       "path": "src/components/ui/ScrollReveals.tsx",
-      "sha256": "66fad6b99c2ecaca956973d3126f9f4b3b6d9c06b112b4e3402362b0078526d8",
+      "sha256": "b5a62da93c47bf1715c1c80d6b4e214ab09d0848f59f0385d83c70a25c411f4b",
       "mode": "structural source"
     },
     {
@@ -373,6 +383,11 @@
     {
       "path": "src/lib/github-schema.ts",
       "sha256": "d247dc8df735aca9946265c724102326e0361b7e148ab26bf1a9642e053101ba",
+      "mode": "structural source"
+    },
+    {
+      "path": "src/lib/scroll-reveal-runtime.ts",
+      "sha256": "bc65e726bf67031cae0bdd07947b78790c7e18a2b4e8a627d16cf558cce66dd5",
       "mode": "structural source"
     },
     {

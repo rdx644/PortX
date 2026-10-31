@@ -66,6 +66,18 @@ The native project disclosure is expanded by default, including in server/no-Jav
 
 Copy now presents this as the primary project view (“Explore my projects”), and TargetCursor brackets follow the selected-project action and compact fallback links. It no longer targets removed card markup. No WebGL autoplay or new dependency was introduced.
 
+## ScrollReveal text animation — approved 2026-10-31
+
+The owner supplied React Bits ScrollReveal and explicitly requested its scrolling word-reveal on portfolio detail text. This authorizes GSAP for this component; the earlier rejection of AnimatedContent remains historical and that separate component is still absent. Reviewed the matching typed registry at https://reactbits.dev/r/ScrollReveal-TS-CSS.json and official ScrollTrigger/matchMedia documentation. GSAP 3.15.0 is pinned in the lockfile. Existing React Bits attribution applies.
+
+`src/components/react-bits/ScrollReveal.tsx` preserves the supplied word painter and scrub behavior. Portfolio placements use words/fade, stagger 0.05, base opacity 0.1, rotation 3 degrees, blur 4px, zero offset/smoothing and no highlight. Their word end position is `bottom 65%`, extending the short paragraph's visible scroll interval; component defaults and the supplied chars/lines, enter, rise/flip/scale variants remain available. Rotation retains the supplied `bottom bottom` end. Scrolling upward reverses the scrub.
+
+Applied to all three About paragraphs, the Expertise and Experience introductions, virtual-internship descriptions, and case-study summaries/problem/decisions/challenges/security/outcome prose. The About lead is larger to make the effect clear. Titles, navigation, buttons, tags, dates, credentials, project scope/provenance notes and technical lists retain their normal presentation. Semantic paragraph tags preserve the heading structure; a single unsplit screen-reader copy avoids word-by-word announcements.
+
+The server and initial hydration render ordinary text. An IntersectionObserver prepares word spans within 600px of the viewport, then the shared `scroll-reveal-runtime.ts` imports GSAP/ScrollTrigger once. The initial homepage does not fetch either engine chunk. A shared body ResizeObserver refreshes trigger positions after globe/disclosure layout changes; font readiness also refreshes measurements. Cleanup reverts each GSAP media context and clears the custom-painted styles. Global Pause and live OS reduced motion restore full clarity. Reduced-motion visits skip engine loading; absent JavaScript or failed engine chunks leave readable text. Finite parent entrances skip containers that contain ScrollReveal so transforms/opacities do not compound.
+
+The first implementation split all paragraphs during initial hydration and measured 84 mobile performance. Word preparation was deferred to address that startup work. Final verification and the retained reports are recorded in `docs/verification.md`; earlier globe/design scores describe their respective historical builds.
+
 ## External configuration still required
 
 An owned Vercel deployment and final domain; optional Sentry and Vercel Analytics activation; issuer-side credential review. These are separate from the functioning local implementation and must be verified before claiming the blueprint's complete production definition of done.
