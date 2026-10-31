@@ -1,6 +1,20 @@
 # Verification
 
-## ScrollReveal portfolio text — 2026-10-31 (current)
+## Dark neo-brutalist theme — 2026-10-31 (current)
+
+Production build on `feat/dark-neo-brutalist`, implementation checkpoint `2b224ad`, at `http://127.0.0.1:3001`:
+
+- Production build (including strict TypeScript), ESLint, four existing tests and diff checks pass. This theme adds no dependencies or test suppressions.
+- Body computes to `rgb(21, 22, 25)` with `color-scheme: dark`. About is navy `rgb(36, 43, 64)` and Contact raised charcoal `rgb(34, 36, 42)`. The same dark background remains under light and dark OS preferences and without JavaScript. Metadata and Open Graph image match the dark palette.
+- Automated axe text-contrast checks found zero violations on the homepage and all six case-study routes with motion stopped/reduced for stable reading states. Axe's manual-review items concern decorative circular text, dot-pattern captions and the scroll arrow. Visual inspection and calculated color pairs cover those: off-white on the lightest dot color 6.15:1, ink on pink 10.93:1, ink on yellow 12.7:1. Muted text on navy measures 7.2:1. These checks do not establish full WCAG conformance.
+- Seven homepage widths (360, 390, 430, 768, 1024, 1440, 1920) have no horizontal overflow. All six case-study routes return HTTP 200 at 390px with dark backgrounds and no overflow. Selected architecture nodes use ink text on yellow; the dark patch illustration and cursor demo retain readable labels. Mobile menu opens and selecting About closes it (`aria-expanded=false`).
+- The globe's dark renderer loads with colorful original tiles and opaque dark information plates; its action uses ink text on periwinkle. Compact links remain available when motion is stopped. Existing project-card grids remain removed.
+- Actual wheel scrolling still changes About words from opacity 0.1–0.861 through all 1, then back to 0.1–0.861 when reversed. Pause leaves zero dim/blurred words. Live reduced motion restores the static reading state. JavaScript-disabled output at 390px has the dark background, all eight readable narrative blocks, six project links and no overflow. Normal browser checks reported zero application page errors.
+- Fresh isolated local mobile Lighthouse: **100 performance / 100 accessibility / 100 best practices / 100 SEO**, LCP ~0.914s, TBT 66ms, CLS 0. Report: `output/playwright/lighthouse-dark-mobile.json`. This is a single local lab measurement, not field performance; prior scores below are historical builds.
+
+Inspected evidence under ignored `output/playwright/`: `dark-hero-desktop.png`, `dark-hero-mobile.png`, `dark-globe-desktop.png`, `dark-about-desktop.png`, `dark-about-mobile.png`, `dark-expertise-desktop.png`, `dark-contact-desktop.png`, `dark-menu-mobile.png`, `dark-case-mobile.png`, `dark-patch-mobile.png`, and `dark-opengraph.png`. Chromium on Windows and emulated mobile only; Safari, Firefox and physical devices were not tested. No external publication occurred.
+
+## ScrollReveal portfolio text — 2026-10-31 (historical checkpoint)
 
 Production build on `feat/scroll-reveal-text`, implementation checkpoint `e221742`, at `http://127.0.0.1:3001`:
 

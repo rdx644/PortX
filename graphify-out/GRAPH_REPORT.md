@@ -1,39 +1,40 @@
 # Graph Report - D:\CodexProjects\shubham-portfolio  (2026-10-31)
 
 ## Corpus Check
-- Corpus is ~32,124 words - fits in a single context window. You may not need a graph.
+- Corpus is ~33,040 words - fits in a single context window. You may not need a graph.
 
 ## Summary
-- 468 nodes · 1018 edges · 13 communities detected
+- 490 nodes · 1076 edges · 14 communities detected
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 9 edges (avg confidence: 0.83)
 - Token cost: unavailable (in-session extraction-agent counters were not exposed)
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Project decisions 0|Project decisions 0]]
 - [[_COMMUNITY_Metadata and navigation|Metadata and navigation]]
+- [[_COMMUNITY_Project decisions 2|Project decisions 2]]
 - [[_COMMUNITY_Dependencies and build tools|Dependencies and build tools]]
-- [[_COMMUNITY_GitHub data validation|GitHub data validation]]
-- [[_COMMUNITY_Project decisions 4|Project decisions 4]]
+- [[_COMMUNITY_Visual identity|Visual identity]]
 - [[_COMMUNITY_TypeScript graph extraction|TypeScript graph extraction]]
 - [[_COMMUNITY_Application foundation 6|Application foundation 6]]
 - [[_COMMUNITY_Application foundation 7|Application foundation 7]]
 - [[_COMMUNITY_Application foundation 8|Application foundation 8]]
 - [[_COMMUNITY_Engineering decisions|Engineering decisions]]
-- [[_COMMUNITY_Project case studies|Project case studies]]
-- [[_COMMUNITY_Application foundation 11|Application foundation 11]]
-- [[_COMMUNITY_Project decisions 12|Project decisions 12]]
+- [[_COMMUNITY_Project case studies 10|Project case studies 10]]
+- [[_COMMUNITY_GitHub data validation|GitHub data validation]]
+- [[_COMMUNITY_Project case studies 12|Project case studies 12]]
+- [[_COMMUNITY_Project decisions 13|Project decisions 13]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `docs/content-and-decisions.md` - 74 edges
-2. `docs/HANDOFF.md` - 52 edges
-3. `docs/verification.md` - 42 edges
+1. `docs/content-and-decisions.md` - 84 edges
+2. `docs/HANDOFF.md` - 53 edges
+3. `docs/verification.md` - 50 edges
 4. `react` - 38 edges
 5. `src/components/react-bits/ScrollReveal.tsx` - 30 edges
 6. `src/components/react-bits/TechText.tsx` - 27 edges
 7. `src/components/react-bits/InfiniteMenu.tsx` - 26 edges
 8. `next` - 23 edges
 9. `scripts/extract_structure.mjs` - 22 edges
-10. `src/app/globals.css` - 19 edges
+10. `src/app/globals.css` - 21 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `docs/HANDOFF.md` --references--> `public/resume/shubham-putitundi.pdf`  [EXTRACTED]
@@ -49,66 +50,69 @@
 
 ## Hyperedges (group relationships)
 - **Durable context and freshness workflow for future modifications** — doc_handoff, doc_graph_context, doc_graph_maintenance, doc_source_review [EXTRACTED 1.00]
-- **Viewport-deferred word scrubbing preserves semantic static text through motion preferences and engine failure** — doc_scroll_reveal, doc_scroll_reveal_a11y, doc_scroll_reveal_deferred, doc_scroll_reveal_runtime, doc_scroll_reveal_static, doc_motion_preferences [EXTRACTED 1.00]
-- **Default-open viewport-loaded globe and six compact links form one resilient primary project browser** — doc_infinite_menu, doc_globe_default_open, doc_globe_viewport_loading, doc_globe_navigation, doc_globe_fallback, doc_case_content_preserved [EXTRACTED 1.00]
-- **Fixed final samples retained with below-target first run host variation and historical optimization comparison** — doc_current_lighthouse, doc_scroll_reveal_samples, doc_scroll_reveal_variation, doc_scroll_reveal_preoptimization, doc_qa_limits [EXTRACTED 1.00]
+- **Dark neo-brutalism separates readable text slate borders ink shadows and bright ink-text stamps across surfaces** — doc_neo_brutalism, doc_dark_palette, doc_dark_roles, doc_bright_stamp_text, doc_dark_surfaces [EXTRACTED 1.00]
+- **Theme preserves GSAP narrative effects shared preferences static fallbacks and globe-first case-study navigation** — doc_dark_preservation, doc_scroll_reveal, doc_motion_preferences, doc_scroll_reveal_static, doc_globe_navigation, doc_globe_fallback, doc_six_cases [EXTRACTED 1.00]
 
 ## Communities
 
 ### Community 0 - "Project decisions 0"
-Cohesion: 0.06
-Nodes (85): Source-backed claims and visible prototype limits, Public React Bits references: tech-text target-cursor click-spark infinite-menu and gooey-nav, Portfolio implementation blueprint requirements, Hourly cache and six-second request timeout, Six dedicated case-study pages retain content source links diagrams and scope notes, Shared statically generated case-study template, Historical supplied-design QA: blocked TechText chunk preserved h1 DOM name main content and then-present cards, Public CircularText registry: https://reactbits.dev/r/CircularText-TS-CSS.json (+77 more)
+Cohesion: 0.05
+Nodes (95): Source-backed claims and visible prototype limits, Public React Bits references: tech-text target-cursor click-spark infinite-menu and gooey-nav, Portfolio implementation blueprint requirements, Yellow/pink stamps buttons badges selected diagram nodes and navigation states use dark ink text, Mobile theme/color-scheme metadata and generated social image match dark page; TechText accent matches name, Hourly cache and six-second request timeout, Six dedicated case-study pages retain content source links diagrams and scope notes, Shared statically generated case-study template (+87 more)
 
 ### Community 1 - "Metadata and navigation"
-Cohesion: 0.07
-Nodes (78): src/components, src/components/hero, src/components/navigation, src/components/sections, src/components/ui, src/app/layout.tsx, src/app/not-found.tsx, src/app/page.tsx (+70 more)
-
-### Community 2 - "Dependencies and build tools"
 Cohesion: 0.05
-Nodes (37): Shubham portfolio checkout, .codex, .github, .github/workflows, docs, docs/licenses, public, public/projects (+29 more)
+Nodes (90): src/components, src/components/hero, src/components/navigation, src/components/react-bits, src/components/sections, src/components/ui, src/app/layout.tsx, src/app/not-found.tsx (+82 more)
 
-### Community 3 - "GitHub data validation"
-Cohesion: 0.05
-Nodes (43): src, src/app, src/app/api, src/app/api/github, src/data, src/lib, tests, src/app/api/github/route.ts (+35 more)
+### Community 2 - "Project decisions 2"
+Cohesion: 0.09
+Nodes (42): Historical bits screenshots and lighthouse-bits-mobile.json under ignored output/playwright, Historical supplied-design local mobile Lighthouse 93/100/100/100; LCP 1.21s TBT 308ms CLS 0, Historical supplied-design QA: shared Pause/Play and live reduced motion disable animations canvases and brackets, Historical supplied-design QA: globe drag arrow keys Enter and touch/menu checked, Historical supplied-design production-preview Chromium QA on feat/react-bits-interactions, Historical supplied-design QA: blocked TechText chunk preserved h1 DOM name main content and then-present cards, Current strict TypeScript production build ESLint four existing tests and diff checks pass; theme adds no dependencies/suppressions, Current dark hero globe About Expertise Contact menu case patch and OpenGraph screenshots under ignored output/playwright (+34 more)
 
-### Community 4 - "Project decisions 4"
-Cohesion: 0.12
-Nodes (33): Historical bits screenshots and lighthouse-bits-mobile.json under ignored output/playwright, Historical supplied-design local mobile Lighthouse 93/100/100/100; LCP 1.21s TBT 308ms CLS 0, Historical supplied-design QA: shared Pause/Play and live reduced motion disable animations canvases and brackets, Historical supplied-design QA: globe drag arrow keys Enter and touch/menu checked, Historical supplied-design production-preview Chromium QA on feat/react-bits-interactions, Current strict TypeScript build lint four GitHub boundary tests and diff checks pass; GSAP pinned, Current reveal screenshots and all three lighthouse-scroll-reveal-deferred-mobile reports retained, Historical globe-first QA: selected-project action and six compact route links returned HTTP 200 (+25 more)
+### Community 3 - "Dependencies and build tools"
+Cohesion: 0.06
+Nodes (27): Shubham portfolio checkout, .codex, .github, .github/workflows, docs, docs/licenses, scripts, .codex/config.toml (+19 more)
+
+### Community 4 - "Visual identity"
+Cohesion: 0.06
+Nodes (39): --accent = #a6b6ff, --background = #151619, --blue-light = #242b40, --border = #7e8492, --dark = #101114, --font-sans = var(--font-body), --foreground = #f4f0e6, --ink = #151619 (+31 more)
 
 ### Community 5 - "TypeScript graph extraction"
 Cohesion: 0.1
-Nodes (32): scripts, scripts/extract_structure.mjs, scripts/refresh_graph.py, node:fs, node:path, addNode, config, declarations (+24 more)
+Nodes (31): scripts/extract_structure.mjs, scripts/refresh_graph.py, node:fs, node:path, addNode, config, declarations, declaredName (+23 more)
 
 ### Community 6 - "Application foundation 6"
-Cohesion: 0.09
-Nodes (29): src/components/react-bits, src/components/react-bits/InfiniteMenu.css, src/components/react-bits/ScrollReveal.css, src/components/react-bits/TechText.css, src/components/react-bits/TechText.tsx, src/components/react-bits/interactions.css, Art, Band (+21 more)
+Cohesion: 0.11
+Nodes (26): src/components/react-bits/ScrollReveal.tsx, src/lib/scroll-reveal-runtime.ts, gsap, RISE_MASK, RevealEffect, RevealLook, RevealMode, RevealSplit (+18 more)
 
 ### Community 7 - "Application foundation 7"
 Cohesion: 0.11
-Nodes (26): src/components/react-bits/ScrollReveal.tsx, src/lib/scroll-reveal-runtime.ts, gsap, RISE_MASK, RevealEffect, RevealLook, RevealMode, RevealSplit (+18 more)
+Nodes (24): src/components/react-bits/TechText.tsx, Art, Band, Box, Cell, FALLOFF_STEPS, Glyph, INHERIT (+16 more)
 
 ### Community 8 - "Application foundation 8"
 Cohesion: 0.14
 Nodes (23): src/components/react-bits/InfiniteMenu.tsx, ArrowIcon, Engine, FOV, FRAGMENT, FRONT, GRID, InfiniteMenu (+15 more)
 
 ### Community 9 - "Engineering decisions"
-Cohesion: 0.17
-Nodes (21): Canonical checkout: D:/CodexProjects/shubham-portfolio, C: disk-space constraint, Final domain Sentry and analytics still unconfigured, Persistent graph context and source/config/document/asset coverage inventory, Structural refresh and source-hash-based semantic freshness checks, Durable project handoff, Historical cube sculpture removed at owner's request, C: project path is a local directory junction (+13 more)
+Cohesion: 0.18
+Nodes (20): Canonical checkout: D:/CodexProjects/shubham-portfolio, C: disk-space constraint, Final domain Sentry and analytics still unconfigured, Persistent graph context and source/config/document/asset coverage inventory, Structural refresh and source-hash-based semantic freshness checks, Durable project handoff, Historical cube sculpture removed at owner's request, C: project path is a local directory junction (+12 more)
 
-### Community 10 - "Project case studies"
+### Community 10 - "Project case studies 10"
 Cohesion: 0.15
 Nodes (20): src/app/projects, src/app/projects/[slug], src/components/projects, src/app/projects/[slug]/page.tsx, src/components/projects/Architecture.tsx, src/components/projects/CursorDemo.tsx, src/components/projects/ProjectVisual.tsx, src/data/projects.ts (+12 more)
 
-### Community 11 - "Application foundation 11"
+### Community 11 - "GitHub data validation"
 Cohesion: 0.12
-Nodes (16): --accent = #244bd7, --background = #faf7ed, --blue-light = #dbe4fa, --border = #242424, --dark = #191919, --font-sans = var(--font-body), --foreground = #191919, --muted = #57574f (+8 more)
+Nodes (17): src/app/api, src/app/api/github, tests, src/app/api/github/route.ts, src/lib/github-schema.ts, tests/github.test.ts, node:assert/strict, node:test (+9 more)
 
-### Community 12 - "Project decisions 12"
+### Community 12 - "Project case studies 12"
+Cohesion: 0.18
+Nodes (11): public, public/projects, public/projects/tiles, public/resume, public/projects/tiles/agentic-commerce.svg, public/projects/tiles/cybershield.svg, public/projects/tiles/haveloc-agent.svg, public/projects/tiles/multiplayer-cursor.svg (+3 more)
+
+### Community 13 - "Project decisions 13"
 Cohesion: 0.46
 Nodes (8): React Bits MIT + Commons Clause License Condition v1.0; copyright 2026 David Haz, React Bits use/copy/modify/distribute within applications websites or products including commercial use, May not sell sublicense or redistribute components themselves alone bundled or ported, Exports usable in personal/commercial products; no standalone export sales or redistribution as packs/products, Copyright and permission notices required in copies or substantial portions, Tools and sounds may not be sold sublicensed redistributed or offered as substantially similar hosted tools, Software provided as-is without warranty or author liability, docs/licenses/react-bits.md
 
 ## Knowledge Gaps
-- **120 isolated node(s):** `.github/workflows/ci.yml`, `public/projects/tiles/agentic-commerce.svg`, `public/projects/tiles/cybershield.svg`, `public/projects/tiles/haveloc-agent.svg`, `public/projects/tiles/multiplayer-cursor.svg` (+115 more)
+- **122 isolated node(s):** `.github/workflows/ci.yml`, `public/projects/tiles/agentic-commerce.svg`, `public/projects/tiles/cybershield.svg`, `public/projects/tiles/haveloc-agent.svg`, `public/projects/tiles/multiplayer-cursor.svg` (+117 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 
 ## Suggested Questions
@@ -118,12 +122,12 @@ _Questions this graph is uniquely positioned to answer:_
   _The content model is imported by both presentation paths._
 - **How do reduced-motion, no-JavaScript, and GitHub fallbacks preserve usable homepage content?**
   _This connects optional motion, data validation, and the documented initial-content requirement._
-- **Why does `docs/HANDOFF.md` connect `Engineering decisions` to `Project decisions 0`, `Metadata and navigation`, `Dependencies and build tools`, `GitHub data validation`, `Project decisions 4`, `TypeScript graph extraction`, `Application foundation 7`, `Project case studies`, `Application foundation 11`?**
+- **Why does `docs/HANDOFF.md` connect `Engineering decisions` to `Project decisions 0`, `Metadata and navigation`, `Project decisions 2`, `Dependencies and build tools`, `Visual identity`, `TypeScript graph extraction`, `Application foundation 6`, `Project case studies 10`, `GitHub data validation`, `Project case studies 12`?**
   _High betweenness centrality (0.319) - this node is a cross-community bridge._
-- **Why does `docs/content-and-decisions.md` connect `Project decisions 0` to `Metadata and navigation`, `Dependencies and build tools`, `GitHub data validation`, `Project decisions 4`, `Application foundation 7`, `Engineering decisions`, `Application foundation 11`, `Project decisions 12`?**
-  _High betweenness centrality (0.265) - this node is a cross-community bridge._
-- **Why does `react` connect `Metadata and navigation` to `Dependencies and build tools`, `GitHub data validation`, `Application foundation 6`, `Application foundation 7`, `Application foundation 8`, `Project case studies`?**
-  _High betweenness centrality (0.231) - this node is a cross-community bridge._
+- **Why does `docs/content-and-decisions.md` connect `Project decisions 0` to `Metadata and navigation`, `Project decisions 2`, `Dependencies and build tools`, `Visual identity`, `Application foundation 6`, `Engineering decisions`, `Project decisions 13`?**
+  _High betweenness centrality (0.287) - this node is a cross-community bridge._
+- **Why does `react` connect `Metadata and navigation` to `Dependencies and build tools`, `Application foundation 6`, `Application foundation 7`, `Application foundation 8`, `Project case studies 10`?**
+  _High betweenness centrality (0.220) - this node is a cross-community bridge._
 ## Extraction audit
 
 - Full source inventory: 83 files with SHA-256 hashes; parser corpus: 65 supported files.

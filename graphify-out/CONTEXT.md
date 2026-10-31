@@ -22,6 +22,7 @@ This folder is the persistent map for Shubham Putitundi's current portfolio. Rea
 | Change scrolling text | `ScrollReveal.tsx` → `scroll-reveal-runtime.ts`, About/Expertise/Experience and shared case-study paragraphs; `MotionPreferences.tsx` for Pause/reduced motion |
 | Change GitHub activity | `github-schema.ts` → API route → `GitHubActivity.tsx` → boundary tests |
 | Change project globe | `ProjectExplorer.tsx` → `InfiniteMenu.tsx`, project data and local SVG tiles |
+| Change dark theme | Root tokens in `globals.css` → hero/interaction styles; `ProjectExplorer.tsx`/`HeroName.tsx` color settings and layout/social metadata |
 | Change responsive design | `src/app/globals.css` → affected component → browser evidence |
 | Review publication status | `docs/HANDOFF.md` → `docs/verification.md` |
 

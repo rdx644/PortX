@@ -11,13 +11,19 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 | Canonical checkout | `D:\CodexProjects\shubham-portfolio` |
 | User-facing path | `C:\Users\putit\shubham-portfolio`, a junction to the canonical checkout |
 | Runtime/cache directory | `D:\CodexProjects\shubham-portfolio-runtime` |
-| Baseline implementation | Commit `93263aa`; current branch `feat/scroll-reveal-text` |
+| Baseline implementation | Commit `93263aa`; current branch `feat/dark-neo-brutalist` |
 | Git remote | None configured at handoff creation; do not infer a repository from the owner's profile |
 | Local preview | `http://127.0.0.1:3001`, production preview for the redesign; process survival across sessions is not guaranteed |
 | Baseline source ZIP | `D:\CodexProjects\shubham-portfolio-runtime\shubham-portfolio-source.zip` (implementation checkpoint; not automatically updated) |
 | Global discovery pointer | `C:\Users\putit\.codex\projects\shubham-portfolio.md` |
 
 Older projects `C:\Users\putit\my-portfolio` and `C:\Users\putit\Portofolio_V5` were inspected only for context. This implementation is separate.
+
+## Current visual theme
+
+The owner subsequently requested a dark neo-brutalist background. The default palette is charcoal `#151619`, warm off-white text `#f4f0e6`, periwinkle `#a6b6ff`, slate outlines, yellow/pink stamps and hard black offset shadows. Raised panels are `#22242a`; navy About/expanded panels are `#242b40`. Large section backgrounds now stay dark. Bright isolated stamps/buttons use ink text, including selected architecture nodes and navigation states. The dark globe retains colorful original tiles with opaque dark info plates. The social image and browser theme metadata match. This explicitly supersedes the earlier cream/cobalt palette; prior design sections and scores remain historical.
+
+Start with tokens and component rules in `src/app/globals.css`, `src/components/hero/hero.css`, and `src/components/react-bits/interactions.css`; globe settings are in `ProjectExplorer.tsx`, the name accent in `HeroName.tsx`, and metadata/social colors in `layout.tsx`/`opengraph-image.tsx`. No dependency or interaction model was added. ScrollReveal, Pause/reduced motion, globe-first project links and all six case studies remain available.
 
 ## Current scrolling text
 
@@ -87,7 +93,9 @@ C: ran out of space during dependency installation and Chromium tracing. Keep to
 
 ## Verification already performed
 
-Current ScrollReveal build: production build/TypeScript, lint, four tests, forward/reverse scroll progression, Pause/Play, live reduced motion, no-JavaScript and engine-failure readability, seven homepage widths and all six case-study routes passed. Initial homepage has zero split words or GSAP engine requests; text prepares near the viewport. Final fixed three-sample mobile Lighthouse performance was 88 / 100 / 100 (median 100), with accessibility/best practices/SEO 100 throughout, LCP 1.208 / 0.914 / 0.928s, TBT 482.5 / 78 / 81ms and CLS 0. The 88 sample is below the 90 target; retain the full range rather than promising a consistent 100. Evidence and historical pre-optimization 84 are in `docs/verification.md`. Implementation checkpoint: `e221742`.
+Current dark-theme build: production build/TypeScript, lint, four tests, seven responsive widths, all six case-study routes, mobile navigation, dark/no-JavaScript output, motion controls and forward/reverse ScrollReveal passed. Automated text-contrast checks report zero violations on the homepage and six case studies, with decorative/manual items separately reviewed. Fresh isolated local mobile Lighthouse: 100 performance/accessibility/best practices/SEO; LCP ~0.914s, TBT 66ms, CLS 0. This is one local sample, not field metrics. Implementation checkpoint `2b224ad`; detailed evidence is in `docs/verification.md`. Older scores below remain historical.
+
+Historical ScrollReveal checkpoint: production build/TypeScript, lint, four tests, forward/reverse scroll progression, Pause/Play, live reduced motion, no-JavaScript and engine-failure readability, seven homepage widths and all six case-study routes passed. Initial homepage has zero split words or GSAP engine requests; text prepares near the viewport. Final fixed three-sample mobile Lighthouse performance was 88 / 100 / 100 (median 100), with accessibility/best practices/SEO 100 throughout, LCP 1.208 / 0.914 / 0.928s, TBT 482.5 / 78 / 81ms and CLS 0. The 88 sample is below the 90 target; retain the full range rather than promising a consistent 100. Evidence and historical pre-optimization 84 are in `docs/verification.md`. Implementation checkpoint: `e221742`.
 
 Historical globe-first layout checkpoint: build/TypeScript, lint, four tests, default-open/zero-card checks, selected-project navigation, all six route/link checks, collapse/reopen, seven widths, reduced motion, no JavaScript and forced graphics failure passed. Fresh local mobile Lighthouse: 92 performance / 100 accessibility / 100 best practices / 100 SEO; LCP ~1.06s, TBT 354.5ms, CLS 0. Evidence is in `docs/verification.md` and `output/playwright/lighthouse-globe-primary-mobile.json`.
 
@@ -111,7 +119,7 @@ Evidence: `docs/verification.md`, ignored `output/playwright/lighthouse-mobile.j
 
 ## Content and design constraints
 
-Keep the neo-brutalist cream/ink/cobalt system, yellow/pink accents, heavy name-first type, hard shadows, and consistent borders. The owner’s 2026-10-31 request supersedes the blueprint’s original styling and cube. Keep source-backed technical descriptions. The résumé is the owner's supplied `(3).pdf`; it includes personal contact details. Do not reproduce its phone/address in the graph or global index.
+Keep the current charcoal/off-white/periwinkle neo-brutalist palette, yellow/pink accents, heavy name-first type, hard ink shadows, and visible slate borders. The dark-theme section above supersedes the earlier cream backgrounds. The owner’s 2026-10-31 request supersedes the blueprint’s original styling and cube. Keep source-backed technical descriptions. The résumé is the owner's supplied `(3).pdf`; it includes personal contact details. Do not reproduce its phone/address in the graph or global index.
 
 CyberShield uses synthetic data. Disease prediction has code artifacts and documented AWS architecture, not a verified clinical or live deployment. Haveloc's mock portal does not prove external submissions. ZeroPatch outputs drafts and cannot merge. Agentic Commerce is a controlled single-merchant demo. Virtual internships must not become claims of direct company employment. Credentials are résumé-sourced, with issuer links, not independently authenticated here.
 

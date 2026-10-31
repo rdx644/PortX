@@ -19,7 +19,7 @@ Applies only to this repository. Read `docs/HANDOFF.md` before modifying it.
 
 ## Preserve the design and truthfulness
 
-Keep the user-approved neo-brutalist design: warm cream, cobalt, yellow/pink accents, heavy name-first typography, ink borders, and hard shadows. Preserve typed component boundaries, accessible semantics, responsive layouts, and reduced-motion/static fallbacks. The 2026-10-31 redesign in `docs/content-and-decisions.md` supersedes the blueprint’s original editorial styling and cube sculpture. Never invent metrics, production adoption, direct employment, credentials, or successful external portal submissions. Keep prototype limitations visible.
+Keep the user-approved dark neo-brutalist design: charcoal backgrounds, warm off-white type, periwinkle accents, yellow/pink stamps, heavy name-first typography, visible slate borders, and hard ink shadows. The latest dark-theme request supersedes the earlier cream-background palette; retain cream only as text or isolated artwork. Preserve typed component boundaries, accessible semantics, responsive layouts, and reduced-motion/static fallbacks. The 2026-10-31 redesign in `docs/content-and-decisions.md` supersedes the blueprint’s original editorial styling and cube sculpture. Never invent metrics, production adoption, direct employment, credentials, or successful external portal submissions. Keep prototype limitations visible.
 
 ## Verification and graph maintenance
 

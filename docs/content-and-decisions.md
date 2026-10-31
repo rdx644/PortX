@@ -78,6 +78,14 @@ The server and initial hydration render ordinary text. An IntersectionObserver p
 
 The first implementation split all paragraphs during initial hydration and measured 84 mobile performance. Word preparation was deferred to address that startup work. Final verification and the retained reports are recorded in `docs/verification.md`; earlier globe/design scores describe their respective historical builds.
 
+## Dark neo-brutalist theme — approved 2026-10-31
+
+The owner requested a dark background that blends with the existing neo-brutalist design. This supersedes the earlier cream-background palette. The default is dark for every OS preference and without JavaScript; no toggle or new dependency is needed. `:root` uses charcoal `#151619`, warm off-white `#f4f0e6`, muted `#b9bab6`, periwinkle `#a6b6ff`, slate borders `#7e8492`, raised surface `#22242a`, navy `#242b40` and hard ink shadows `#060709`. Yellow and pink remain deliberate small accents rather than full-page backgrounds.
+
+Border, text, and shadow roles are separate tokens so light text does not turn every shadow white. Yellow buttons, signature/brand badges, pink stamps and selected diagram nodes use dark ink text; dark panels use light text. Hero playground, About, open Expertise panels, GitHub status/repository states, Contact, shared case-study diagrams, patch diff and cursor demo all use dark surfaces. Navigation hover/current/focus states preserve dark text on yellow. Globe renderer uses its dark theme and opaque dark project-info plates; its colorful local SVG tiles remain artwork. TechText's accent matches the visible name. The social image and mobile theme/color-scheme metadata match the page.
+
+Layout, project routes, content, globe navigation, ScrollReveal, shared Pause/live reduced-motion, static output and existing optional-effect fallbacks retain their behavior. The theme introduces no animation engine or remote requests. Source styling lives in the existing global, hero and interaction stylesheets rather than a separate override layer. Verification is recorded in `docs/verification.md`; previous Lighthouse reports remain historical.
+
 ## External configuration still required
 
 An owned Vercel deployment and final domain; optional Sentry and Vercel Analytics activation; issuer-side credential review. These are separate from the functioning local implementation and must be verified before claiming the blueprint's complete production definition of done.
