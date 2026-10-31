@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import { MotionPreferences } from '@/components/ui/MotionPreferences';
 import { ClickSpark } from '@/components/react-bits/ClickSpark';
 import { TargetCursor } from '@/components/react-bits/TargetCursor';
+import { AnimeEffects } from '@/components/ui/AnimeEffects';
 import { ScrollReveals } from '@/components/ui/ScrollReveals';
 import { Navigation } from '@/components/navigation/Navigation';
 import { Footer } from '@/components/sections/Contact';
@@ -60,6 +61,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <ClickSpark />
           <TargetCursor />
           <ScrollReveals />
+          <AnimeEffects />
           <Navigation />
           {children}
           <Footer />

@@ -16,6 +16,11 @@ export function Architecture({
         <span>{title}</span>
         <span>FLOW / {String(steps.length).padStart(2, '0')}</span>
       </div>
+      <div className="flow-progress" aria-hidden="true">
+        {steps.map((step, index) => (
+          <span key={step} data-active={index <= selected} />
+        ))}
+      </div>
       <ol className="flow-nodes">
         {steps.map((step, index) => (
           <li key={step}>

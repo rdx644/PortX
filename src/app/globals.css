@@ -413,6 +413,20 @@ p {
   border-top: 1px solid var(--border);
   line-height: 1.7;
 }
+.flow-progress {
+  display: flex;
+  gap: 6px;
+  height: 4px;
+  margin-top: 14px;
+}
+.flow-progress > span {
+  flex: 1;
+  background: var(--border);
+  transform-origin: left;
+}
+.flow-progress > span[data-active='true'] {
+  background: var(--accent);
+}
 .flow-nodes {
   list-style: none;
   display: grid;

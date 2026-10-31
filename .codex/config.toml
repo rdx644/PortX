@@ -1,3 +1,9 @@
 [mcp_servers.shadcn]
 command = "npx"
 args = ["shadcn@latest", "mcp"]
+
+# Queried locally over MCP stdio; restart Codex to expose these tools natively.
+[mcp_servers.animejs]
+command = "npx"
+args = ["--yes", "--ignore-scripts", "--cache", "D:/CodexProjects/shubham-portfolio-runtime/npm-cache", "anime-js-mcp-server@1.0.0"]
+env = { LOG_LEVEL = "error", GITHUB_PERSONAL_ACCESS_TOKEN = "" }

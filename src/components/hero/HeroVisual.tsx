@@ -82,14 +82,25 @@ export function HeroVisual() {
             <br />
             CONSIDERED CONNECTIONS.
           </span>
-          <button
-            className="motion-toggle mono"
-            disabled={reduced === true}
-            aria-pressed={paused || reduced === true}
-            onClick={() => setPaused(!paused)}
-          >
-            {reduced ? 'REDUCED MOTION' : paused ? 'PLAY MOTION ↗' : 'PAUSE MOTION Ⅱ'}
-          </button>
+          <div className="visual-controls">
+            <button
+              className="motion-toggle mono"
+              type="button"
+              data-anime-replay
+              disabled
+              aria-label="Replay hero animation"
+            >
+              REPLAY ↻
+            </button>
+            <button
+              className="motion-toggle mono"
+              disabled={reduced === true}
+              aria-pressed={paused || reduced === true}
+              onClick={() => setPaused(!paused)}
+            >
+              {reduced ? 'REDUCED MOTION' : paused ? 'PLAY MOTION ↗' : 'PAUSE MOTION Ⅱ'}
+            </button>
+          </div>
         </div>
       </div>
       <ScrollVelocity paused={stopped} />
