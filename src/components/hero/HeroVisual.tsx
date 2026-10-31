@@ -87,7 +87,7 @@ export function HeroVisual() {
               className="motion-toggle mono"
               type="button"
               data-anime-replay
-              disabled
+              disabled={stopped}
               aria-label="Replay hero animation"
             >
               REPLAY ↻
