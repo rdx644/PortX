@@ -1,3 +1,4 @@
+import ScrollReveal from '@/components/react-bits/ScrollReveal';
 import { certifications, experience } from '@/data/profile';
 import { Arrow } from '@/components/ui/Arrow';
 export function Experience() {
@@ -16,11 +17,9 @@ export function Experience() {
             <span className="muted">Still expanding.</span>
           </h2>
         </div>
-        <p className="section-intro">
-          Learning through structured programs,
-          <br />
-          hands-on work, and continuous practice.
-        </p>
+        <ScrollReveal as="p" containerClassName="section-intro" wordAnimationEnd="bottom 65%">
+          Learning through structured programs, hands-on work, and continuous practice.
+        </ScrollReveal>
       </div>
       <div className="experience-grid">
         <div>
@@ -31,7 +30,9 @@ export function Experience() {
                 <p className="mono muted">{item.date}</p>
                 <h4>{item.title}</h4>
                 <span className="organization">{item.organization}</span>
-                <p>{item.description}</p>
+                <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
+                  {item.description}
+                </ScrollReveal>
               </article>
             ))}
           </div>

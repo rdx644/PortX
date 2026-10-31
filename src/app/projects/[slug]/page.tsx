@@ -1,3 +1,4 @@
+import ScrollReveal from '@/components/react-bits/ScrollReveal';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -41,7 +42,9 @@ export default async function CaseStudy({ params }: { params: Promise<{ slug: st
           {project.title}
           <span className="accent">.</span>
         </h1>
-        <p className="case-summary">{project.summary}</p>
+        <ScrollReveal as="p" containerClassName="case-summary" wordAnimationEnd="bottom 65%">
+          {project.summary}
+        </ScrollReveal>
         <div className="case-meta">
           <span className="mono">{project.category}</span>
           <div className="tags">
@@ -89,7 +92,9 @@ export default async function CaseStudy({ params }: { params: Promise<{ slug: st
           <section id="problem" className="case-section">
             <p className="eyebrow">01 / CONTEXT</p>
             <h2>The problem worth solving.</h2>
-            <p className="lead">{project.problem}</p>
+            <ScrollReveal as="p" containerClassName="lead" wordAnimationEnd="bottom 65%">
+              {project.problem}
+            </ScrollReveal>
             <h3>Engineering objectives</h3>
             <ul className="objectives">
               {project.objectives.map((text) => (
@@ -116,23 +121,31 @@ export default async function CaseStudy({ params }: { params: Promise<{ slug: st
                 <span className="mono">0{index + 1}</span>
                 <div>
                   <h3>{decision.title}</h3>
-                  <p>{decision.text}</p>
+                  <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
+                    {decision.text}
+                  </ScrollReveal>
                 </div>
               </div>
             ))}
             <h3>Engineering challenges</h3>
-            <p>{project.challenges}</p>
+            <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
+              {project.challenges}
+            </ScrollReveal>
             <h3>Security & performance boundaries</h3>
-            <p>{project.security}</p>
+            <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
+              {project.security}
+            </ScrollReveal>
           </section>
           <section id="outcome" className="case-section">
             <p className="eyebrow">04 / EVIDENCE</p>
             <h2>What’s there. What’s next.</h2>
-            <p className="lead">{project.result}</p>
-            <p>
+            <ScrollReveal as="p" containerClassName="lead" wordAnimationEnd="bottom 65%">
+              {project.result}
+            </ScrollReveal>
+            <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
               Explore the source, documentation, and tests to inspect the implementation and its
               current boundaries.
-            </p>
+            </ScrollReveal>
             <a
               className="text-link"
               href={repositoryUrl(project)}

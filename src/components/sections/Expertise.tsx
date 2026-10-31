@@ -1,3 +1,4 @@
+import ScrollReveal from '@/components/react-bits/ScrollReveal';
 import { expertise } from '@/data/profile';
 export function Expertise() {
   return (
@@ -11,11 +12,9 @@ export function Expertise() {
             <span className="muted">For the real problem.</span>
           </h2>
         </div>
-        <p className="section-intro">
-          Across the stack, with a focus on
-          <br />
-          how the pieces fit together.
-        </p>
+        <ScrollReveal as="p" containerClassName="section-intro" wordAnimationEnd="bottom 65%">
+          Across the stack, with a focus on how the pieces fit together.
+        </ScrollReveal>
       </div>
       <div className="expertise-list">
         {expertise.map((item, index) => (

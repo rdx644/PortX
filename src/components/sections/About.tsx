@@ -1,3 +1,4 @@
+import ScrollReveal from '@/components/react-bits/ScrollReveal';
 import { profile } from '@/data/profile';
 import { Arrow } from '@/components/ui/Arrow';
 export function About() {
@@ -16,20 +17,22 @@ export function About() {
           </div>
         </div>
         <div className="about-copy">
-          <p className="lead">
-            I like understanding how things work.
-            <br />
-            Even more, I like making them work better.
-          </p>
-          <p>
+          <ScrollReveal
+            as="p"
+            containerClassName="lead about-reveal-lead"
+            wordAnimationEnd="bottom 65%"
+          >
+            I like understanding how things work. Even more, I like making them work better.
+          </ScrollReveal>
+          <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
             I’m Shubham, a Computer Science undergraduate specializing in Cloud Computing at SRM
             Institute of Science and Technology.
-          </p>
-          <p>
+          </ScrollReveal>
+          <ScrollReveal as="p" wordAnimationEnd="bottom 65%">
             My work moves between backend systems, cloud infrastructure, intelligent applications,
             and cybersecurity. I’m drawn to the decisions that make software reliable: clear
             boundaries, explicit state, and thoughtful automation.
-          </p>
+          </ScrollReveal>
           <div className="about-facts">
             <div>
               <span className="mono">EDUCATION</span>

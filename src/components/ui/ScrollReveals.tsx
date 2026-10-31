@@ -39,7 +39,10 @@ export function ScrollReveals() {
         .querySelectorAll(
           'main .section-heading, main .project, .about-grid > div, .experience-grid > div, .case-section',
         )
-        .forEach((element) => observer?.observe(element));
+        .forEach((element) => {
+          if (!element.querySelector('.scroll-reveal') && !element.matches('.scroll-reveal'))
+            observer?.observe(element);
+        });
     };
     configure();
     media.addEventListener('change', configure);
