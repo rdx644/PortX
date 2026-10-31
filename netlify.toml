@@ -4,3 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Explicitly provision the OpenNext runtime for App Router and route handlers.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
