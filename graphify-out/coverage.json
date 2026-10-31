@@ -17,7 +17,7 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "ccc8e56e029fd4ea418196a6af46f6aaac308e6d3d10d8c3824468b3f8cc061b",
+      "sha256": "57d14493c71a38a56755b8e2d4eaae6c9d81587651914ae9f4c54728445c2b1c",
       "mode": "document/configuration"
     },
     {
@@ -37,12 +37,12 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "f5ecb35f02ad70b246e00e30eea1c195285f03817074501474f0b222651ac6cf",
+      "sha256": "0de5b4756b3ed87e0ba578174adabb003a914a73fce76e91af82c733d096123a",
       "mode": "document/configuration"
     },
     {
       "path": "README.md",
-      "sha256": "deec52dc29d13506c66db91f3124fdc17231501162bea0863117020c47f5e4c5",
+      "sha256": "301ff650fa7a7d64ff6cd7baf80ed73b6508fb5aeb7a4186311f5c3199794f3b",
       "mode": "document/configuration"
     },
     {
@@ -52,12 +52,12 @@
     },
     {
       "path": "docs/HANDOFF.md",
-      "sha256": "ef04cee8a08b7f761b024d5b1b77454830013e022c6ba2337be33a792d96ffa5",
+      "sha256": "7647979118d8c76fa0c581f2ceacfdeb69e85a94ef0d7c23c599dfc96507d17d",
       "mode": "document/configuration"
     },
     {
       "path": "docs/content-and-decisions.md",
-      "sha256": "1847d053c84096a2d3fa365447d2f4e8580b6fc727341ffc8aa3ac23aa7fdd31",
+      "sha256": "9d805c6f3176b7f580be2dcfc3bd200ab8efd6371b8f19fb1835dad4c76d7793",
       "mode": "document/configuration"
     },
     {
@@ -72,13 +72,18 @@
     },
     {
       "path": "docs/verification.md",
-      "sha256": "a0622541282931e3cbfbf0ac9838218a60992e8597ebbb942e2237ae06162ceb",
+      "sha256": "dbe4b6a7eb57a4aac03e3614b63494c3aef49eb01e9ed9c472c04ce8301bd9c4",
       "mode": "document/configuration"
     },
     {
       "path": "eslint.config.mjs",
       "sha256": "29ed6c1219838e0f83c9d44841acf9e63b907dc523935dc0b9462e01265076c3",
       "mode": "structural source"
+    },
+    {
+      "path": "netlify.toml",
+      "sha256": "29f86bf91cc1c79041b3f86a89e93fad159e79edd238672223d68b42b07c399e",
+      "mode": "document/configuration"
     },
     {
       "path": "next-env.d.ts",
@@ -402,7 +407,7 @@
     },
     {
       "path": "src/lib/site.ts",
-      "sha256": "d31c3ef224088eb6aa95b9df3894ba247b3b028f1c7fca1ccc588af8d2870c5e",
+      "sha256": "ab5222a2a441e293839d9a18792d9d673ceb3e233af335491e1b4fd1c396e634",
       "mode": "structural source"
     },
     {

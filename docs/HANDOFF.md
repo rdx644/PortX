@@ -11,13 +11,25 @@ The user requested a new robust, attractive portfolio based on the Downloads fil
 | Canonical checkout | `D:\CodexProjects\shubham-portfolio` |
 | User-facing path | `C:\Users\putit\shubham-portfolio`, a junction to the canonical checkout |
 | Runtime/cache directory | `D:\CodexProjects\shubham-portfolio-runtime` |
-| Baseline implementation | Commit `93263aa`; current branch `feat/animejs-interactions` |
-| Git remote | None configured at handoff creation; do not infer a repository from the owner's profile |
+| Baseline implementation | Commit `93263aa`; current branch `main` |
+| Git remote | `origin`: `https://github.com/rdx644/PortX.git`; current source published to `main` |
+| Public production site | `https://shubham-putitundi-portx.netlify.app` |
+| Netlify project | `shubham-putitundi-portx`, ID `54233753-4957-40c4-8afc-a3ae00e759b9` |
 | Local preview | `http://127.0.0.1:3001`, production preview for the redesign; process survival across sessions is not guaranteed |
 | Baseline source ZIP | `D:\CodexProjects\shubham-portfolio-runtime\shubham-portfolio-source.zip` (implementation checkpoint; not automatically updated) |
 | Global discovery pointer | `C:\Users\putit\.codex\projects\shubham-portfolio.md` |
 
 Older projects `C:\Users\putit\my-portfolio` and `C:\Users\putit\Portofolio_V5` were inspected only for context. This implementation is separate.
+
+## Current publication — owner-authorized 2026-10-31
+
+The owner explicitly requested the Netlify skill and a push to `https://github.com/rdx644/PortX.git`. That repository initially contained only README commit `cbe0aae`; merge `5528f6d` preserves it in the portfolio’s history. Source was pushed normally to `main` without force. Hosting preparation is `d3dc71c`; adapter correction and published application checkpoint is `13ad043`. GitHub CI passed the publication build. The local branch is now `main` tracking `origin/main`.
+
+The portfolio is live at `https://shubham-putitundi-portx.netlify.app`. Successful adapter deployment: `6ae5f3f88379a648046e44a1`, [logs](https://app.netlify.com/projects/shubham-putitundi-portx/deploys/6ae5f3f88379a648046e44a1). Netlify team/account slug is `rdx644`. CLI browser authorization succeeded; no token is committed. The repository connection uses a dedicated read-only deploy key and the standard push/pull-request/delete webhook, enabling automatic production builds from `main`. Existing unrelated Netlify sites were not changed.
+
+`netlify.toml` specifies Node 22, `npm run build`, `.next` and the unversioned `@netlify/plugin-nextjs` adapter. The first raw `.next` deployment was marked ready but returned 404 because it lacked the runtime; the explicit adapter fixed this. Verified live homepage, six case studies, API, sitemap/robots, social image, icon and résumé all return 200. Canonical, structured-data and sitemap URLs use the real HTTPS domain. Browser Replay/globe/mobile/reduced-motion checks passed. Earlier Vercel failures and no-publication notes below are historical, superseded by this authorization and deployment.
+
+A final documentation/graph-only commit uses `[skip netlify]` so identical application code is not rebuilt; GitHub Actions remains enabled. The verified deployed application is `13ad043`; subsequent docs-only changes do not change runtime behavior. For future source changes, push `main` normally or use the authenticated Netlify CLI remote production deploy. Do not expose deploy-hook URLs, authentication data, local `.netlify/` state or private environment values.
 
 ## Current Anime.js interactions and MCP
 
@@ -134,13 +146,12 @@ Keep the current charcoal/off-white/periwinkle neo-brutalist palette, yellow/pin
 
 CyberShield uses synthetic data. Disease prediction has code artifacts and documented AWS architecture, not a verified clinical or live deployment. Haveloc's mock portal does not prove external submissions. ZeroPatch outputs drafts and cannot merge. Agentic Commerce is a controlled single-merchant demo. Virtual internships must not become claims of direct company employment. Credentials are résumé-sourced, with issuer links, not independently authenticated here.
 
-## Pending external work — not completed or authorized by this handoff
+## External setup still optional
 
-- Nothing was published or pushed. The installed Vercel CLI reported an invalid token.
-- Automatic approval review rejected a fallback upload via the deployment skill because it would send source and the personal résumé to an unverified destination without explicit approval. Do not retry or bypass it based on this context file. The user has not yet approved publication.
-- For approved deployment, use an authenticated, user-approved destination and set `NEXT_PUBLIC_SITE_URL` to the final HTTPS domain. Preview metadata can use `VERCEL_URL`.
-- Custom domain, Sentry, and Vercel Analytics are not configured.
-- `.codex/config.toml` configures the shadcn MCP server, but connection verification requires a client restart. React Bits public CircularText and ScrollVelocity are now adapted locally with attribution/license. AnimatedContent remains absent after its historical review. The owner explicitly authorized GSAP for the separate ScrollReveal integration above, with readable SSR and lazy engine loading. No Pro integration is installed.
+- Custom domain, Sentry and Vercel Analytics are not configured. The Netlify subdomain is live; no Vercel publication is claimed.
+- Credential issuer authenticity and external project-demo uptime are not established by this deployment.
+- Historical Vercel authentication/fallback-upload rejection remains part of the prior record; the current owner explicitly authorized the named GitHub/Netlify publication and completed Netlify CLI login.
+- The shadcn and Anime.js MCP configurations remain development tools. Native MCP tool exposure requires restarting the client; no Pro integration is installed.
 
 ## Persistent graph and future sessions
 

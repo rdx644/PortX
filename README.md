@@ -58,14 +58,21 @@ Replace `public/resume/shubham-putitundi.pdf` to update the downloadable résum�
 
 ## Deployment
 
-The application is compatible with Vercel's Next.js preset. Set `NEXT_PUBLIC_SITE_URL` to the final HTTPS domain before the production build. Preview deployments use `VERCEL_URL` automatically; local development defaults to localhost.
+Live portfolio: [https://shubham-putitundi-portx.netlify.app](https://shubham-putitundi-portx.netlify.app). Source: [https://github.com/rdx644/PortX](https://github.com/rdx644/PortX) on `main`.
+
+Netlify builds with Node 22 and the settings in `netlify.toml`. The explicit `@netlify/plugin-nextjs` adapter provisions App Router pages, API route handlers, caching and public assets. The adapter is not version-pinned. Main-branch pushes deploy automatically through a repository-scoped read-only deploy key and push webhook.
+
+`NEXT_PUBLIC_SITE_URL` can override the canonical domain. Otherwise `src/lib/site.ts` uses Netlify’s stable `URL` (then deploy URL fallbacks); Vercel/local fallbacks remain available. Netlify metadata and sitemap were verified against the live HTTPS address.
 
 ```powershell
-vercel login
-vercel deploy
+npx netlify status
+# In a fresh clone, link to this project after authenticating:
+npx netlify link --id 54233753-4957-40c4-8afc-a3ae00e759b9
+# Build the pushed commit on Netlify’s Linux infrastructure:
+npx netlify deploy --remote --prod
 ```
 
-Custom-domain configuration, authenticated ownership of the final deployment, Sentry monitoring, and analytics require the owner's service setup. They are not silently provisioned or represented as active. Add a Sentry DSN or analytics only when those services are intentionally configured.
+Local `.netlify/` state and authentication are ignored. On this machine keep CLI cache/temp on D: as described in the handoff. A docs/graph-only maintenance commit may use `[skip netlify]` to avoid rebuilding identical application code; GitHub Actions still runs. Custom domains, monitoring and analytics remain separate owner configuration.
 
 ## Component registry
 

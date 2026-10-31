@@ -7,7 +7,7 @@ Applies only to this repository. Read `docs/HANDOFF.md` before modifying it.
 - Owner: Shubham Putitundi; source profile: https://github.com/rdx644.
 - Canonical checkout: `D:\CodexProjects\shubham-portfolio`.
 - User-facing alias: `C:\Users\putit\shubham-portfolio` (directory junction to the same checkout).
-- Do not confuse this project with `my-portfolio`, `Portofolio_V5`, or the `PortX` GitHub repository. No remote is configured for this checkout.
+- This checkout is now published to `https://github.com/rdx644/PortX` (`origin`, branch `main`) at the owner’s explicit request. It remains distinct from the older local `my-portfolio` and `Portofolio_V5` projects.
 
 ## Context before changes
 
@@ -33,7 +33,7 @@ Keep the user-approved dark neo-brutalist design: charcoal backgrounds, warm off
 
 C: has little free space. Prefer the canonical D: checkout and the cache/temp paths in the handoff. Do not delete unrelated files or move other projects to make room.
 
-No external deployment or GitHub push has occurred. Prior Vercel authentication was invalid; automatic approval review rejected the fallback upload of the source and personal résumé. Publishing is pending explicit user approval and a suitable authenticated destination. This handoff is not deployment authorization.
+The owner explicitly authorized publishing this codebase to `rdx644/PortX` and Netlify on 2026-10-31. The portfolio is live at `https://shubham-putitundi-portx.netlify.app`; Netlify builds `main` through a repository-scoped read-only deploy key and push webhook. Use the Netlify skill for further hosting work, preserve existing history, and keep credentials/`.netlify/` state untracked. Earlier Vercel authorization failures are historical and do not prohibit this user-authorized Netlify destination. This is not blanket authorization for unrelated destinations or account changes.
 
 <!-- BEGIN:nextjs-agent-rules -->
 

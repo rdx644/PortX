@@ -1,6 +1,18 @@
 # Verification
 
-## Anime.js via MCP — 2026-10-31 (current)
+## Netlify production and PortX publication — 2026-10-31 (current)
+
+- Published source to `https://github.com/rdx644/PortX` on `main` without force. The repository’s original README commit `cbe0aae` remains in ancestry through merge `5528f6d`. Application/config commits are `d3dc71c` and `13ad043`.
+- GitHub Actions passed for the initial publication commit: https://github.com/rdx644/PortX/actions/runs/41205020207. Local four tests, lint, strict TypeScript/production build and diff checks passed for hosting preparation. Six URL environment scenarios pass: local fallback, stable Netlify production canonical under previews, explicit custom-domain override, deploy URL fallback, Vercel fallback and unrelated URL-variable isolation.
+- Netlify account authorization/link succeeded. Dedicated project `shubham-putitundi-portx` uses repository-scoped read-only key access and automatic `main` push builds. Existing unrelated sites were not changed. A push of adapter fix `13ad043` automatically produced ready deploy `6ae5f3f88379a648046e44a1`. [Deploy logs](https://app.netlify.com/projects/shubham-putitundi-portx/deploys/6ae5f3f88379a648046e44a1).
+- The first raw `.next` deployment returned 404 despite a ready status; it is not the accepted deployment. Adding explicit `@netlify/plugin-nextjs` fixed provisioning. The accepted live site is `https://shubham-putitundi-portx.netlify.app`.
+- Real Chromium checks on the live domain: homepage and all six `/projects/[slug]` pages return **200**; six cases have no horizontal overflow at 390px. `/api/github` returns **200 JSON**, `/sitemap.xml` **200 XML**, `/robots.txt` **200 text**, `/opengraph-image` **200 PNG**, `/icon.svg` **200 SVG**, and `/resume/shubham-putitundi.pdf` **200 PDF**.
+- Canonical link is `https://shubham-putitundi-portx.netlify.app/`; profile structured data and Open Graph image use the same HTTPS domain. Sitemap contains the home and six correct case URLs; robots references its real HTTPS sitemap rather than localhost.
+- Replay enters its playing state on the deployed site; globe action opens the Agentic Commerce case study; mobile section navigation closes its menu; live reduced motion exposes six static project links. Normal accepted-deploy checks report **zero application page errors**. Desktop/mobile production screenshots: `output/playwright/netlify-home-desktop.png` and `netlify-home-mobile.png`.
+- No fresh production Lighthouse score is claimed; scores below are previous local builds. This deployment QA uses Chromium on Windows and emulated mobile, not physical devices or a multi-browser audit. Metadata and route status were inspected after the corrected deploy.
+- Final docs/graph-only maintenance is pushed with `[skip netlify]`; application files remain identical to accepted app commit `13ad043`, and GitHub Actions is not skipped. The public production deployment and GitHub push are completed, superseding the historical no-deployment section below.
+
+## Anime.js via MCP — 2026-10-31 (historical local checkpoint)
 
 Production build on `feat/animejs-interactions`, checkpoints `cfedc9c` and `1ff5c6a`, at `http://127.0.0.1:3001`:
 
@@ -125,7 +137,7 @@ The generated Open Graph image returns HTTP 200 with image/png content. Final de
 
 ## Deployment status
 
-No external deployment was created. The installed Vercel CLI reported an invalid saved token. Automatic approval review rejected the skill's fallback upload because it would disclose the project, résumé, and contact information to an unverified deployment destination without explicit approval. Local implementation and verification are complete; publishing requires the owner's approval and a suitable deployment destination.
+**Completed:** source `https://github.com/rdx644/PortX` (`main`) and live production `https://shubham-putitundi-portx.netlify.app`. Deploy and verification details are at the top of this document. The earlier Vercel invalid-token/fallback-upload rejection was historical; the owner later explicitly authorized this Netlify/GitHub destination and completed CLI login.
 
 ## Historical limits
 

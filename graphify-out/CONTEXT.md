@@ -1,6 +1,6 @@
 # Portfolio graph — start here
 
-This folder is the persistent map for Shubham Putitundi's current portfolio. Read `../docs/HANDOFF.md` for task history, environment constraints, and pending deployment approval.
+This folder is the persistent map for Shubham Putitundi's current portfolio. Read `../docs/HANDOFF.md` for task history, environment constraints, and the current owner-authorized Netlify/GitHub publication.
 
 ## Navigate
 
@@ -25,6 +25,7 @@ This folder is the persistent map for Shubham Putitundi's current portfolio. Rea
 | Change project globe | `ProjectExplorer.tsx` → `InfiniteMenu.tsx`, project data and local SVG tiles |
 | Change dark theme | Root tokens in `globals.css` → hero/interaction styles; `ProjectExplorer.tsx`/`HeroName.tsx` color settings and layout/social metadata |
 | Change responsive design | `src/app/globals.css` → affected component → browser evidence |
+| Netlify deployment and canonical URLs | `netlify.toml` → `src/lib/site.ts`; GitHub `main` webhook → Linux/Node 22 build; handoff for project IDs/logs |
 | Review publication status | `docs/HANDOFF.md` → `docs/verification.md` |
 
 ## Refresh
