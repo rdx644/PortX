@@ -8,17 +8,24 @@ export default function Image() {
       style={{
         width: '100%',
         height: '100%',
-        background: '#faf7ed',
-        color: '#191919',
+        background: '#151619',
+        color: '#f4f0e6',
         display: 'flex',
         flexDirection: 'column',
         padding: '50px 65px',
-        border: '8px solid #191919',
+        border: '8px solid #7e8492',
         fontFamily: 'sans-serif',
       }}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 20 }}>
-        <span style={{ background: '#f9d648', border: '2px solid #191919', padding: '8px 12px' }}>
+        <span
+          style={{
+            background: '#f9d648',
+            color: '#151619',
+            border: '2px solid #191919',
+            padding: '8px 12px',
+          }}
+        >
           SP.
         </span>
         <span>SOFTWARE · CLOUD · INTELLIGENT SYSTEMS</span>
@@ -35,16 +42,16 @@ export default function Image() {
         }}
       >
         <span>SHUBHAM</span>
-        <span style={{ color: '#244bd7' }}>PUTITUNDI.</span>
+        <span style={{ color: '#a6b6ff' }}>PUTITUNDI.</span>
       </div>
       <div
         style={{
           display: 'flex',
           marginTop: 40,
-          borderTop: '3px solid #191919',
+          borderTop: '3px solid #7e8492',
           paddingTop: 25,
           fontSize: 18,
-          color: '#60645e',
+          color: '#b9bab6',
         }}
       >
         Software engineer. Cloud thinker.

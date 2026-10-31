@@ -86,9 +86,9 @@
 .hero-visual {
   align-self: center;
   min-width: 0;
-  border: 2px solid var(--foreground);
-  background: var(--yellow);
-  box-shadow: 7px 7px 0 var(--foreground);
+  border: 2px solid var(--border);
+  background: var(--surface);
+  box-shadow: 7px 7px 0 var(--shadow-color);
   transform: rotate(2deg);
 }
 .visual-meta,
@@ -101,10 +101,12 @@
 }
 .visual-meta {
   font-size: 8px;
-  border-bottom: 2px solid var(--foreground);
+  color: var(--ink);
+  background: var(--yellow);
+  border-bottom: 2px solid var(--border);
 }
 .visual-caption {
-  border-top: 2px solid var(--foreground);
+  border-top: 2px solid var(--border);
   background: var(--background);
 }
 .visual-caption .mono {
@@ -113,7 +115,7 @@
 .playground {
   position: relative;
   height: clamp(290px, 26vw, 380px);
-  background-image: radial-gradient(#19191935 0.8px, transparent 0.8px);
+  background-image: radial-gradient(#52596b 0.8px, transparent 0.8px);
   background-size: 16px 16px;
   overflow: hidden;
 }
@@ -129,9 +131,11 @@
   top: 36px;
   width: 124px;
   height: 124px;
-  border: 2px solid var(--foreground);
+  border: 2px solid var(--border);
   border-radius: 50%;
   background: var(--pink);
+  color: var(--ink);
+  border-color: var(--ink);
 }
 .orbit-stamp > span {
   position: absolute;
@@ -170,8 +174,8 @@
   width: 76%;
   max-width: 310px;
   background: var(--background);
-  border: 2px solid var(--foreground);
-  box-shadow: 6px 6px 0 var(--foreground);
+  border: 2px solid var(--border);
+  box-shadow: 6px 6px 0 var(--shadow-color);
   rotate: -8deg;
 }
 .sticker-chrome {
@@ -179,19 +183,22 @@
   align-items: center;
   gap: 5px;
   padding: 9px 12px;
-  border-bottom: 2px solid var(--foreground);
+  border-bottom: 2px solid var(--border);
 }
 .sticker-chrome > span:not(.mono) {
   width: 7px;
   height: 7px;
-  border: 1px solid var(--foreground);
+  border: 1px solid var(--border);
   border-radius: 50%;
 }
 .sticker-chrome > span:first-child {
   background: var(--pink);
+  color: var(--ink);
+  border-color: var(--ink);
 }
 .sticker-chrome > span:nth-child(2) {
   background: var(--yellow);
+  color: var(--ink);
 }
 .sticker-chrome > span:nth-child(3) {
   background: var(--accent);
@@ -225,7 +232,7 @@
   display: flex;
   justify-content: space-between;
   padding: 8px 12px;
-  border-top: 2px solid var(--foreground);
+  border-top: 2px solid var(--border);
   font-size: 7px;
 }
 .graphic-star {
@@ -252,11 +259,11 @@
   bottom: 35px;
   right: 14px;
   background: var(--blue-light);
-  border: 2px solid var(--foreground);
+  border: 2px solid var(--border);
   padding: 10px 14px;
   font-size: 9px;
   rotate: 7deg;
-  box-shadow: 3px 3px 0 var(--foreground);
+  box-shadow: 3px 3px 0 var(--shadow-color);
 }
 .graphic-coordinate {
   position: absolute;
@@ -266,8 +273,8 @@
 }
 .motion-toggle {
   background: var(--background);
-  border: 1px solid var(--foreground);
-  box-shadow: 2px 2px 0 var(--foreground);
+  border: 1px solid var(--border);
+  box-shadow: 2px 2px 0 var(--shadow-color);
   min-height: 36px;
   padding: 8px;
   font-size: 7px;
@@ -275,6 +282,7 @@
 }
 .motion-toggle:hover {
   background: var(--yellow);
+  color: var(--ink);
 }
 .motion-toggle:disabled {
   cursor: default;
@@ -288,9 +296,9 @@
   min-width: 0;
   overflow: hidden;
   background: var(--accent);
-  color: var(--background);
-  border: 2px solid var(--foreground);
-  box-shadow: 5px 5px 0 var(--foreground);
+  color: var(--ink);
+  border: 2px solid var(--border);
+  box-shadow: 5px 5px 0 var(--shadow-color);
   margin-top: 64px;
   padding: 16px 0;
 }
@@ -310,7 +318,7 @@
   align-items: center;
 }
 .velocity-track b {
-  color: var(--yellow);
+  color: var(--ink);
   margin-inline: 24px;
   font-size: 1.1em;
 }
@@ -322,7 +330,7 @@
   gap: 20px;
   font-size: 8px;
   padding-block: 25px;
-  border-bottom: 2px solid var(--foreground);
+  border-bottom: 2px solid var(--border);
   color: var(--muted);
 }
 .hero-bottom a {

@@ -102,6 +102,12 @@
     width 0.35s,
     height 0.35s;
 }
+.nav-links > a[data-nav-id][aria-current],
+.nav-links > a[data-nav-id]:hover,
+.nav-links > a[data-nav-id]:focus-visible {
+  color: var(--ink);
+  background: var(--yellow);
+}
 .gooey-nav-indicator i {
   position: absolute;
   inset: 3px 0;
@@ -128,6 +134,7 @@
   }
   .nav-links > a[aria-current] {
     background: var(--yellow);
+    color: var(--ink);
   }
 }
 @media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
@@ -136,12 +143,12 @@
   }
 }
 
-/* The optional globe is secondary to the readable case-study cards. */
+/* The globe is the primary project browser, with compact static-link fallbacks. */
 .project-explorer {
   margin: -8px 0 38px;
-  border: 2px solid var(--foreground);
+  border: 2px solid var(--border);
   background: var(--blue-light);
-  box-shadow: 4px 4px 0 var(--foreground);
+  box-shadow: 4px 4px 0 var(--shadow-color);
 }
 .project-explorer > summary {
   display: flex;
@@ -174,15 +181,17 @@
   place-items: center;
   width: 40px;
   height: 40px;
-  border: 2px solid var(--foreground);
+  border: 2px solid var(--border);
   background: var(--yellow);
+  color: var(--ink);
+  border-color: var(--ink);
   font-size: 26px;
 }
 .project-explorer[open] .explorer-toggle {
   rotate: 90deg;
 }
 .explorer-body {
-  border-top: 2px solid var(--foreground);
+  border-top: 2px solid var(--border);
   background: var(--background);
 }
 .explorer-meta {
@@ -191,7 +200,7 @@
   gap: 12px;
   padding: 14px 24px;
   font-size: 8px;
-  border-bottom: 1px solid var(--foreground);
+  border-bottom: 1px solid var(--border);
 }
 .explorer-stage {
   height: 540px;
@@ -200,7 +209,7 @@
   padding: 48px 24px;
 }
 .explorer-help {
-  border-top: 1px solid var(--foreground);
+  border-top: 1px solid var(--border);
   padding: 14px 24px;
   font-size: 11px;
 }
@@ -213,10 +222,10 @@
   gap: 16px;
   align-items: center;
   padding: 24px;
-  border-bottom: 1px solid var(--foreground);
+  border-bottom: 1px solid var(--border);
 }
 .explorer-fallback a:nth-child(odd) {
-  border-right: 1px solid var(--foreground);
+  border-right: 1px solid var(--border);
 }
 .explorer-fallback a .mono {
   color: var(--accent);
@@ -225,7 +234,7 @@
   margin-left: auto;
 }
 .explorer-fallback a:hover {
-  background: var(--yellow);
+  background: var(--blue-light);
 }
 .project-explorer .infinite-menu__title {
   font-family: var(--font-display), sans-serif;
@@ -239,9 +248,10 @@
   font-size: 12px;
 }
 .project-explorer .infinite-menu__action {
-  border: 2px solid var(--foreground);
+  color: var(--ink);
+  border: 2px solid var(--border);
   border-radius: 0;
-  box-shadow: 4px 4px 0 var(--foreground);
+  box-shadow: 4px 4px 0 var(--shadow-color);
 }
 .project-explorer .infinite-menu:focus-visible {
   outline: 3px solid var(--accent);
@@ -298,8 +308,8 @@
 .project-explorer .infinite-menu__info[data-layout='side'] .infinite-menu__description {
   padding: 12px;
   background: var(--background);
-  border: 1px solid var(--foreground);
-  box-shadow: 3px 3px 0 var(--foreground);
+  border: 1px solid var(--border);
+  box-shadow: 3px 3px 0 var(--shadow-color);
 }
 .project-explorer .infinite-menu__info[data-layout='stacked']::before {
   content: '';
@@ -307,7 +317,7 @@
   inset: auto 0 0;
   height: 116px;
   background: var(--background);
-  border-top: 2px solid var(--foreground);
+  border-top: 2px solid var(--border);
 }
 
 html[data-motion='paused'] .name-letter,

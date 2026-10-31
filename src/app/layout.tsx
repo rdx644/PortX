@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import localFont from 'next/font/local';
 import { MotionPreferences } from '@/components/ui/MotionPreferences';
 import { ClickSpark } from '@/components/react-bits/ClickSpark';
@@ -20,6 +20,7 @@ const geistMedium = localFont({
   display: 'swap',
   weight: '900',
 });
+export const viewport: Viewport = { colorScheme: 'dark', themeColor: '#151619' };
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {

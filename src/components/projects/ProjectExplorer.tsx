@@ -76,9 +76,9 @@ export function ProjectExplorer() {
                 intro={false}
                 grayscale={false}
                 dim={0.2}
-                theme="light"
-                accentColor="#244bd7"
-                backgroundColor="#eeeade"
+                theme="dark"
+                accentColor="#a6b6ff"
+                backgroundColor="#22242a"
                 onUnavailable={() => setUnavailable(true)}
               />
             </OptionalEffectBoundary>

@@ -60,7 +60,7 @@ export function HeroName() {
                   fontWeight={900}
                   letterSpacing={-0.075}
                   align="left"
-                  accentColor="#244bd7"
+                  accentColor="#a6b6ff"
                   sweep={false}
                   draggable={false}
                   clickKick={false}
